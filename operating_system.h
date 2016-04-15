@@ -1,0 +1,6 @@
+
+
+genProcesses();
+schedulePCBs();
+dispatcher();
+interuptSR();
