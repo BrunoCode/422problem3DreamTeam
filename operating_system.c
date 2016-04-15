@@ -4,6 +4,7 @@
 #include "operating_system.h"
 
 int SYS_STACK = 0;
+PCB_p RUNNING_PROCESS;
 
 int main(){
 
