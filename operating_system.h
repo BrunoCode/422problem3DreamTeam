@@ -1,6 +1,7 @@
+#include "pcb.c"
+#include "fifo_queue.c"
 
-
-void genProcesses(FIFOq_p newProcessList);
-void schedulePCBs(FIFOq_p newProcessList, FIFOq_p readyQueue);
-void dispatcher(FIFOq_p readyQueue);
-void interuptSR(FIFOq_p readyQueue);
+void genProcesses(FIFOq_p);
+void schedulePCBs(FIFOq_p, FIFOq_p);
+void dispatcher(FIFOq_p);
+void interuptSR(FIFOq_p);
