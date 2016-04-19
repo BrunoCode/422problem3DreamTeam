@@ -29,11 +29,17 @@ void create_processes(void){
   }
 }
 
-void schedulePCBs(void){
-  while(!FIFOq_is_empty(new_process_list)){
-    PCB_p temp = FIFOq_dequeue(new_process_list);
-    temp->state = running;
-    FIFOq_enqueue(ready_queue, temp);
+void schedulePCBs(int flag){
+  if(flag == INTERRUPTED){
+    current_process->state = interrupted;
+    FIFOq_enqueue(ready_queue, current_process);
+    current_process = NULL;
+  } else {
+    while(!FIFOq_is_empty(new_process_list)){
+      PCB_p temp = FIFOq_dequeue(new_process_list);
+      temp->state = running;
+      FIFOq_enqueue(ready_queue, temp);
+    }
   }
 }
 
@@ -47,8 +53,7 @@ void dispatch(void) {
 void interruptSR(void){
   current_process->pc+=rand() % 1001 + 3000;
   current_process->state= interrupted;
-  FIFOq_enqueue(ready_queue, current_process);
-  current_process = NULL;
+  schedulePCBs(INTERRUPTED);
 }
 
 
@@ -57,7 +62,7 @@ int main(void) {
   setup();
   do{
     create_processes();
-    schedulePCBs();
+    schedulePCBs(NEW_PROCESSES);
     dispatch();
     interruptSR();
   }while(0);//limiting factor to be determined.
