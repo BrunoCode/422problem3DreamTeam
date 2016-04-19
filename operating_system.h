@@ -1,7 +1,8 @@
-#include "pcb.h"
-#include "fifo_queue.h"
+#include "pcb.c"
+#include "fifo_queue.c"
 
-void createProcesses(FIFOq_p);
-void schedulePCBs(FIFOq_p, FIFOq_p);
-void dispatcher(FIFOq_p);
-void interruptSR(FIFOq_p);
+void createProcesses(void);
+void schedulePCBs(void);
+void dispatch(void);
+void interruptSR(void);
+void setup(void);
