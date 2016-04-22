@@ -15,6 +15,8 @@ FIFOq_p ready_queue;
 
 FIFOq_p new_process_list;
 
+unsigned long PIDVALUE = 0;
+
 void setup(){
   srand(time(NULL));
   ready_queue = FIFOq_construct();
@@ -23,15 +25,30 @@ void setup(){
   FIFOq_init(new_process_list);
 }
 
+PCB_p generate_random_pcb() {
+  PCB_p pcb = PCB_construct();
+  PCB_init(pcb);
+  PCB_set_pid(pcb, PIDVALUE);
+  PIDVALUE = PIDVALUE + 1;
+  PCB_set_state(pcb, new);
+  PCB_set_priority(pcb, rand() % 15);
+  pcb->pc = rand() % 5000;
+  return pcb;
+}
+
 void create_processes(void){
   int i;
   for(i = 0; i < (rand() % 6); i++){
-    PCB_p temp = PCB_construct();
-    PCB_init(temp);
+    PCB_p temp = generate_random_pcb();
     //set values of PCB as needed.
     FIFOq_enqueue(new_process_list, temp);
   }
 
+  if (iteration == 0 && FIFOq_is_empty(new_process_list)) {
+    PCB_p temp = generate_random_pcb();
+    //set values of PCB as needed.
+    FIFOq_enqueue(new_process_list, temp);
+  }
 }
 
 void schedulePCBs(int flag){
@@ -53,7 +70,6 @@ void schedulePCBs(int flag){
 
 void dispatch(void) {
   current_process = FIFOq_dequeue(ready_queue);
-  current_process->pc=sys_stack;
   if(iteration%4==0)printf("Switching to: %s\n", PCB_toString(current_process, pcbString));
   current_process->state = running;
   if(iteration%4==0)printf("Now running: %s\n", PCB_toString(current_process, pcbString));
@@ -76,7 +92,7 @@ int main(void) {
     dispatch();
     interruptSR();
     printf("%d\n", iteration++);
-  }while(FIFOq_size(ready_queue) < 40);//limiting factor to be determined.
+  }while(FIFOq_size(ready_queue) < 3000);//limiting factor to be determined.
 
   return 0;
 }
