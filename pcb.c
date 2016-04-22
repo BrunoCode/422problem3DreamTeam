@@ -3,6 +3,8 @@
 #include <stdlib.h>
 #include "pcb.h"
 
+const char * STATE_NAMES[] = {"new", "ready", "running", "interrupted", "waiting", "halted"};
+
 PCB_p PCB_construct (void) {
     return malloc(sizeof(PCB));
 }
@@ -59,8 +61,9 @@ unsigned short PCB_get_priority(PCB_p pcb) {
     return pcb->priority;
 }
 
+
 char * PCB_toString(PCB_p pcb, char * string) {
-    sprintf(string, "PID: 0x%0lX, State: %d, Priority: 0x%0X, PC: 0x%04lX",
-            pcb->pid, pcb->state, pcb->priority, pcb->pc);
+    sprintf(string, "PID: 0x%0lX, State: %s, Priority: 0x%0X, PC: 0x%04lX",
+            pcb->pid, STATE_NAMES[pcb->state], pcb->priority, pcb->pc);
     return string;
 }
