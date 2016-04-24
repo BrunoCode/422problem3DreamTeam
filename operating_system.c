@@ -3,6 +3,8 @@
 #include <stdlib.h>
 #include "operating_system.h"
 
+FILE *outfile;
+
 
 //Printing Buffer
 char pcbString[128];
@@ -98,7 +100,7 @@ void dispatcher(void) {
     PCB_p newproc = FIFOq_dequeue(ready_queue);
 
     // printf("PCB: %s\n", PCB_toString(current_process, pcbString));
-    printf("Switching to: %s\n", PCB_toString(newproc, pcbString));
+    fprintf(outfile, "Switching to: %s\n", PCB_toString(newproc, pcbString));
 
     // Context Switch
     PCB_p lastproc = current_process;
@@ -107,10 +109,10 @@ void dispatcher(void) {
     current_process = FIFOq_dequeue(ready_queue); // set current process to next process in ready queue
     PCB_set_state(current_process, running);
 
-    printf("Now running: %s\n", PCB_toString(current_process, pcbString));
-    printf("Returned to Ready Queue: %s\n", PCB_toString(lastproc, pcbString));
+    fprintf(outfile, "Now running: %s\n", PCB_toString(current_process, pcbString));
+    fprintf(outfile, "Returned to Ready Queue: %s\n", PCB_toString(lastproc, pcbString));
 
-    puts(FIFOq_toString(ready_queue)); // Print the ready queue
+    fprintf(outfile, "%s\n", FIFOq_toString(ready_queue)); // Print the ready queue
 
   } else {
     PCB_p lastproc = current_process;
@@ -143,7 +145,7 @@ void scheduler(enum interrupt_type inter_type) {
 
 void pseudo_timer_isr(void) {
   if (iteration % 4 == 0) {
-    printf("PCB: %s\n", PCB_toString(current_process, pcbString));
+    fprintf(outfile, "PCB: %s\n", PCB_toString(current_process, pcbString));
   }
   current_process->state = interrupted; //Change state to interrupted
   current_process->pc = sys_stack; // save cpu state to pcb
@@ -152,6 +154,7 @@ void pseudo_timer_isr(void) {
 }
 
 int main(void) {
+  outfile = fopen("output.txt", "w");
   setup();
   current_process = generate_random_pcb(); // Set initial process
   PCB_set_state(current_process, running);
@@ -166,6 +169,7 @@ int main(void) {
     cpu_pc = sys_stack;
 
   } while (FIFOq_size(ready_queue) < 40);
+  fclose(outfile);
 }
 
 // int main(void) {
