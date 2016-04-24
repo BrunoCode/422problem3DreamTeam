@@ -1,6 +1,10 @@
 #include "pcb.c"
 #include "fifo_queue.c"
 
+enum interrupt_type {
+  io, timer,
+};
+
 #define INTERRUPTED 1
 #define NEW_PROCESSES 2
 
