@@ -55,11 +55,11 @@ void create_processes(void){
     FIFOq_enqueue(new_process_list, temp);
   }
 
-  // if (iteration == 0 && FIFOq_is_empty(new_process_list)) {
-  //   PCB_p temp = generate_random_pcb();
-  //   //set values of PCB as needed.
-  //   FIFOq_enqueue(new_process_list, temp);
-  // }
+  if (iteration == 0 && FIFOq_is_empty(new_process_list)) {
+    PCB_p temp = generate_random_pcb();
+    //set values of PCB as needed.
+    FIFOq_enqueue(new_process_list, temp);
+  }
 }
 
 void schedulePCBs(int flag){
@@ -97,7 +97,7 @@ void dispatcher(void) {
   if (iteration % 4 == 0) {
     PCB_p newproc = FIFOq_dequeue(ready_queue);
 
-    printf("PCB: %s\n", PCB_toString(current_process, pcbString));
+    // printf("PCB: %s\n", PCB_toString(current_process, pcbString));
     printf("Switching to: %s\n", PCB_toString(newproc, pcbString));
 
     // Context Switch
@@ -105,9 +105,12 @@ void dispatcher(void) {
     PCB_set_state(lastproc, ready);
     FIFOq_enqueue(ready_queue, lastproc); //return to ready queue
     current_process = FIFOq_dequeue(ready_queue); // set current process to next process in ready queue
+    PCB_set_state(current_process, running);
 
     printf("Now running: %s\n", PCB_toString(current_process, pcbString));
     printf("Returned to Ready Queue: %s\n", PCB_toString(lastproc, pcbString));
+
+    puts(FIFOq_toString(ready_queue)); // Print the ready queue
 
   } else {
     PCB_p lastproc = current_process;
@@ -129,6 +132,7 @@ void scheduler(enum interrupt_type inter_type) {
   //determine situation
   switch (inter_type) {
     case timer:
+
       dispatcher(); //call dispatcher
       break;
     default:
@@ -138,6 +142,9 @@ void scheduler(enum interrupt_type inter_type) {
 }
 
 void pseudo_timer_isr(void) {
+  if (iteration % 4 == 0) {
+    printf("PCB: %s\n", PCB_toString(current_process, pcbString));
+  }
   current_process->state = interrupted; //Change state to interrupted
   current_process->pc = sys_stack; // save cpu state to pcb
 
@@ -149,23 +156,16 @@ int main(void) {
   current_process = generate_random_pcb(); // Set initial process
   PCB_set_state(current_process, running);
   do { //Main Loop
+
     create_processes();
-
-
     cpu_pc = current_process->pc;
     cpu_pc += rand() % 1001 + 3000; // Simulate running of process
-
     sys_stack = cpu_pc; // Pseudo-push PC to system sys_stack
 
     pseudo_timer_isr();
-
     cpu_pc = sys_stack;
 
   } while (FIFOq_size(ready_queue) < 40);
-
-
-
-
 }
 
 // int main(void) {

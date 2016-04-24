@@ -135,7 +135,7 @@ char* FIFOq_toString(FIFOq_p queue){
         char* pids = (char*)malloc(128);
         char* temp = (char*)malloc(32);
         sprintf(result, "Q:Count=%d: ", queue->size);
-        Node * n=queue->front;
+        Node * n = queue->front;
         while(n!=NULL) {
           sprintf(temp, "P%lu->", n->pcb->pid);
           strcat(pids,temp);
