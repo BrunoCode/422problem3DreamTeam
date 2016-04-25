@@ -102,46 +102,49 @@ PCB_p FIFOq_peek(FIFOq_p queue) {
   return queue->front->pcb;
 }
 
-// char* FIFOq_toString(FIFOq_p queue, char* string, int size) {
-//     // Note: We assume that the controller has allocated a string of appropriate size (using FIFOq_size() function).
-//     int offset = 0;
-//     int consumption = snprintf(string, size, "Count=%d: ", FIFOq_size(queue));
-//     offset += consumption;
-//     size -= consumption;
-//
-//     Node_p front = queue->front;
-//     while(front != NULL) {
-//         consumption = snprintf(string + offset, size, "P%lu-", PCB_get_pid(front->pcb));
-//         offset += consumption;
-//         size -= consumption;
-//
-//         if(front->next == NULL) {
-//             consumption= snprintf(string + offset, size, "*");
-//
-//         } else {
-//             consumption= snprintf(string + offset, size, ">");
-//         }
-//         offset += consumption;
-//
-//         size -= consumption;
-//         front = front->next;
-//     }
-//
-//     return string;
-// }
+char* FIFOq_toString(FIFOq_p queue, char* string, int size) {
+    // Note: We assume that the controller has allocated a string of appropriate size (using FIFOq_size() function).
+    Node_p front = queue->front;
+      if (front != NULL) {
+      int offset = 0;
+      int consumption = snprintf(string, size, "Head: PID:0x%0lX PC:0x%0lX State: %s -> ",  front->pcb->pid, front->pcb->pc, STATE_NAMES[front->pcb->state]);
+      offset += consumption;
+      size -= consumption;
 
-char* FIFOq_toString(FIFOq_p queue){
-        char* result = (char*)malloc(256);
-        char* pids = (char*)malloc(128);
-        char* temp = (char*)malloc(32);
-        sprintf(result, "Q:Count=%d: ", queue->size);
-        Node * n = queue->front;
-        while(n!=NULL) {
-          sprintf(temp, "P%lu->", n->pcb->pid);
-          strcat(pids,temp);
-                n=(Node*)(n->next);
-        }
-        pids[strlen(pids)-1]='*';
-        strcat(result,pids);
-        return result;
+
+      while(front != NULL) {
+          consumption = snprintf(string + offset, size, "P%lu-", PCB_get_pid(front->pcb));
+          offset += consumption;
+          size -= consumption;
+
+          if(front->next == NULL) {
+              consumption= snprintf(string + offset, size, "*");
+
+          } else {
+              consumption= snprintf(string + offset, size, ">");
+          }
+          offset += consumption;
+
+          size -= consumption;
+          front = front->next;
+      }
+    }
+
+    return string;
 }
+
+// char* FIFOq_toString(FIFOq_p queue){
+//         char* result = (char*)malloc(256);
+//         char* pids = (char*)malloc(128);
+//         char* temp = (char*)malloc(32);
+//         sprintf(result, "Q:Count=%d: ", queue->size);
+//         Node * n = queue->front;
+//         while(n!=NULL) {
+//           sprintf(temp, "P%lu->", n->pcb->pid);
+//           strcat(pids,temp);
+//                 n=(Node*)(n->next);
+//         }
+//         pids[strlen(pids)-1]='*';
+//         strcat(result,pids);
+//         return result;
+// }

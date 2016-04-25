@@ -26,6 +26,6 @@ int FIFOq_size(FIFOq_p queue);
 int FIFOq_enqueue(FIFOq_p queue, PCB_p pcb);
 PCB_p FIFOq_dequeue(FIFOq_p queue);
 PCB_p FIFOq_peek(FIFOq_p queue);
-char* FIFOq_toString(FIFOq_p queue);
+char* FIFOq_toString(FIFOq_p queue, char * string, int size);
 
 #endif

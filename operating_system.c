@@ -77,13 +77,18 @@ void dispatcher(void) {
     PCB_p lastproc = current_process;
     PCB_set_state(lastproc, ready);
     FIFOq_enqueue(ready_queue, lastproc); //return to ready queue
-    current_process = FIFOq_dequeue(ready_queue); // set current process to next process in ready queue
+    current_process = newproc; // set current process to next process in ready queue
     PCB_set_state(current_process, running);
 
     fprintf(outfile, "Now running: %s\n", PCB_toString(current_process, pcbString));
     fprintf(outfile, "Returned to Ready Queue: %s\n", PCB_toString(lastproc, pcbString));
 
-    fprintf(outfile, "%s\n", FIFOq_toString(ready_queue)); // Print the ready queue
+    int string_size = 32 + (10 * FIFOq_size(ready_queue)) + 1;    // 32 for header, 4 for each node, 1 for \0
+    char* rq_string = (char*) malloc((size_t) string_size);
+    FIFOq_toString(ready_queue, rq_string, string_size);
+
+    fprintf(outfile, "%s\n", rq_string); // Print the ready queue
+    free(rq_string);
 
   } else {
     PCB_p lastproc = current_process;
@@ -142,5 +147,7 @@ int main(void) {
     cpu_pc = sys_stack;
 
   } while (FIFOq_size(ready_queue) < 40);
+
+  FIFOq_destruct(ready_queue);
   fclose(outfile);
 }
