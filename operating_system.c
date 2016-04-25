@@ -5,6 +5,8 @@
 
 FILE *outfile;
 
+char * fileHeader = "Team 6: Derek Moore, Son Vu, Mat Sharff";
+
 
 //Printing Buffer
 char pcbString[128];
@@ -119,6 +121,7 @@ void dispatcher(void) {
     PCB_set_state(lastproc, ready);
     FIFOq_enqueue(ready_queue, lastproc); //return to ready queue
     current_process = FIFOq_dequeue(ready_queue); // set current process to next process in ready queue
+    fprintf(outfile, "Process Enqueued: %s\n", PCB_toString(current_process, pcbString));
   }
 }
 
@@ -154,7 +157,8 @@ void pseudo_timer_isr(void) {
 }
 
 int main(void) {
-  outfile = fopen("output.txt", "w");
+  outfile = fopen("scheduleTrace.txt", "w");
+  fprintf(outfile, "%s\n", fileHeader);
   setup();
   current_process = generate_random_pcb(); // Set initial process
   PCB_set_state(current_process, running);
