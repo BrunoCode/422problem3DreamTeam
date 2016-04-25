@@ -66,42 +66,11 @@ void create_processes(void){
   }
 }
 
-void schedulePCBs(int flag){
-
-  if(flag == INTERRUPTED){
-    current_process->state = ready;
-    if(iteration%4==0)printf("Returned to Ready Queue: %s\n", PCB_toString(current_process, pcbString));
-    FIFOq_enqueue(ready_queue, current_process);
-  } else {
-    while(!FIFOq_is_empty(new_process_list)){
-      PCB_p temp = FIFOq_dequeue(new_process_list);
-      temp->state = ready;
-      FIFOq_enqueue(ready_queue, temp);
-
-      printf("New process: %s\n", PCB_toString(temp, pcbString));
-    }
-  }
-}
-
-void dispatch(void) {
-  current_process = FIFOq_dequeue(ready_queue);
-  if(iteration%4==0)printf("Switching to: %s\n", PCB_toString(current_process, pcbString));
-  // current_process->state = running; // done in dispatcher to comply with assignment printing guidelines
-  if(iteration%4==0)printf("Now running: %s\n", PCB_toString(current_process, pcbString));
-}
-
-void interruptSR(void){
-  current_process->pc+=rand() % 1001 + 3000;
-  current_process->state= interrupted;
-  sys_stack=current_process->pc;
-  schedulePCBs(INTERRUPTED);
-}
 
 void dispatcher(void) {
   if (iteration % 4 == 0) {
     PCB_p newproc = FIFOq_dequeue(ready_queue);
 
-    // printf("PCB: %s\n", PCB_toString(current_process, pcbString));
     fprintf(outfile, "Switching to: %s\n", PCB_toString(newproc, pcbString));
 
     // Context Switch
@@ -175,16 +144,3 @@ int main(void) {
   } while (FIFOq_size(ready_queue) < 40);
   fclose(outfile);
 }
-
-// int main(void) {
-//   setup();
-//   do{
-//     create_processes();
-//     schedulePCBs(NEW_PROCESSES);
-//     dispatch();
-//     interruptSR();
-//     printf("%d\n", iteration++);
-//   }while(FIFOq_size(ready_queue) < 40);//limiting factor to be determined.
-//
-//   return 0;
-// }
