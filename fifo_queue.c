@@ -40,6 +40,7 @@ int FIFOq_destruct(FIFOq_p fqueue) {
     while(traverse != NULL) {
         Node_p temp = traverse;
         traverse = traverse->next;
+        free(temp->pcb);
         free(temp);
     }
     free(fqueue);

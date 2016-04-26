@@ -12,7 +12,7 @@ char * fileHeader = "Team 6: Derek Moore, Son Vu, Mat Sharff";
 char pcbString[128];
 
 
-PCB_p idl;
+// PCB_p idl;
 
 unsigned long sys_stack = 0;
 
@@ -29,9 +29,9 @@ FIFOq_p new_process_list;
 unsigned long PIDVALUE = 0;
 
 void setup(){
-  idl = PCB_construct();
-  PCB_init(idl);
-  PCB_set_pid(idl, 0xFFFFFFFF);
+  // idl = PCB_construct();
+  // PCB_init(idl);
+  // PCB_set_pid(idl, 0xFFFFFFFF);
   srand(time(NULL));
   ready_queue = FIFOq_construct();
   FIFOq_init(ready_queue);
@@ -53,14 +53,15 @@ PCB_p generate_random_pcb(void) {
 void create_processes(void){
   int i;
   int random_num = rand() % 6;
+  PCB_p temp;
   for(i = 0; i < random_num; i++){
-    PCB_p temp = generate_random_pcb();
+    temp = generate_random_pcb();
     //set values of PCB as needed.
     FIFOq_enqueue(new_process_list, temp);
   }
 
   if (iteration == 0 && FIFOq_is_empty(new_process_list)) {
-    PCB_p temp = generate_random_pcb();
+    temp = generate_random_pcb();
     //set values of PCB as needed.
     FIFOq_enqueue(new_process_list, temp);
   }
@@ -148,6 +149,8 @@ int main(void) {
 
   } while (FIFOq_size(ready_queue) < 40);
 
+  PCB_destruct(current_process);
+  FIFOq_destruct(new_process_list);
   FIFOq_destruct(ready_queue);
   fclose(outfile);
 }
