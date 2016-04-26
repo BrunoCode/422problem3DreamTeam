@@ -1,0 +1,4 @@
+#!/bin/bash
+rm operating_system
+make operating_system
+valgrind --leak-check=yes ./operating_system

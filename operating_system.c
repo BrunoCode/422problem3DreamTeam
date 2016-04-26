@@ -39,6 +39,11 @@ void setup(){
   FIFOq_init(new_process_list);
 }
 
+void enqueue_ready(PCB_p process) {
+  FIFOq_enqueue(ready_queue, process);
+  fprintf(outfile, "Process Enqueued: %s\n", PCB_toString(process, pcbString));
+}
+
 PCB_p generate_random_pcb(void) {
   PCB_p pcb = PCB_construct();
   PCB_init(pcb);
@@ -71,13 +76,19 @@ void create_processes(void){
 void dispatcher(void) {
   if (iteration % 4 == 0) {
     PCB_p newproc = FIFOq_dequeue(ready_queue);
-
+    // To match problem specs print output, current process should print as running
+    // However, the pseudo_timer_isr changes it's state to interrupted before it gets printed here
+    // If we print PCB: ... etc in pseudo_timer_isr, the scheduler adding the new processes
+    // will print and break up the continuity of the context switch prints
+    fprintf(outfile, "PCB: %s\n", PCB_toString(current_process, pcbString));
     fprintf(outfile, "Switching to: %s\n", PCB_toString(newproc, pcbString));
 
     // Context Switch
     PCB_p lastproc = current_process;
     PCB_set_state(lastproc, ready);
     FIFOq_enqueue(ready_queue, lastproc); //return to ready queue
+    // enqueue_ready(lastproc);//return to ready queue
+
     current_process = newproc; // set current process to next process in ready queue
     PCB_set_state(current_process, running);
 
@@ -94,9 +105,10 @@ void dispatcher(void) {
   } else {
     PCB_p lastproc = current_process;
     PCB_set_state(lastproc, ready);
-    FIFOq_enqueue(ready_queue, lastproc); //return to ready queue
+    // FIFOq_enqueue(ready_queue, lastproc); //return to ready queue
+    enqueue_ready(lastproc);
     current_process = FIFOq_dequeue(ready_queue); // set current process to next process in ready queue
-    fprintf(outfile, "Process Enqueued: %s\n", PCB_toString(current_process, pcbString));
+    // fprintf(outfile, "Process Enqueued: %s\n", PCB_toString(lastproc, pcbString));
   }
 }
 
@@ -104,9 +116,10 @@ void scheduler(enum interrupt_type inter_type) {
 
   // Transfer any new process to the ready list
   while(FIFOq_size(new_process_list) > 0) {
-    PCB_p temp = FIFOq_dequeue(new_process_list);
-    PCB_set_state(temp, ready);
-    FIFOq_enqueue(ready_queue, temp);
+    PCB_p newproc = FIFOq_dequeue(new_process_list);
+    PCB_set_state(newproc, ready);
+    // FIFOq_enqueue(ready_queue, newproc);
+    enqueue_ready(newproc);
   }
 
   //determine situation
@@ -122,9 +135,9 @@ void scheduler(enum interrupt_type inter_type) {
 }
 
 void pseudo_timer_isr(void) {
-  if (iteration % 4 == 0) {
-    fprintf(outfile, "PCB: %s\n", PCB_toString(current_process, pcbString));
-  }
+  // if (iteration % 4 == 0) {
+  //   fprintf(outfile, "PCB: %s\n", PCB_toString(current_process, pcbString));
+  // }
   current_process->state = interrupted; //Change state to interrupted
   current_process->pc = sys_stack; // save cpu state to pcb
 
