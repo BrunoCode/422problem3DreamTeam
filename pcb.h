@@ -22,6 +22,14 @@ typedef struct pcb {
   State state;
   unsigned short priority;
   unsigned long pc;
+  unsigned long sw;
+  unsigned long max_pc;
+  time_t creation;
+  time_t termination;
+  unsigned long terminate;
+  unsigned long term_count;
+  unsigned long IO_1_trap[4];
+  unsigned long IO_2_trap[4]; 
 } PCB;
 
 typedef PCB * PCB_p;
