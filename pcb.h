@@ -7,6 +7,8 @@
 #define DEFAULT_STATE 0
 #define DEFAULT_PC 0
 #define DEFAULT_PRIORITY 0
+#define DEFAULT_SW 0
+#define DEFAULT_MAX_PC 0
 
 /* Error Handling Values */
 #define SUCCESS 0
