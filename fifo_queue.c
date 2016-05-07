@@ -108,7 +108,7 @@ char* FIFOq_toString(FIFOq_p queue, char* string, int size) {
     Node_p front = queue->front;
       if (front != NULL) {
       int offset = 0;
-      int consumption = snprintf(string, size, "Head: PID:0x%0lX PC:0x%0lX State: %s -> ",  front->pcb->pid, front->pcb->pc, STATE_NAMES[front->pcb->state]);
+      int consumption = snprintf(string, size, "Head: PID:0x%0lX PC:0x%0lX State: %s -> ",  front->pcb->pid, front->pcb->pc, PCB_get_state_name(front->pcb->state));
       offset += consumption;
       size -= consumption;
 

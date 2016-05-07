@@ -67,3 +67,7 @@ char * PCB_toString(PCB_p pcb, char * string) {
             pcb->pid, STATE_NAMES[pcb->state], pcb->priority, pcb->pc);
     return string;
 }
+
+char * PCB_get_state_name(int num) {
+  return (char *) STATE_NAMES[num];
+}

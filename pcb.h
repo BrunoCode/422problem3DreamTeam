@@ -37,5 +37,6 @@ State PCB_get_state(PCB_p pcb);
 int PCB_set_priority(PCB_p pcb, unsigned short priority);
 unsigned short PCB_get_priority(PCB_p pcb);
 char * PCB_toString(PCB_p pcb, char * string);
+char * PCB_get_state_name(int num);
 
 #endif

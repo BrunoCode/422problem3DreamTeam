@@ -1,5 +1,5 @@
-#include "pcb.c"
-#include "fifo_queue.c"
+#include "pcb.h"
+#include "fifo_queue.h"
 
 enum interrupt_type {
   io, timer,
