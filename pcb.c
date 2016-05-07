@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <time.h>
 #include <stdlib.h>
 #include "pcb.h"
 
@@ -25,7 +23,7 @@ int PCB_init(PCB_p pcb) {
     pcb->max_pc = srand(time(NULL));
     pcb->creation = time(NULL);
     pcb->termination = DEFAULT_TERMINATION;
-    pcb->terminate = DEFAULT_TERMINATE;
+    pcb->terminate = rand() % 16;
     pcb->term_count = DEFAULT_TERM_COUNT;
     return SUCCESS;
 }
