@@ -18,9 +18,15 @@ int PCB_init(PCB_p pcb) {
         return NULL_OBJECT;
     }
     pcb->pid = DEFAULT_PID;
-    pcb->state = (State) DEFAULT_STATE;
+    pcb->state = DEFAULT_STATE;
     pcb->priority = DEFAULT_PRIORITY;
     pcb->pc = DEFAULT_PC;
+    pcb->sw = DEFAULT_SW;
+    pcb->max_pc = srand(time(NULL));
+    pcb->creation = time(NULL);
+    pcb->termination = DEFAULT_TERMINATION;
+    pcb->terminate = DEFAULT_TERMINATE;
+    pcb->term_count = DEFAULT_TERM_COUNT;
     return SUCCESS;
 }
 

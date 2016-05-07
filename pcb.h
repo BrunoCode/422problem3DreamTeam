@@ -4,12 +4,16 @@
 
 /* Default values */
 #define DEFAULT_PID 0
-#define DEFAULT_STATE 0
+#define DEFAULT_STATE new
 #define DEFAULT_PC 0
 #define DEFAULT_PRIORITY 0
 #define DEFAULT_SW 0
 #define DEFAULT_MAX_PC 0
-
+#define DEFAULT_CREATION NULL 
+#define DEFAULT_TERMINATION NULL
+#define DEFAULT_TERMINATE 0
+#define DEFAULT_TERM_COUNT 0
+ 
 /* Error Handling Values */
 #define SUCCESS 0
 #define NULL_OBJECT -1
