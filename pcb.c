@@ -19,7 +19,6 @@ void PCB_destruct(PCB_p pcb) {
 
 int PCB_init(PCB_p pcb) {
     int i = 0;
-    long unsigned int current;
 
     if (pcb == NULL) {
         return NULL_OBJECT;
@@ -34,19 +33,14 @@ int PCB_init(PCB_p pcb) {
     pcb->termination = (long) DEFAULT_TERMINATION;
     pcb->terminate = rand() % 16;
     pcb->term_count = DEFAULT_TERM_COUNT;
-    printf("pid %d has maxpc %ld\n", pcb->pid, pcb->max_pc);
-    current = rand() % (pcb->max_pc - 1500);
-    pcb->IO_1_trap[0] = current;
-    printf("pid %d has io_1_trap[0] %ld\n", pcb->pid, pcb->IO_1_trap[0]);
-    for(i = 1; i < 8; i++ ){
+    //printf("pid %d has maxpc %ld\n", pcb->pid, pcb->max_pc);
+    for(i = 0; i < 8; i++ ){
         if (i % 2 == 0) {
-            pcb->IO_1_trap[i % 4] = current + (rand() % (pcb->max_pc - current - 7 + i));
-            printf("pid %d has io_1_trap[%d] %ld\n", pcb->pid, i % 4, pcb->IO_1_trap[i % 4]);
-            current = pcb->IO_1_trap[i % 4];
+            pcb->IO_1_trap[i / 2] = (pcb->max_pc / 8) * i + rand() % (pcb->max_pc / 8);
+      //      printf("pid %d has io_1_trap[%d] %ld\n", pcb->pid, i / 2, pcb->IO_1_trap[i / 2]);
         } else {
-            pcb->IO_2_trap[i % 4] = current + (rand() % (pcb->max_pc - current - 7 + i));
-            printf("pid %d has io_2_trap[%d] %ld\n", pcb->pid, i % 4, pcb->IO_2_trap[i % 4]);
-            current = pcb->IO_2_trap[i % 4];
+            pcb->IO_2_trap[(i - 1) / 2] = (pcb->max_pc / 8) * i + rand() % (pcb->max_pc / 8);
+      //      printf("pid %d has io_2_trap[%d] %ld\n", pcb->pid, (i - 1) / 2, pcb->IO_2_trap[(i - 1) / 2]);
         }
     }
 

@@ -1,718 +1,4764 @@
 Team 4 Luis Solis-Bruno, Mat Sharff, Tempest Parr, Sara Vandandaigue
 
-creating 4 processes
-process 0 has io traps at 2914 0 3187 0 and 0 3170 0 3228
-process 1 has io traps at 4467 0 4504 0 and 0 4485 0 4504
-process 2 has io traps at 7435 0 7439 0 and 0 7438 0 7440
-process 3 has io traps at 4409 0 4621 0 and 0 4606 0 4622
-Process Enqueued: PID: 0x1, State: ready, Priority: 0x7, PC: 0x0000
-Process Enqueued: PID: 0x2, State: ready, Priority: 0x5, PC: 0x0000
+creating 5 processes
+Scheduler call w/ int type: 4
+Process Enqueued: PID: 0x1, State: ready, Priority: 0x5, PC: 0x0000
+Process Enqueued: PID: 0x2, State: ready, Priority: 0xB, PC: 0x0000
 Process Enqueued: PID: 0x3, State: ready, Priority: 0x9, PC: 0x0000
-Process Enqueued: PID: 0x4, State: ready, Priority: 0x9, PC: 0x0000
-creating 1 processes
-process 0 has io traps at 4696 0 4701 0 and 0 4697 0 4704
-Process Enqueued: PID: 0x5, State: ready, Priority: 0x0, PC: 0x0000
-creating 1 processes
-process 0 has io traps at 2890 0 3110 0 and 0 2958 0 3115
-Process Enqueued: PID: 0x6, State: ready, Priority: 0xD, PC: 0x0000
-creating 1 processes
-process 0 has io traps at 5960 0 5976 0 and 0 5976 0 5979
-Process Enqueued: PID: 0x7, State: ready, Priority: 0x7, PC: 0x0000
+Process Enqueued: PID: 0x4, State: ready, Priority: 0x2, PC: 0x0000
+Process Enqueued: PID: 0x5, State: ready, Priority: 0x7, PC: 0x0000
+creating 5 processes
+Scheduler call w/ int type: 4
+Process Enqueued: PID: 0x6, State: ready, Priority: 0xE, PC: 0x0000
+Process Enqueued: PID: 0x7, State: ready, Priority: 0x6, PC: 0x0000
+Process Enqueued: PID: 0x8, State: ready, Priority: 0x5, PC: 0x0000
+Process Enqueued: PID: 0x9, State: ready, Priority: 0x8, PC: 0x0000
+Process Enqueued: PID: 0xA, State: ready, Priority: 0x9, PC: 0x0000
+creating 2 processes
+Scheduler call w/ int type: 4
+Process Enqueued: PID: 0xB, State: ready, Priority: 0x7, PC: 0x0000
+Process Enqueued: PID: 0xC, State: ready, Priority: 0xE, PC: 0x0000
+creating 3 processes
+Scheduler call w/ int type: 4
+Process Enqueued: PID: 0xD, State: ready, Priority: 0x5, PC: 0x0000
+Process Enqueued: PID: 0xE, State: ready, Priority: 0x2, PC: 0x0000
+Process Enqueued: PID: 0xF, State: ready, Priority: 0xE, PC: 0x0000
 creating 0 processes
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+
+IO1 trap
+IO1 device initialized
+PID 0 put into wait_queue_1
+wait_queue_1: Head: PID:0x0 PC:0x82 State: waiting -> P0-*
+Now running: PID: 0x1, State: running, Priority: 0x5, PC: 0x0000
+Ready Queue: Head: PID:0x2 PC:0x0 State: ready -> P2->P3->P4->P5->P6->P7->P8->P9->P10->P11->P12->P13->P14->P15-*
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+
+IO1 trap
+PID 1 put into wait_queue_1
+wait_queue_1: Head: PID:0x0 PC:0x82 State: waiting -> P0->P1-*
+Now running: PID: 0x2, State: running, Priority: 0xB, PC: 0x0000
+Ready Queue: Head: PID:0x3 PC:0x0 State: ready -> P3->P4->P5->P6->P7->P8->P9->P10->P11->P12->P13->P14->P15-*
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+
 Timer expired
-PCB: PID: 0x0, State: interrupted, Priority: 0xE, PC: 0x012C
-Switching to: PID: 0x1, State: ready, Priority: 0x7, PC: 0x0000
-Now running: PID: 0x1, State: running, Priority: 0x7, PC: 0x0000
-Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0xE, PC: 0x012C
-Head: PID:0x2 PC:0x0 State: ready -> P2->P3->P4->P5->P6->P7->P0-*
-Timer expired
-PCB: PID: 0x1, State: interrupted, Priority: 0x7, PC: 0x012C
-Switching to: PID: 0x2, State: ready, Priority: 0x5, PC: 0x0000
-Now running: PID: 0x2, State: running, Priority: 0x5, PC: 0x0000
-Returned to Ready Queue: PID: 0x1, State: ready, Priority: 0x7, PC: 0x012C
-Head: PID:0x3 PC:0x0 State: ready -> P3->P4->P5->P6->P7->P0->P1-*
-Timer expired
-PCB: PID: 0x2, State: interrupted, Priority: 0x5, PC: 0x012C
+Scheduler call w/ int type: 2
+PCB: PID: 0x2, State: interrupted, Priority: 0xB, PC: 0x005D
 Switching to: PID: 0x3, State: ready, Priority: 0x9, PC: 0x0000
 Now running: PID: 0x3, State: running, Priority: 0x9, PC: 0x0000
-Returned to Ready Queue: PID: 0x2, State: ready, Priority: 0x5, PC: 0x012C
-Head: PID:0x4 PC:0x0 State: ready -> P4->P5->P6->P7->P0->P1->P2-*
+Returned to Ready Queue: PID: 0x2, State: ready, Priority: 0xB, PC: 0x005D
+Ready Queue: Head: PID:0x4 PC:0x0 State: ready -> P4->P5->P6->P7->P8->P9->P10->P11->P12->P13->P14->P15->P2-*
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+
 Timer expired
+Scheduler call w/ int type: 2
 PCB: PID: 0x3, State: interrupted, Priority: 0x9, PC: 0x012C
-Switching to: PID: 0x4, State: ready, Priority: 0x9, PC: 0x0000
-Now running: PID: 0x4, State: running, Priority: 0x9, PC: 0x0000
+Switching to: PID: 0x4, State: ready, Priority: 0x2, PC: 0x0000
+Now running: PID: 0x4, State: running, Priority: 0x2, PC: 0x0000
 Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x9, PC: 0x012C
-Head: PID:0x5 PC:0x0 State: ready -> P5->P6->P7->P0->P1->P2->P3-*
+Ready Queue: Head: PID:0x5 PC:0x0 State: ready -> P5->P6->P7->P8->P9->P10->P11->P12->P13->P14->P15->P2->P3-*
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+
 Timer expired
-PCB: PID: 0x4, State: interrupted, Priority: 0x9, PC: 0x012C
-Switching to: PID: 0x5, State: ready, Priority: 0x0, PC: 0x0000
-Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x0000
-Returned to Ready Queue: PID: 0x4, State: ready, Priority: 0x9, PC: 0x012C
-Head: PID:0x6 PC:0x0 State: ready -> P6->P7->P0->P1->P2->P3->P4-*
+Scheduler call w/ int type: 2
+PCB: PID: 0x4, State: interrupted, Priority: 0x2, PC: 0x012C
+Switching to: PID: 0x5, State: ready, Priority: 0x7, PC: 0x0000
+Now running: PID: 0x5, State: running, Priority: 0x7, PC: 0x0000
+Returned to Ready Queue: PID: 0x4, State: ready, Priority: 0x2, PC: 0x012C
+Ready Queue: Head: PID:0x6 PC:0x0 State: ready -> P6->P7->P8->P9->P10->P11->P12->P13->P14->P15->P2->P3->P4-*
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+
+IO1 trap
+PID 5 put into wait_queue_1
+wait_queue_1: Head: PID:0x0 PC:0x82 State: waiting -> P0->P1->P5-*
+Now running: PID: 0x6, State: running, Priority: 0xE, PC: 0x0000
+Ready Queue: Head: PID:0x7 PC:0x0 State: ready -> P7->P8->P9->P10->P11->P12->P13->P14->P15->P2->P3->P4-*
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+
+IO1 trap
+PID 6 put into wait_queue_1
+wait_queue_1: Head: PID:0x0 PC:0x82 State: waiting -> P0->P1->P5->P6-*
+Now running: PID: 0x7, State: running, Priority: 0x6, PC: 0x0000
+Ready Queue: Head: PID:0x8 PC:0x0 State: ready -> P8->P9->P10->P11->P12->P13->P14->P15->P2->P3->P4-*
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+
+IO1 trap
+PID 7 put into wait_queue_1
+wait_queue_1: Head: PID:0x0 PC:0x82 State: waiting -> P0->P1->P5->P6->P7-*
+Now running: PID: 0x8, State: running, Priority: 0x5, PC: 0x0000
+Ready Queue: Head: PID:0x9 PC:0x0 State: ready -> P9->P10->P11->P12->P13->P14->P15->P2->P3->P4-*
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+
 Timer expired
-PCB: PID: 0x5, State: interrupted, Priority: 0x0, PC: 0x012C
-Switching to: PID: 0x6, State: ready, Priority: 0xD, PC: 0x0000
-Now running: PID: 0x6, State: running, Priority: 0xD, PC: 0x0000
-Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x012C
-Head: PID:0x7 PC:0x0 State: ready -> P7->P0->P1->P2->P3->P4->P5-*
+Scheduler call w/ int type: 2
+PCB: PID: 0x8, State: interrupted, Priority: 0x5, PC: 0x0028
+Switching to: PID: 0x9, State: ready, Priority: 0x8, PC: 0x0000
+Now running: PID: 0x9, State: running, Priority: 0x8, PC: 0x0000
+Returned to Ready Queue: PID: 0x8, State: ready, Priority: 0x5, PC: 0x0028
+Ready Queue: Head: PID:0xA PC:0x0 State: ready -> P10->P11->P12->P13->P14->P15->P2->P3->P4->P8-*
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+
+IO1 trap
+PID 9 put into wait_queue_1
+wait_queue_1: Head: PID:0x0 PC:0x82 State: waiting -> P0->P1->P5->P6->P7->P9-*
+Now running: PID: 0xA, State: running, Priority: 0x9, PC: 0x0000
+Ready Queue: Head: PID:0xB PC:0x0 State: ready -> P11->P12->P13->P14->P15->P2->P3->P4->P8-*
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+
+IO1 trap
+PID 10 put into wait_queue_1
+wait_queue_1: Head: PID:0x0 PC:0x82 State: waiting -> P0->P1->P5->P6->P7->P9->P10-*
+Now running: PID: 0xB, State: running, Priority: 0x7, PC: 0x0000
+Ready Queue: Head: PID:0xC PC:0x0 State: ready -> P12->P13->P14->P15->P2->P3->P4->P8-*
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+
+IO1 device completion
+Scheduler call w/ int type: 0
+IO1 device initialized
+Now running: PID: 0xB, State: running, Priority: 0x7, PC: 0x00D1
+Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0x5, PC: 0x0082
+Ready Queue: Head: PID:0xC PC:0x0 State: ready -> P12->P13->P14->P15->P2->P3->P4->P8->P0-*
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+
 Timer expired
-PCB: PID: 0x6, State: interrupted, Priority: 0xD, PC: 0x012C
-Switching to: PID: 0x7, State: ready, Priority: 0x7, PC: 0x0000
-Now running: PID: 0x7, State: running, Priority: 0x7, PC: 0x0000
-Returned to Ready Queue: PID: 0x6, State: ready, Priority: 0xD, PC: 0x012C
-Head: PID:0x0 PC:0x12C State: ready -> P0->P1->P2->P3->P4->P5->P6-*
+Scheduler call w/ int type: 2
+PCB: PID: 0xB, State: interrupted, Priority: 0x7, PC: 0x00E0
+Switching to: PID: 0xC, State: ready, Priority: 0xE, PC: 0x0000
+Now running: PID: 0xC, State: running, Priority: 0xE, PC: 0x0000
+Returned to Ready Queue: PID: 0xB, State: ready, Priority: 0x7, PC: 0x00E0
+Ready Queue: Head: PID:0xD PC:0x0 State: ready -> P13->P14->P15->P2->P3->P4->P8->P0->P11-*
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+
+IO1 trap
+PID 12 put into wait_queue_1
+wait_queue_1: Head: PID:0x1 PC:0x4D State: waiting -> P1->P5->P6->P7->P9->P10->P12-*
+Now running: PID: 0xD, State: running, Priority: 0x5, PC: 0x0000
+Ready Queue: Head: PID:0xE PC:0x0 State: ready -> P14->P15->P2->P3->P4->P8->P0->P11-*
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+
 Timer expired
-PCB: PID: 0x7, State: interrupted, Priority: 0x7, PC: 0x012C
-Switching to: PID: 0x0, State: ready, Priority: 0xE, PC: 0x012C
-Now running: PID: 0x0, State: running, Priority: 0xE, PC: 0x012C
-Returned to Ready Queue: PID: 0x7, State: ready, Priority: 0x7, PC: 0x012C
-Head: PID:0x1 PC:0x12C State: ready -> P1->P2->P3->P4->P5->P6->P7-*
+Scheduler call w/ int type: 2
+PCB: PID: 0xD, State: interrupted, Priority: 0x5, PC: 0x0051
+Switching to: PID: 0xE, State: ready, Priority: 0x2, PC: 0x0000
+Now running: PID: 0xE, State: running, Priority: 0x2, PC: 0x0000
+Returned to Ready Queue: PID: 0xD, State: ready, Priority: 0x5, PC: 0x0051
+Ready Queue: Head: PID:0xF PC:0x0 State: ready -> P15->P2->P3->P4->P8->P0->P11->P13-*
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+
 Timer expired
-PCB: PID: 0x0, State: interrupted, Priority: 0xE, PC: 0x0258
-Switching to: PID: 0x1, State: ready, Priority: 0x7, PC: 0x012C
-Now running: PID: 0x1, State: running, Priority: 0x7, PC: 0x012C
-Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0xE, PC: 0x0258
-Head: PID:0x2 PC:0x12C State: ready -> P2->P3->P4->P5->P6->P7->P0-*
+Scheduler call w/ int type: 2
+PCB: PID: 0xE, State: interrupted, Priority: 0x2, PC: 0x012C
+Switching to: PID: 0xF, State: ready, Priority: 0xE, PC: 0x0000
+Now running: PID: 0xF, State: running, Priority: 0xE, PC: 0x0000
+Returned to Ready Queue: PID: 0xE, State: ready, Priority: 0x2, PC: 0x012C
+Ready Queue: Head: PID:0x2 PC:0x5D State: ready -> P2->P3->P4->P8->P0->P11->P13->P14-*
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+
 Timer expired
-PCB: PID: 0x1, State: interrupted, Priority: 0x7, PC: 0x0258
-Switching to: PID: 0x2, State: ready, Priority: 0x5, PC: 0x012C
-Now running: PID: 0x2, State: running, Priority: 0x5, PC: 0x012C
-Returned to Ready Queue: PID: 0x1, State: ready, Priority: 0x7, PC: 0x0258
-Head: PID:0x3 PC:0x12C State: ready -> P3->P4->P5->P6->P7->P0->P1-*
-Timer expired
-PCB: PID: 0x2, State: interrupted, Priority: 0x5, PC: 0x0258
-Switching to: PID: 0x3, State: ready, Priority: 0x9, PC: 0x012C
+Scheduler call w/ int type: 2
+PCB: PID: 0xF, State: interrupted, Priority: 0xE, PC: 0x012C
+Switching to: PID: 0x2, State: ready, Priority: 0xB, PC: 0x005D
+Now running: PID: 0x2, State: running, Priority: 0xB, PC: 0x005D
+Returned to Ready Queue: PID: 0xF, State: ready, Priority: 0xE, PC: 0x012C
+Ready Queue: Head: PID:0x3 PC:0x12C State: ready -> P3->P4->P8->P0->P11->P13->P14->P15-*
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+
+IO1 device completion
+Scheduler call w/ int type: 0
+IO1 device initialized
+Now running: PID: 0x2, State: running, Priority: 0xB, PC: 0x00C0
+Returned to Ready Queue: PID: 0x1, State: ready, Priority: 0x5, PC: 0x004D
+Ready Queue: Head: PID:0x3 PC:0x12C State: ready -> P3->P4->P8->P0->P11->P13->P14->P15->P1-*
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+
+IO1 trap
+PID 2 put into wait_queue_1
+wait_queue_1: Head: PID:0x5 PC:0x99 State: waiting -> P5->P6->P7->P9->P10->P12->P2-*
 Now running: PID: 0x3, State: running, Priority: 0x9, PC: 0x012C
-Returned to Ready Queue: PID: 0x2, State: ready, Priority: 0x5, PC: 0x0258
-Head: PID:0x4 PC:0x12C State: ready -> P4->P5->P6->P7->P0->P1->P2-*
+Ready Queue: Head: PID:0x4 PC:0x12C State: ready -> P4->P8->P0->P11->P13->P14->P15->P1-*
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+
 Timer expired
-PCB: PID: 0x3, State: interrupted, Priority: 0x9, PC: 0x0258
-Switching to: PID: 0x4, State: ready, Priority: 0x9, PC: 0x012C
-Now running: PID: 0x4, State: running, Priority: 0x9, PC: 0x012C
-Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x9, PC: 0x0258
-Head: PID:0x5 PC:0x12C State: ready -> P5->P6->P7->P0->P1->P2->P3-*
-Timer expired
-PCB: PID: 0x4, State: interrupted, Priority: 0x9, PC: 0x0258
-Switching to: PID: 0x5, State: ready, Priority: 0x0, PC: 0x012C
-Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x012C
-Returned to Ready Queue: PID: 0x4, State: ready, Priority: 0x9, PC: 0x0258
-Head: PID:0x6 PC:0x12C State: ready -> P6->P7->P0->P1->P2->P3->P4-*
-Timer expired
-PCB: PID: 0x5, State: interrupted, Priority: 0x0, PC: 0x0258
-Switching to: PID: 0x6, State: ready, Priority: 0xD, PC: 0x012C
-Now running: PID: 0x6, State: running, Priority: 0xD, PC: 0x012C
-Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x0258
-Head: PID:0x7 PC:0x12C State: ready -> P7->P0->P1->P2->P3->P4->P5-*
-Timer expired
-PCB: PID: 0x6, State: interrupted, Priority: 0xD, PC: 0x0258
-Switching to: PID: 0x7, State: ready, Priority: 0x7, PC: 0x012C
-Now running: PID: 0x7, State: running, Priority: 0x7, PC: 0x012C
-Returned to Ready Queue: PID: 0x6, State: ready, Priority: 0xD, PC: 0x0258
-Head: PID:0x0 PC:0x258 State: ready -> P0->P1->P2->P3->P4->P5->P6-*
-Timer expired
-PCB: PID: 0x7, State: interrupted, Priority: 0x7, PC: 0x0258
-Switching to: PID: 0x0, State: ready, Priority: 0xE, PC: 0x0258
-Now running: PID: 0x0, State: running, Priority: 0xE, PC: 0x0258
-Returned to Ready Queue: PID: 0x7, State: ready, Priority: 0x7, PC: 0x0258
-Head: PID:0x1 PC:0x258 State: ready -> P1->P2->P3->P4->P5->P6->P7-*
-Timer expired
-PCB: PID: 0x0, State: interrupted, Priority: 0xE, PC: 0x0384
-Switching to: PID: 0x1, State: ready, Priority: 0x7, PC: 0x0258
-Now running: PID: 0x1, State: running, Priority: 0x7, PC: 0x0258
-Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0xE, PC: 0x0384
-Head: PID:0x2 PC:0x258 State: ready -> P2->P3->P4->P5->P6->P7->P0-*
-Timer expired
-PCB: PID: 0x1, State: interrupted, Priority: 0x7, PC: 0x0384
-Switching to: PID: 0x2, State: ready, Priority: 0x5, PC: 0x0258
-Now running: PID: 0x2, State: running, Priority: 0x5, PC: 0x0258
-Returned to Ready Queue: PID: 0x1, State: ready, Priority: 0x7, PC: 0x0384
-Head: PID:0x3 PC:0x258 State: ready -> P3->P4->P5->P6->P7->P0->P1-*
-Timer expired
-PCB: PID: 0x2, State: interrupted, Priority: 0x5, PC: 0x0384
-Switching to: PID: 0x3, State: ready, Priority: 0x9, PC: 0x0258
-Now running: PID: 0x3, State: running, Priority: 0x9, PC: 0x0258
-Returned to Ready Queue: PID: 0x2, State: ready, Priority: 0x5, PC: 0x0384
-Head: PID:0x4 PC:0x258 State: ready -> P4->P5->P6->P7->P0->P1->P2-*
-Timer expired
-PCB: PID: 0x3, State: interrupted, Priority: 0x9, PC: 0x0384
-Switching to: PID: 0x4, State: ready, Priority: 0x9, PC: 0x0258
-Now running: PID: 0x4, State: running, Priority: 0x9, PC: 0x0258
-Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x9, PC: 0x0384
-Head: PID:0x5 PC:0x258 State: ready -> P5->P6->P7->P0->P1->P2->P3-*
-Timer expired
-PCB: PID: 0x4, State: interrupted, Priority: 0x9, PC: 0x0384
-Switching to: PID: 0x5, State: ready, Priority: 0x0, PC: 0x0258
-Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x0258
-Returned to Ready Queue: PID: 0x4, State: ready, Priority: 0x9, PC: 0x0384
-Head: PID:0x6 PC:0x258 State: ready -> P6->P7->P0->P1->P2->P3->P4-*
-Timer expired
-PCB: PID: 0x5, State: interrupted, Priority: 0x0, PC: 0x0384
-Switching to: PID: 0x6, State: ready, Priority: 0xD, PC: 0x0258
-Now running: PID: 0x6, State: running, Priority: 0xD, PC: 0x0258
-Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x0384
-Head: PID:0x7 PC:0x258 State: ready -> P7->P0->P1->P2->P3->P4->P5-*
-Timer expired
-PCB: PID: 0x6, State: interrupted, Priority: 0xD, PC: 0x0384
-Switching to: PID: 0x7, State: ready, Priority: 0x7, PC: 0x0258
-Now running: PID: 0x7, State: running, Priority: 0x7, PC: 0x0258
-Returned to Ready Queue: PID: 0x6, State: ready, Priority: 0xD, PC: 0x0384
-Head: PID:0x0 PC:0x384 State: ready -> P0->P1->P2->P3->P4->P5->P6-*
-Timer expired
-PCB: PID: 0x7, State: interrupted, Priority: 0x7, PC: 0x0384
-Switching to: PID: 0x0, State: ready, Priority: 0xE, PC: 0x0384
-Now running: PID: 0x0, State: running, Priority: 0xE, PC: 0x0384
-Returned to Ready Queue: PID: 0x7, State: ready, Priority: 0x7, PC: 0x0384
-Head: PID:0x1 PC:0x384 State: ready -> P1->P2->P3->P4->P5->P6->P7-*
-Timer expired
-PCB: PID: 0x0, State: interrupted, Priority: 0xE, PC: 0x04B0
-Switching to: PID: 0x1, State: ready, Priority: 0x7, PC: 0x0384
-Now running: PID: 0x1, State: running, Priority: 0x7, PC: 0x0384
-Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0xE, PC: 0x04B0
-Head: PID:0x2 PC:0x384 State: ready -> P2->P3->P4->P5->P6->P7->P0-*
-Timer expired
-PCB: PID: 0x1, State: interrupted, Priority: 0x7, PC: 0x04B0
-Switching to: PID: 0x2, State: ready, Priority: 0x5, PC: 0x0384
-Now running: PID: 0x2, State: running, Priority: 0x5, PC: 0x0384
-Returned to Ready Queue: PID: 0x1, State: ready, Priority: 0x7, PC: 0x04B0
-Head: PID:0x3 PC:0x384 State: ready -> P3->P4->P5->P6->P7->P0->P1-*
-Timer expired
-PCB: PID: 0x2, State: interrupted, Priority: 0x5, PC: 0x04B0
-Switching to: PID: 0x3, State: ready, Priority: 0x9, PC: 0x0384
-Now running: PID: 0x3, State: running, Priority: 0x9, PC: 0x0384
-Returned to Ready Queue: PID: 0x2, State: ready, Priority: 0x5, PC: 0x04B0
-Head: PID:0x4 PC:0x384 State: ready -> P4->P5->P6->P7->P0->P1->P2-*
-Timer expired
-PCB: PID: 0x3, State: interrupted, Priority: 0x9, PC: 0x04B0
-Switching to: PID: 0x4, State: ready, Priority: 0x9, PC: 0x0384
-Now running: PID: 0x4, State: running, Priority: 0x9, PC: 0x0384
-Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x9, PC: 0x04B0
-Head: PID:0x5 PC:0x384 State: ready -> P5->P6->P7->P0->P1->P2->P3-*
-Timer expired
-PCB: PID: 0x4, State: interrupted, Priority: 0x9, PC: 0x04B0
-Switching to: PID: 0x5, State: ready, Priority: 0x0, PC: 0x0384
-Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x0384
-Returned to Ready Queue: PID: 0x4, State: ready, Priority: 0x9, PC: 0x04B0
-Head: PID:0x6 PC:0x384 State: ready -> P6->P7->P0->P1->P2->P3->P4-*
-Timer expired
-PCB: PID: 0x5, State: interrupted, Priority: 0x0, PC: 0x04B0
-Switching to: PID: 0x6, State: ready, Priority: 0xD, PC: 0x0384
-Now running: PID: 0x6, State: running, Priority: 0xD, PC: 0x0384
-Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x04B0
-Head: PID:0x7 PC:0x384 State: ready -> P7->P0->P1->P2->P3->P4->P5-*
-Timer expired
-PCB: PID: 0x6, State: interrupted, Priority: 0xD, PC: 0x04B0
-Switching to: PID: 0x7, State: ready, Priority: 0x7, PC: 0x0384
-Now running: PID: 0x7, State: running, Priority: 0x7, PC: 0x0384
-Returned to Ready Queue: PID: 0x6, State: ready, Priority: 0xD, PC: 0x04B0
-Head: PID:0x0 PC:0x4B0 State: ready -> P0->P1->P2->P3->P4->P5->P6-*
-Timer expired
-PCB: PID: 0x7, State: interrupted, Priority: 0x7, PC: 0x04B0
-Switching to: PID: 0x0, State: ready, Priority: 0xE, PC: 0x04B0
-Now running: PID: 0x0, State: running, Priority: 0xE, PC: 0x04B0
-Returned to Ready Queue: PID: 0x7, State: ready, Priority: 0x7, PC: 0x04B0
-Head: PID:0x1 PC:0x4B0 State: ready -> P1->P2->P3->P4->P5->P6->P7-*
-Timer expired
-PCB: PID: 0x0, State: interrupted, Priority: 0xE, PC: 0x05DC
-Switching to: PID: 0x1, State: ready, Priority: 0x7, PC: 0x04B0
-Now running: PID: 0x1, State: running, Priority: 0x7, PC: 0x04B0
-Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0xE, PC: 0x05DC
-Head: PID:0x2 PC:0x4B0 State: ready -> P2->P3->P4->P5->P6->P7->P0-*
-Timer expired
-PCB: PID: 0x1, State: interrupted, Priority: 0x7, PC: 0x05DC
-Switching to: PID: 0x2, State: ready, Priority: 0x5, PC: 0x04B0
-Now running: PID: 0x2, State: running, Priority: 0x5, PC: 0x04B0
-Returned to Ready Queue: PID: 0x1, State: ready, Priority: 0x7, PC: 0x05DC
-Head: PID:0x3 PC:0x4B0 State: ready -> P3->P4->P5->P6->P7->P0->P1-*
-Timer expired
-PCB: PID: 0x2, State: interrupted, Priority: 0x5, PC: 0x05DC
-Switching to: PID: 0x3, State: ready, Priority: 0x9, PC: 0x04B0
-Now running: PID: 0x3, State: running, Priority: 0x9, PC: 0x04B0
-Returned to Ready Queue: PID: 0x2, State: ready, Priority: 0x5, PC: 0x05DC
-Head: PID:0x4 PC:0x4B0 State: ready -> P4->P5->P6->P7->P0->P1->P2-*
-Timer expired
-PCB: PID: 0x3, State: interrupted, Priority: 0x9, PC: 0x05DC
-Switching to: PID: 0x4, State: ready, Priority: 0x9, PC: 0x04B0
-Now running: PID: 0x4, State: running, Priority: 0x9, PC: 0x04B0
-Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x9, PC: 0x05DC
-Head: PID:0x5 PC:0x4B0 State: ready -> P5->P6->P7->P0->P1->P2->P3-*
-Timer expired
-PCB: PID: 0x4, State: interrupted, Priority: 0x9, PC: 0x05DC
-Switching to: PID: 0x5, State: ready, Priority: 0x0, PC: 0x04B0
-Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x04B0
-Returned to Ready Queue: PID: 0x4, State: ready, Priority: 0x9, PC: 0x05DC
-Head: PID:0x6 PC:0x4B0 State: ready -> P6->P7->P0->P1->P2->P3->P4-*
-Timer expired
-PCB: PID: 0x5, State: interrupted, Priority: 0x0, PC: 0x05DC
-Switching to: PID: 0x6, State: ready, Priority: 0xD, PC: 0x04B0
-Now running: PID: 0x6, State: running, Priority: 0xD, PC: 0x04B0
-Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x05DC
-Head: PID:0x7 PC:0x4B0 State: ready -> P7->P0->P1->P2->P3->P4->P5-*
-Timer expired
-PCB: PID: 0x6, State: interrupted, Priority: 0xD, PC: 0x05DC
-Switching to: PID: 0x7, State: ready, Priority: 0x7, PC: 0x04B0
-Now running: PID: 0x7, State: running, Priority: 0x7, PC: 0x04B0
-Returned to Ready Queue: PID: 0x6, State: ready, Priority: 0xD, PC: 0x05DC
-Head: PID:0x0 PC:0x5DC State: ready -> P0->P1->P2->P3->P4->P5->P6-*
-Timer expired
-PCB: PID: 0x7, State: interrupted, Priority: 0x7, PC: 0x05DC
-Switching to: PID: 0x0, State: ready, Priority: 0xE, PC: 0x05DC
-Now running: PID: 0x0, State: running, Priority: 0xE, PC: 0x05DC
-Returned to Ready Queue: PID: 0x7, State: ready, Priority: 0x7, PC: 0x05DC
-Head: PID:0x1 PC:0x5DC State: ready -> P1->P2->P3->P4->P5->P6->P7-*
-Timer expired
-PCB: PID: 0x0, State: interrupted, Priority: 0xE, PC: 0x0708
-Switching to: PID: 0x1, State: ready, Priority: 0x7, PC: 0x05DC
-Now running: PID: 0x1, State: running, Priority: 0x7, PC: 0x05DC
-Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0xE, PC: 0x0708
-Head: PID:0x2 PC:0x5DC State: ready -> P2->P3->P4->P5->P6->P7->P0-*
-Timer expired
-PCB: PID: 0x1, State: interrupted, Priority: 0x7, PC: 0x0708
-Switching to: PID: 0x2, State: ready, Priority: 0x5, PC: 0x05DC
-Now running: PID: 0x2, State: running, Priority: 0x5, PC: 0x05DC
-Returned to Ready Queue: PID: 0x1, State: ready, Priority: 0x7, PC: 0x0708
-Head: PID:0x3 PC:0x5DC State: ready -> P3->P4->P5->P6->P7->P0->P1-*
-Timer expired
-PCB: PID: 0x2, State: interrupted, Priority: 0x5, PC: 0x0708
-Switching to: PID: 0x3, State: ready, Priority: 0x9, PC: 0x05DC
-Now running: PID: 0x3, State: running, Priority: 0x9, PC: 0x05DC
-Returned to Ready Queue: PID: 0x2, State: ready, Priority: 0x5, PC: 0x0708
-Head: PID:0x4 PC:0x5DC State: ready -> P4->P5->P6->P7->P0->P1->P2-*
-Timer expired
-PCB: PID: 0x3, State: interrupted, Priority: 0x9, PC: 0x0708
-Switching to: PID: 0x4, State: ready, Priority: 0x9, PC: 0x05DC
-Now running: PID: 0x4, State: running, Priority: 0x9, PC: 0x05DC
-Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x9, PC: 0x0708
-Head: PID:0x5 PC:0x5DC State: ready -> P5->P6->P7->P0->P1->P2->P3-*
-Timer expired
-PCB: PID: 0x4, State: interrupted, Priority: 0x9, PC: 0x0708
-Switching to: PID: 0x5, State: ready, Priority: 0x0, PC: 0x05DC
-Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x05DC
-Returned to Ready Queue: PID: 0x4, State: ready, Priority: 0x9, PC: 0x0708
-Head: PID:0x6 PC:0x5DC State: ready -> P6->P7->P0->P1->P2->P3->P4-*
-Timer expired
-PCB: PID: 0x5, State: interrupted, Priority: 0x0, PC: 0x0708
-Switching to: PID: 0x6, State: ready, Priority: 0xD, PC: 0x05DC
-Now running: PID: 0x6, State: running, Priority: 0xD, PC: 0x05DC
-Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x0708
-Head: PID:0x7 PC:0x5DC State: ready -> P7->P0->P1->P2->P3->P4->P5-*
-Timer expired
-PCB: PID: 0x6, State: interrupted, Priority: 0xD, PC: 0x0708
-Switching to: PID: 0x7, State: ready, Priority: 0x7, PC: 0x05DC
-Now running: PID: 0x7, State: running, Priority: 0x7, PC: 0x05DC
-Returned to Ready Queue: PID: 0x6, State: ready, Priority: 0xD, PC: 0x0708
-Head: PID:0x0 PC:0x708 State: ready -> P0->P1->P2->P3->P4->P5->P6-*
-Timer expired
-PCB: PID: 0x7, State: interrupted, Priority: 0x7, PC: 0x0708
-Switching to: PID: 0x0, State: ready, Priority: 0xE, PC: 0x0708
-Now running: PID: 0x0, State: running, Priority: 0xE, PC: 0x0708
-Returned to Ready Queue: PID: 0x7, State: ready, Priority: 0x7, PC: 0x0708
-Head: PID:0x1 PC:0x708 State: ready -> P1->P2->P3->P4->P5->P6->P7-*
-Timer expired
-PCB: PID: 0x0, State: interrupted, Priority: 0xE, PC: 0x0834
-Switching to: PID: 0x1, State: ready, Priority: 0x7, PC: 0x0708
-Now running: PID: 0x1, State: running, Priority: 0x7, PC: 0x0708
-Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0xE, PC: 0x0834
-Head: PID:0x2 PC:0x708 State: ready -> P2->P3->P4->P5->P6->P7->P0-*
-Timer expired
-PCB: PID: 0x1, State: interrupted, Priority: 0x7, PC: 0x0834
-Switching to: PID: 0x2, State: ready, Priority: 0x5, PC: 0x0708
-Now running: PID: 0x2, State: running, Priority: 0x5, PC: 0x0708
-Returned to Ready Queue: PID: 0x1, State: ready, Priority: 0x7, PC: 0x0834
-Head: PID:0x3 PC:0x708 State: ready -> P3->P4->P5->P6->P7->P0->P1-*
-Timer expired
-PCB: PID: 0x2, State: interrupted, Priority: 0x5, PC: 0x0834
-Switching to: PID: 0x3, State: ready, Priority: 0x9, PC: 0x0708
-Now running: PID: 0x3, State: running, Priority: 0x9, PC: 0x0708
-Returned to Ready Queue: PID: 0x2, State: ready, Priority: 0x5, PC: 0x0834
-Head: PID:0x4 PC:0x708 State: ready -> P4->P5->P6->P7->P0->P1->P2-*
-Timer expired
-PCB: PID: 0x3, State: interrupted, Priority: 0x9, PC: 0x0834
-Switching to: PID: 0x4, State: ready, Priority: 0x9, PC: 0x0708
-Now running: PID: 0x4, State: running, Priority: 0x9, PC: 0x0708
-Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x9, PC: 0x0834
-Head: PID:0x5 PC:0x708 State: ready -> P5->P6->P7->P0->P1->P2->P3-*
-Timer expired
-PCB: PID: 0x4, State: interrupted, Priority: 0x9, PC: 0x0834
-Switching to: PID: 0x5, State: ready, Priority: 0x0, PC: 0x0708
-Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x0708
-Returned to Ready Queue: PID: 0x4, State: ready, Priority: 0x9, PC: 0x0834
-Head: PID:0x6 PC:0x708 State: ready -> P6->P7->P0->P1->P2->P3->P4-*
-Timer expired
-PCB: PID: 0x5, State: interrupted, Priority: 0x0, PC: 0x0834
-Switching to: PID: 0x6, State: ready, Priority: 0xD, PC: 0x0708
-Now running: PID: 0x6, State: running, Priority: 0xD, PC: 0x0708
-Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x0834
-Head: PID:0x7 PC:0x708 State: ready -> P7->P0->P1->P2->P3->P4->P5-*
-Timer expired
-PCB: PID: 0x6, State: interrupted, Priority: 0xD, PC: 0x0834
-Switching to: PID: 0x7, State: ready, Priority: 0x7, PC: 0x0708
-Now running: PID: 0x7, State: running, Priority: 0x7, PC: 0x0708
-Returned to Ready Queue: PID: 0x6, State: ready, Priority: 0xD, PC: 0x0834
-Head: PID:0x0 PC:0x834 State: ready -> P0->P1->P2->P3->P4->P5->P6-*
-Timer expired
-PCB: PID: 0x7, State: interrupted, Priority: 0x7, PC: 0x0834
-Switching to: PID: 0x0, State: ready, Priority: 0xE, PC: 0x0834
-Now running: PID: 0x0, State: running, Priority: 0xE, PC: 0x0834
-Returned to Ready Queue: PID: 0x7, State: ready, Priority: 0x7, PC: 0x0834
-Head: PID:0x1 PC:0x834 State: ready -> P1->P2->P3->P4->P5->P6->P7-*
-Timer expired
-PCB: PID: 0x0, State: interrupted, Priority: 0xE, PC: 0x0960
-Switching to: PID: 0x1, State: ready, Priority: 0x7, PC: 0x0834
-Now running: PID: 0x1, State: running, Priority: 0x7, PC: 0x0834
-Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0xE, PC: 0x0960
-Head: PID:0x2 PC:0x834 State: ready -> P2->P3->P4->P5->P6->P7->P0-*
-Timer expired
-PCB: PID: 0x1, State: interrupted, Priority: 0x7, PC: 0x0960
-Switching to: PID: 0x2, State: ready, Priority: 0x5, PC: 0x0834
-Now running: PID: 0x2, State: running, Priority: 0x5, PC: 0x0834
-Returned to Ready Queue: PID: 0x1, State: ready, Priority: 0x7, PC: 0x0960
-Head: PID:0x3 PC:0x834 State: ready -> P3->P4->P5->P6->P7->P0->P1-*
-Timer expired
-PCB: PID: 0x2, State: interrupted, Priority: 0x5, PC: 0x0960
-Switching to: PID: 0x3, State: ready, Priority: 0x9, PC: 0x0834
-Now running: PID: 0x3, State: running, Priority: 0x9, PC: 0x0834
-Returned to Ready Queue: PID: 0x2, State: ready, Priority: 0x5, PC: 0x0960
-Head: PID:0x4 PC:0x834 State: ready -> P4->P5->P6->P7->P0->P1->P2-*
-Timer expired
-PCB: PID: 0x3, State: interrupted, Priority: 0x9, PC: 0x0960
-Switching to: PID: 0x4, State: ready, Priority: 0x9, PC: 0x0834
-Now running: PID: 0x4, State: running, Priority: 0x9, PC: 0x0834
-Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x9, PC: 0x0960
-Head: PID:0x5 PC:0x834 State: ready -> P5->P6->P7->P0->P1->P2->P3-*
-Timer expired
-PCB: PID: 0x4, State: interrupted, Priority: 0x9, PC: 0x0960
-Switching to: PID: 0x5, State: ready, Priority: 0x0, PC: 0x0834
-Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x0834
-Returned to Ready Queue: PID: 0x4, State: ready, Priority: 0x9, PC: 0x0960
-Head: PID:0x6 PC:0x834 State: ready -> P6->P7->P0->P1->P2->P3->P4-*
-Timer expired
-PCB: PID: 0x5, State: interrupted, Priority: 0x0, PC: 0x0960
-Switching to: PID: 0x6, State: ready, Priority: 0xD, PC: 0x0834
-Now running: PID: 0x6, State: running, Priority: 0xD, PC: 0x0834
-Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x0960
-Head: PID:0x7 PC:0x834 State: ready -> P7->P0->P1->P2->P3->P4->P5-*
-Timer expired
-PCB: PID: 0x6, State: interrupted, Priority: 0xD, PC: 0x0960
-Switching to: PID: 0x7, State: ready, Priority: 0x7, PC: 0x0834
-Now running: PID: 0x7, State: running, Priority: 0x7, PC: 0x0834
-Returned to Ready Queue: PID: 0x6, State: ready, Priority: 0xD, PC: 0x0960
-Head: PID:0x0 PC:0x960 State: ready -> P0->P1->P2->P3->P4->P5->P6-*
-Timer expired
-PCB: PID: 0x7, State: interrupted, Priority: 0x7, PC: 0x0960
-Switching to: PID: 0x0, State: ready, Priority: 0xE, PC: 0x0960
-Now running: PID: 0x0, State: running, Priority: 0xE, PC: 0x0960
-Returned to Ready Queue: PID: 0x7, State: ready, Priority: 0x7, PC: 0x0960
-Head: PID:0x1 PC:0x960 State: ready -> P1->P2->P3->P4->P5->P6->P7-*
-Timer expired
-PCB: PID: 0x0, State: interrupted, Priority: 0xE, PC: 0x0A8C
-Switching to: PID: 0x1, State: ready, Priority: 0x7, PC: 0x0960
-Now running: PID: 0x1, State: running, Priority: 0x7, PC: 0x0960
-Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0xE, PC: 0x0A8C
-Head: PID:0x2 PC:0x960 State: ready -> P2->P3->P4->P5->P6->P7->P0-*
-Timer expired
-PCB: PID: 0x1, State: interrupted, Priority: 0x7, PC: 0x0A8C
-Switching to: PID: 0x2, State: ready, Priority: 0x5, PC: 0x0960
-Now running: PID: 0x2, State: running, Priority: 0x5, PC: 0x0960
-Returned to Ready Queue: PID: 0x1, State: ready, Priority: 0x7, PC: 0x0A8C
-Head: PID:0x3 PC:0x960 State: ready -> P3->P4->P5->P6->P7->P0->P1-*
-Timer expired
-PCB: PID: 0x2, State: interrupted, Priority: 0x5, PC: 0x0A8C
-Switching to: PID: 0x3, State: ready, Priority: 0x9, PC: 0x0960
-Now running: PID: 0x3, State: running, Priority: 0x9, PC: 0x0960
-Returned to Ready Queue: PID: 0x2, State: ready, Priority: 0x5, PC: 0x0A8C
-Head: PID:0x4 PC:0x960 State: ready -> P4->P5->P6->P7->P0->P1->P2-*
-Timer expired
-PCB: PID: 0x3, State: interrupted, Priority: 0x9, PC: 0x0A8C
-Switching to: PID: 0x4, State: ready, Priority: 0x9, PC: 0x0960
-Now running: PID: 0x4, State: running, Priority: 0x9, PC: 0x0960
-Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x9, PC: 0x0A8C
-Head: PID:0x5 PC:0x960 State: ready -> P5->P6->P7->P0->P1->P2->P3-*
-Timer expired
-PCB: PID: 0x4, State: interrupted, Priority: 0x9, PC: 0x0A8C
-Switching to: PID: 0x5, State: ready, Priority: 0x0, PC: 0x0960
-Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x0960
-Returned to Ready Queue: PID: 0x4, State: ready, Priority: 0x9, PC: 0x0A8C
-Head: PID:0x6 PC:0x960 State: ready -> P6->P7->P0->P1->P2->P3->P4-*
-Timer expired
-PCB: PID: 0x5, State: interrupted, Priority: 0x0, PC: 0x0A8C
-Switching to: PID: 0x6, State: ready, Priority: 0xD, PC: 0x0960
-Now running: PID: 0x6, State: running, Priority: 0xD, PC: 0x0960
-Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x0A8C
-Head: PID:0x7 PC:0x960 State: ready -> P7->P0->P1->P2->P3->P4->P5-*
-Timer expired
-PCB: PID: 0x6, State: interrupted, Priority: 0xD, PC: 0x0A8C
-Switching to: PID: 0x7, State: ready, Priority: 0x7, PC: 0x0960
-Now running: PID: 0x7, State: running, Priority: 0x7, PC: 0x0960
-Returned to Ready Queue: PID: 0x6, State: ready, Priority: 0xD, PC: 0x0A8C
-Head: PID:0x0 PC:0xA8C State: ready -> P0->P1->P2->P3->P4->P5->P6-*
-Timer expired
-PCB: PID: 0x7, State: interrupted, Priority: 0x7, PC: 0x0A8C
-Switching to: PID: 0x0, State: ready, Priority: 0xE, PC: 0x0A8C
-Now running: PID: 0x0, State: running, Priority: 0xE, PC: 0x0A8C
-Returned to Ready Queue: PID: 0x7, State: ready, Priority: 0x7, PC: 0x0A8C
-Head: PID:0x1 PC:0xA8C State: ready -> P1->P2->P3->P4->P5->P6->P7-*
-Timer expired
-PCB: PID: 0x0, State: interrupted, Priority: 0xE, PC: 0x0BB8
-Switching to: PID: 0x1, State: ready, Priority: 0x7, PC: 0x0A8C
-Now running: PID: 0x1, State: running, Priority: 0x7, PC: 0x0A8C
-Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0xE, PC: 0x0BB8
-Head: PID:0x2 PC:0xA8C State: ready -> P2->P3->P4->P5->P6->P7->P0-*
+Scheduler call w/ int type: 2
+PCB: PID: 0x3, State: interrupted, Priority: 0x9, PC: 0x01B1
+Switching to: PID: 0x4, State: ready, Priority: 0x2, PC: 0x012C
+Now running: PID: 0x4, State: running, Priority: 0x2, PC: 0x012C
+Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x9, PC: 0x01B1
+Ready Queue: Head: PID:0x8 PC:0x28 State: ready -> P8->P0->P11->P13->P14->P15->P1->P3-*
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+
 IO1 trap
-Timer expired
-PCB: PID: 0x2, State: interrupted, Priority: 0x5, PC: 0x0AE2
-Switching to: PID: 0x3, State: ready, Priority: 0x9, PC: 0x0A8C
-Now running: PID: 0x3, State: running, Priority: 0x9, PC: 0x0A8C
-Returned to Ready Queue: PID: 0x2, State: ready, Priority: 0x5, PC: 0x0AE2
-Head: PID:0x4 PC:0xA8C State: ready -> P4->P5->P6->P7->P0->P2-*
-Timer expired
-PCB: PID: 0x3, State: interrupted, Priority: 0x9, PC: 0x0BB8
-Switching to: PID: 0x4, State: ready, Priority: 0x9, PC: 0x0A8C
-Now running: PID: 0x4, State: running, Priority: 0x9, PC: 0x0A8C
-Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x9, PC: 0x0BB8
-Head: PID:0x5 PC:0xA8C State: ready -> P5->P6->P7->P0->P2->P3-*
-Timer expired
-PCB: PID: 0x4, State: interrupted, Priority: 0x9, PC: 0x0BB8
-Switching to: PID: 0x5, State: ready, Priority: 0x0, PC: 0x0A8C
-Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x0A8C
-Returned to Ready Queue: PID: 0x4, State: ready, Priority: 0x9, PC: 0x0BB8
-Head: PID:0x6 PC:0xA8C State: ready -> P6->P7->P0->P2->P3->P4-*
-Timer expired
-PCB: PID: 0x5, State: interrupted, Priority: 0x0, PC: 0x0BB8
-Switching to: PID: 0x6, State: ready, Priority: 0xD, PC: 0x0A8C
-Now running: PID: 0x6, State: running, Priority: 0xD, PC: 0x0A8C
-Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x0BB8
-Head: PID:0x7 PC:0xA8C State: ready -> P7->P0->P2->P3->P4->P5-*
+PID 4 put into wait_queue_1
+wait_queue_1: Head: PID:0x5 PC:0x99 State: waiting -> P5->P6->P7->P9->P10->P12->P2->P4-*
+Now running: PID: 0x8, State: running, Priority: 0x5, PC: 0x0028
+Ready Queue: Head: PID:0x0 PC:0x82 State: ready -> P0->P11->P13->P14->P15->P1->P3-*
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+
 IO1 trap
+PID 8 put into wait_queue_1
+wait_queue_1: Head: PID:0x5 PC:0x99 State: waiting -> P5->P6->P7->P9->P10->P12->P2->P4->P8-*
+Now running: PID: 0x0, State: running, Priority: 0x5, PC: 0x0082
+Ready Queue: Head: PID:0xB PC:0xE0 State: ready -> P11->P13->P14->P15->P1->P3-*
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+
 Timer expired
-PCB: PID: 0x7, State: interrupted, Priority: 0x7, PC: 0x0AFA
-Switching to: PID: 0x0, State: ready, Priority: 0xE, PC: 0x0BB8
-Now running: PID: 0x0, State: running, Priority: 0xE, PC: 0x0BB8
-Returned to Ready Queue: PID: 0x7, State: ready, Priority: 0x7, PC: 0x0AFA
-Head: PID:0x2 PC:0xAE2 State: ready -> P2->P3->P4->P5->P7-*
+Scheduler call w/ int type: 2
+PCB: PID: 0x0, State: interrupted, Priority: 0x5, PC: 0x0159
+Switching to: PID: 0xB, State: ready, Priority: 0x7, PC: 0x00E0
+Now running: PID: 0xB, State: running, Priority: 0x7, PC: 0x00E0
+Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0x5, PC: 0x0159
+Ready Queue: Head: PID:0xD PC:0x51 State: ready -> P13->P14->P15->P1->P3->P0-*
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+
 Timer expired
-PCB: PID: 0x0, State: interrupted, Priority: 0xE, PC: 0x0CE4
-Switching to: PID: 0x2, State: ready, Priority: 0x5, PC: 0x0AE2
-Now running: PID: 0x2, State: running, Priority: 0x5, PC: 0x0AE2
-Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0xE, PC: 0x0CE4
-Head: PID:0x3 PC:0xBB8 State: ready -> P3->P4->P5->P7->P0-*
-Timer expired
-PCB: PID: 0x2, State: interrupted, Priority: 0x5, PC: 0x0C0E
-Switching to: PID: 0x3, State: ready, Priority: 0x9, PC: 0x0BB8
-Now running: PID: 0x3, State: running, Priority: 0x9, PC: 0x0BB8
-Returned to Ready Queue: PID: 0x2, State: ready, Priority: 0x5, PC: 0x0C0E
-Head: PID:0x4 PC:0xBB8 State: ready -> P4->P5->P7->P0->P2-*
-Timer expired
-PCB: PID: 0x3, State: interrupted, Priority: 0x9, PC: 0x0CE4
-Switching to: PID: 0x4, State: ready, Priority: 0x9, PC: 0x0BB8
-Now running: PID: 0x4, State: running, Priority: 0x9, PC: 0x0BB8
-Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x9, PC: 0x0CE4
-Head: PID:0x5 PC:0xBB8 State: ready -> P5->P7->P0->P2->P3-*
-Timer expired
-PCB: PID: 0x4, State: interrupted, Priority: 0x9, PC: 0x0CE4
-Switching to: PID: 0x5, State: ready, Priority: 0x0, PC: 0x0BB8
-Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x0BB8
-Returned to Ready Queue: PID: 0x4, State: ready, Priority: 0x9, PC: 0x0CE4
-Head: PID:0x7 PC:0xAFA State: ready -> P7->P0->P2->P3->P4-*
-Timer expired
-PCB: PID: 0x5, State: interrupted, Priority: 0x0, PC: 0x0CE4
-Switching to: PID: 0x7, State: ready, Priority: 0x7, PC: 0x0AFA
-Now running: PID: 0x7, State: running, Priority: 0x7, PC: 0x0AFA
-Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x0CE4
-Head: PID:0x0 PC:0xCE4 State: ready -> P0->P2->P3->P4->P5-*
-Timer expired
-PCB: PID: 0x7, State: interrupted, Priority: 0x7, PC: 0x0C26
-Switching to: PID: 0x0, State: ready, Priority: 0xE, PC: 0x0CE4
-Now running: PID: 0x0, State: running, Priority: 0xE, PC: 0x0CE4
-Returned to Ready Queue: PID: 0x7, State: ready, Priority: 0x7, PC: 0x0C26
-Head: PID:0x2 PC:0xC0E State: ready -> P2->P3->P4->P5->P7-*
+Scheduler call w/ int type: 2
+PCB: PID: 0xB, State: interrupted, Priority: 0x7, PC: 0x020C
+Switching to: PID: 0xD, State: ready, Priority: 0x5, PC: 0x0051
+Now running: PID: 0xD, State: running, Priority: 0x5, PC: 0x0051
+Returned to Ready Queue: PID: 0xB, State: ready, Priority: 0x7, PC: 0x020C
+Ready Queue: Head: PID:0xE PC:0x12C State: ready -> P14->P15->P1->P3->P0->P11-*
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+
+IO1 device completion
+Scheduler call w/ int type: 0
+IO1 device initialized
+Now running: PID: 0xD, State: running, Priority: 0x5, PC: 0x00F7
+Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x7, PC: 0x0099
+Ready Queue: Head: PID:0xE PC:0x12C State: ready -> P14->P15->P1->P3->P0->P11->P5-*
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+
 IO1 trap
+PID 13 put into wait_queue_1
+wait_queue_1: Head: PID:0x6 PC:0x52 State: waiting -> P6->P7->P9->P10->P12->P2->P4->P8->P13-*
+Now running: PID: 0xE, State: running, Priority: 0x2, PC: 0x012C
+Ready Queue: Head: PID:0xF PC:0x12C State: ready -> P15->P1->P3->P0->P11->P5-*
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+
 Timer expired
-PCB: PID: 0x2, State: interrupted, Priority: 0x5, PC: 0x0D0B
-Switching to: PID: 0x3, State: ready, Priority: 0x9, PC: 0x0CE4
-Now running: PID: 0x3, State: running, Priority: 0x9, PC: 0x0CE4
-Returned to Ready Queue: PID: 0x2, State: ready, Priority: 0x5, PC: 0x0D0B
-Head: PID:0x4 PC:0xCE4 State: ready -> P4->P5->P7->P2-*
-Timer expired
-PCB: PID: 0x3, State: interrupted, Priority: 0x9, PC: 0x0E10
-Switching to: PID: 0x4, State: ready, Priority: 0x9, PC: 0x0CE4
-Now running: PID: 0x4, State: running, Priority: 0x9, PC: 0x0CE4
-Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x9, PC: 0x0E10
-Head: PID:0x5 PC:0xCE4 State: ready -> P5->P7->P2->P3-*
-Timer expired
-PCB: PID: 0x4, State: interrupted, Priority: 0x9, PC: 0x0E10
-Switching to: PID: 0x5, State: ready, Priority: 0x0, PC: 0x0CE4
-Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x0CE4
-Returned to Ready Queue: PID: 0x4, State: ready, Priority: 0x9, PC: 0x0E10
-Head: PID:0x7 PC:0xC26 State: ready -> P7->P2->P3->P4-*
-Timer expired
-PCB: PID: 0x5, State: interrupted, Priority: 0x0, PC: 0x0E10
-Switching to: PID: 0x7, State: ready, Priority: 0x7, PC: 0x0C26
-Now running: PID: 0x7, State: running, Priority: 0x7, PC: 0x0C26
-Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x0E10
-Head: PID:0x2 PC:0xD0B State: ready -> P2->P3->P4->P5-*
-Timer expired
-PCB: PID: 0x7, State: interrupted, Priority: 0x7, PC: 0x0D52
-Switching to: PID: 0x2, State: ready, Priority: 0x5, PC: 0x0D0B
-Now running: PID: 0x2, State: running, Priority: 0x5, PC: 0x0D0B
-Returned to Ready Queue: PID: 0x7, State: ready, Priority: 0x7, PC: 0x0D52
-Head: PID:0x3 PC:0xE10 State: ready -> P3->P4->P5->P7-*
-Timer expired
-PCB: PID: 0x2, State: interrupted, Priority: 0x5, PC: 0x0E37
-Switching to: PID: 0x3, State: ready, Priority: 0x9, PC: 0x0E10
-Now running: PID: 0x3, State: running, Priority: 0x9, PC: 0x0E10
-Returned to Ready Queue: PID: 0x2, State: ready, Priority: 0x5, PC: 0x0E37
-Head: PID:0x4 PC:0xE10 State: ready -> P4->P5->P7->P2-*
-Timer expired
-PCB: PID: 0x3, State: interrupted, Priority: 0x9, PC: 0x0F3C
-Switching to: PID: 0x4, State: ready, Priority: 0x9, PC: 0x0E10
-Now running: PID: 0x4, State: running, Priority: 0x9, PC: 0x0E10
-Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x9, PC: 0x0F3C
-Head: PID:0x5 PC:0xE10 State: ready -> P5->P7->P2->P3-*
-Timer expired
-PCB: PID: 0x4, State: interrupted, Priority: 0x9, PC: 0x0F3C
-Switching to: PID: 0x5, State: ready, Priority: 0x0, PC: 0x0E10
-Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x0E10
-Returned to Ready Queue: PID: 0x4, State: ready, Priority: 0x9, PC: 0x0F3C
-Head: PID:0x7 PC:0xD52 State: ready -> P7->P2->P3->P4-*
-Timer expired
-PCB: PID: 0x5, State: interrupted, Priority: 0x0, PC: 0x0F3C
-Switching to: PID: 0x7, State: ready, Priority: 0x7, PC: 0x0D52
-Now running: PID: 0x7, State: running, Priority: 0x7, PC: 0x0D52
-Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x0F3C
-Head: PID:0x2 PC:0xE37 State: ready -> P2->P3->P4->P5-*
-Timer expired
-PCB: PID: 0x7, State: interrupted, Priority: 0x7, PC: 0x0E7E
-Switching to: PID: 0x2, State: ready, Priority: 0x5, PC: 0x0E37
-Now running: PID: 0x2, State: running, Priority: 0x5, PC: 0x0E37
-Returned to Ready Queue: PID: 0x7, State: ready, Priority: 0x7, PC: 0x0E7E
-Head: PID:0x3 PC:0xF3C State: ready -> P3->P4->P5->P7-*
-Timer expired
-PCB: PID: 0x2, State: interrupted, Priority: 0x5, PC: 0x0F63
-Switching to: PID: 0x3, State: ready, Priority: 0x9, PC: 0x0F3C
-Now running: PID: 0x3, State: running, Priority: 0x9, PC: 0x0F3C
-Returned to Ready Queue: PID: 0x2, State: ready, Priority: 0x5, PC: 0x0F63
-Head: PID:0x4 PC:0xF3C State: ready -> P4->P5->P7->P2-*
-Timer expired
-PCB: PID: 0x3, State: interrupted, Priority: 0x9, PC: 0x1068
-Switching to: PID: 0x4, State: ready, Priority: 0x9, PC: 0x0F3C
-Now running: PID: 0x4, State: running, Priority: 0x9, PC: 0x0F3C
-Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x9, PC: 0x1068
-Head: PID:0x5 PC:0xF3C State: ready -> P5->P7->P2->P3-*
-Timer expired
-PCB: PID: 0x4, State: interrupted, Priority: 0x9, PC: 0x1068
-Switching to: PID: 0x5, State: ready, Priority: 0x0, PC: 0x0F3C
-Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x0F3C
-Returned to Ready Queue: PID: 0x4, State: ready, Priority: 0x9, PC: 0x1068
-Head: PID:0x7 PC:0xE7E State: ready -> P7->P2->P3->P4-*
-Timer expired
-PCB: PID: 0x5, State: interrupted, Priority: 0x0, PC: 0x1068
-Switching to: PID: 0x7, State: ready, Priority: 0x7, PC: 0x0E7E
-Now running: PID: 0x7, State: running, Priority: 0x7, PC: 0x0E7E
-Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x1068
-Head: PID:0x2 PC:0xF63 State: ready -> P2->P3->P4->P5-*
-Timer expired
-PCB: PID: 0x7, State: interrupted, Priority: 0x7, PC: 0x0FAA
-Switching to: PID: 0x2, State: ready, Priority: 0x5, PC: 0x0F63
-Now running: PID: 0x2, State: running, Priority: 0x5, PC: 0x0F63
-Returned to Ready Queue: PID: 0x7, State: ready, Priority: 0x7, PC: 0x0FAA
-Head: PID:0x3 PC:0x1068 State: ready -> P3->P4->P5->P7-*
-Timer expired
-PCB: PID: 0x2, State: interrupted, Priority: 0x5, PC: 0x108F
-Switching to: PID: 0x3, State: ready, Priority: 0x9, PC: 0x1068
-Now running: PID: 0x3, State: running, Priority: 0x9, PC: 0x1068
-Returned to Ready Queue: PID: 0x2, State: ready, Priority: 0x5, PC: 0x108F
-Head: PID:0x4 PC:0x1068 State: ready -> P4->P5->P7->P2-*
-Timer expired
-PCB: PID: 0x3, State: interrupted, Priority: 0x9, PC: 0x1194
-Switching to: PID: 0x4, State: ready, Priority: 0x9, PC: 0x1068
-Now running: PID: 0x4, State: running, Priority: 0x9, PC: 0x1068
-Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x9, PC: 0x1194
-Head: PID:0x5 PC:0x1068 State: ready -> P5->P7->P2->P3-*
+Scheduler call w/ int type: 2
+PCB: PID: 0xE, State: interrupted, Priority: 0x2, PC: 0x0136
+Switching to: PID: 0xF, State: ready, Priority: 0xE, PC: 0x012C
+Now running: PID: 0xF, State: running, Priority: 0xE, PC: 0x012C
+Returned to Ready Queue: PID: 0xE, State: ready, Priority: 0x2, PC: 0x0136
+Ready Queue: Head: PID:0x1 PC:0x4D State: ready -> P1->P3->P0->P11->P5->P14-*
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+
 IO1 trap
+PID 15 put into wait_queue_1
+wait_queue_1: Head: PID:0x6 PC:0x52 State: waiting -> P6->P7->P9->P10->P12->P2->P4->P8->P13->P15-*
+Now running: PID: 0x1, State: running, Priority: 0x5, PC: 0x004D
+Ready Queue: Head: PID:0x3 PC:0x1B1 State: ready -> P3->P0->P11->P5->P14-*
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+
 Timer expired
-PCB: PID: 0x5, State: interrupted, Priority: 0x0, PC: 0x10C3
-Switching to: PID: 0x7, State: ready, Priority: 0x7, PC: 0x0FAA
-Now running: PID: 0x7, State: running, Priority: 0x7, PC: 0x0FAA
-Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x10C3
-Head: PID:0x2 PC:0x108F State: ready -> P2->P3->P5-*
-Timer expired
-PCB: PID: 0x7, State: interrupted, Priority: 0x7, PC: 0x10D6
-Switching to: PID: 0x2, State: ready, Priority: 0x5, PC: 0x108F
-Now running: PID: 0x2, State: running, Priority: 0x5, PC: 0x108F
-Returned to Ready Queue: PID: 0x7, State: ready, Priority: 0x7, PC: 0x10D6
-Head: PID:0x3 PC:0x1194 State: ready -> P3->P5->P7-*
+Scheduler call w/ int type: 2
+PCB: PID: 0x1, State: interrupted, Priority: 0x5, PC: 0x0167
+Switching to: PID: 0x3, State: ready, Priority: 0x9, PC: 0x01B1
+Now running: PID: 0x3, State: running, Priority: 0x9, PC: 0x01B1
+Returned to Ready Queue: PID: 0x1, State: ready, Priority: 0x5, PC: 0x0167
+Ready Queue: Head: PID:0x0 PC:0x159 State: ready -> P0->P11->P5->P14->P1-*
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+
 IO1 trap
-Timer expired
-PCB: PID: 0x3, State: interrupted, Priority: 0x9, PC: 0x11DC
-Switching to: PID: 0x5, State: ready, Priority: 0x0, PC: 0x10C3
-Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x10C3
-Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x9, PC: 0x11DC
-Head: PID:0x7 PC:0x10D6 State: ready -> P7->P3-*
-Timer expired
-PCB: PID: 0x5, State: interrupted, Priority: 0x0, PC: 0x11EF
-Switching to: PID: 0x7, State: ready, Priority: 0x7, PC: 0x10D6
-Now running: PID: 0x7, State: running, Priority: 0x7, PC: 0x10D6
-Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x11EF
-Head: PID:0x3 PC:0x11DC State: ready -> P3->P5-*
-Timer expired
-PCB: PID: 0x7, State: interrupted, Priority: 0x7, PC: 0x1202
-Switching to: PID: 0x3, State: ready, Priority: 0x9, PC: 0x11DC
-Now running: PID: 0x3, State: running, Priority: 0x9, PC: 0x11DC
-Returned to Ready Queue: PID: 0x7, State: ready, Priority: 0x7, PC: 0x1202
-Head: PID:0x5 PC:0x11EF State: ready -> P5->P7-*
-Timer expired
-PCB: PID: 0x3, State: interrupted, Priority: 0x9, PC: 0x1308
-Switching to: PID: 0x5, State: ready, Priority: 0x0, PC: 0x11EF
-Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x11EF
-Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x9, PC: 0x1308
-Head: PID:0x7 PC:0x1202 State: ready -> P7->P3-*
+PID 3 put into wait_queue_1
+wait_queue_1: Head: PID:0x6 PC:0x52 State: waiting -> P6->P7->P9->P10->P12->P2->P4->P8->P13->P15->P3-*
+Now running: PID: 0x0, State: running, Priority: 0x5, PC: 0x0159
+Ready Queue: Head: PID:0xB PC:0x20C State: ready -> P11->P5->P14->P1-*
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+
+IO2 trap
+IO2 device initialized
+PID 0 put into wait_queue_2
+wait_queue_2: Head: PID:0x0 PC:0x1B9 State: waiting -> P0-*
+Now running: PID: 0xB, State: running, Priority: 0x7, PC: 0x020C
+Ready Queue: Head: PID:0x5 PC:0x99 State: ready -> P5->P14->P1-*
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+
 IO1 trap
+PID 11 put into wait_queue_1
+wait_queue_1: Head: PID:0x6 PC:0x52 State: waiting -> P6->P7->P9->P10->P12->P2->P4->P8->P13->P15->P3->P11-*
+Now running: PID: 0x5, State: running, Priority: 0x7, PC: 0x0099
+Ready Queue: Head: PID:0xE PC:0x136 State: ready -> P14->P1-*
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+
 Timer expired
-PCB: PID: 0x7, State: interrupted, Priority: 0x7, PC: 0x12C5
-Switching to: PID: 0x3, State: ready, Priority: 0x9, PC: 0x1308
-Now running: PID: 0x3, State: running, Priority: 0x9, PC: 0x1308
-Returned to Ready Queue: PID: 0x7, State: ready, Priority: 0x7, PC: 0x12C5
-Head: PID:0x7 PC:0x12C5 State: ready -> P7
-Timer expired
-PCB: PID: 0x3, State: interrupted, Priority: 0x9, PC: 0x1434
-Switching to: PID: 0x7, State: ready, Priority: 0x7, PC: 0x12C5
-Now running: PID: 0x7, State: running, Priority: 0x7, PC: 0x12C5
-Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x9, PC: 0x1434
-Head: PID:0x3 PC:0x1434 State: ready -> P3
-Timer expired
-PCB: PID: 0x7, State: interrupted, Priority: 0x7, PC: 0x13F1
-Switching to: PID: 0x3, State: ready, Priority: 0x9, PC: 0x1434
-Now running: PID: 0x3, State: running, Priority: 0x9, PC: 0x1434
-Returned to Ready Queue: PID: 0x7, State: ready, Priority: 0x7, PC: 0x13F1
-Head: PID:0x7 PC:0x13F1 State: ready -> P7
-Timer expired
-PCB: PID: 0x3, State: interrupted, Priority: 0x9, PC: 0x1560
-Switching to: PID: 0x7, State: ready, Priority: 0x7, PC: 0x13F1
-Now running: PID: 0x7, State: running, Priority: 0x7, PC: 0x13F1
-Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x9, PC: 0x1560
-Head: PID:0x3 PC:0x1560 State: ready -> P3
-Timer expired
-PCB: PID: 0x7, State: interrupted, Priority: 0x7, PC: 0x151D
-Switching to: PID: 0x3, State: ready, Priority: 0x9, PC: 0x1560
-Now running: PID: 0x3, State: running, Priority: 0x9, PC: 0x1560
-Returned to Ready Queue: PID: 0x7, State: ready, Priority: 0x7, PC: 0x151D
-Head: PID:0x7 PC:0x151D State: ready -> P7
-Timer expired
-PCB: PID: 0x3, State: interrupted, Priority: 0x9, PC: 0x168C
-Switching to: PID: 0x7, State: ready, Priority: 0x7, PC: 0x151D
-Now running: PID: 0x7, State: running, Priority: 0x7, PC: 0x151D
-Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x9, PC: 0x168C
-Head: PID:0x3 PC:0x168C State: ready -> P3
-Timer expired
-PCB: PID: 0x7, State: interrupted, Priority: 0x7, PC: 0x1649
-Switching to: PID: 0x3, State: ready, Priority: 0x9, PC: 0x168C
-Now running: PID: 0x3, State: running, Priority: 0x9, PC: 0x168C
-Returned to Ready Queue: PID: 0x7, State: ready, Priority: 0x7, PC: 0x1649
-Head: PID:0x7 PC:0x1649 State: ready -> P7
-Timer expired
-PCB: PID: 0x3, State: interrupted, Priority: 0x9, PC: 0x17B8
-Switching to: PID: 0x7, State: ready, Priority: 0x7, PC: 0x1649
-Now running: PID: 0x7, State: running, Priority: 0x7, PC: 0x1649
-Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x9, PC: 0x17B8
-Head: PID:0x3 PC:0x17B8 State: ready -> P3
+Scheduler call w/ int type: 2
+PCB: PID: 0x5, State: interrupted, Priority: 0x7, PC: 0x00F9
+Switching to: PID: 0xE, State: ready, Priority: 0x2, PC: 0x0136
+Now running: PID: 0xE, State: running, Priority: 0x2, PC: 0x0136
+Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x7, PC: 0x00F9
+Ready Queue: Head: PID:0x1 PC:0x167 State: ready -> P1->P5-*
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+
 IO1 trap
+PID 14 put into wait_queue_1
+wait_queue_1: Head: PID:0x6 PC:0x52 State: waiting -> P6->P7->P9->P10->P12->P2->P4->P8->P13->P15->P3->P11->P14-*
+Now running: PID: 0x1, State: running, Priority: 0x5, PC: 0x0167
+Ready Queue: Head: PID:0x5 PC:0xF9 State: ready -> P5-*
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+
+IO2 trap
+PID 1 put into wait_queue_2
+wait_queue_2: Head: PID:0x0 PC:0x1B9 State: waiting -> P0->P1-*
+Now running: PID: 0x5, State: running, Priority: 0x7, PC: 0x00F9
+Ready Queue: Head: PID:0x0 PC:0x1B9 State: waiting -> P0->P1-*
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
+Scheduler call w/ int type: 4
