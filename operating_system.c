@@ -11,7 +11,7 @@
 
 FILE *outfile;
 
-char * fileHeader = "Team 4 Luis Solis-Bruno, Mat Sharff, Tempest Parr, Sara Vandandaigue";
+char * fileHeader = "Team 4 Luis Solis-Bruno, Mat Sharff, Tempest Parr, Sara Vandandaigue\n";
 
 
 //Printing Buffer
@@ -51,6 +51,7 @@ void setup(){
   // PCB_init(idl);
   // PCB_set_pid(idl, 0xFFFFFFFF);
   srand(time(NULL));
+
   ready_queue = FIFOq_construct();
   FIFOq_init(ready_queue);
   new_process_list = FIFOq_construct();
@@ -89,14 +90,17 @@ void create_processes(void){
   int random_num = rand() % 6;
   PCB_p temp;
 
-  if (call_counter >= 40) {
+  if (call_counter >= 5) {
     return;
   } else {
     call_counter++;
   }
-  fprintf(outfile, "creating PROCESSES...\n");
-  for(i = 0; i < random_num; i++){
+
+  fprintf(outfile, "creating %d processes\n", random_num);
+  for(i = 0; i < random_num; i++) {
     temp = generate_random_pcb();
+    fprintf(outfile, "process %d has io traps at %ld %ld %ld %ld and %ld %ld %ld %ld\n", i, temp->IO_1_trap[0], temp->IO_1_trap[1], temp->IO_1_trap[2], 
+        temp->IO_1_trap[3], temp->IO_2_trap[0], temp->IO_2_trap[1], temp->IO_2_trap[2], temp->IO_2_trap[3]);
     temp->creation = sys_stack;
     //set values of PCB as needed.
     FIFOq_enqueue(new_process_list, temp);
@@ -285,6 +289,7 @@ int main(void) {
     // cpu_pc += rand() % 1001 + 3000; // Simulate running of process
     cpu_pc++;           // increment running process' PC by one
     sys_stack++;        // represents total cycles ran by the CPU
+    iteration++;
     // check timer here, if not hit then look for io traps
     // sys_stack = cpu_pc; // Pseudo-push PC to system sys_stack
 
