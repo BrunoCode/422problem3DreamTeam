@@ -128,8 +128,8 @@ void init_IO_2_device() {
 
 void dispatcher(enum interrupt_type inter_type) {
   int verbose = 1;
-  PCB_p newproc;
-  PCB_p proc_to_enqueue;
+  PCB_p newproc = NULL;
+  PCB_p proc_to_enqueue = NULL;
 
   if (iteration % 4 == 0) {
     verbose = 1;
@@ -137,26 +137,30 @@ void dispatcher(enum interrupt_type inter_type) {
 
   switch(inter_type) {
     case TIMER:
-      if(!FIFOq_is_empty(ready_queue)) {
-        newproc = FIFOq_dequeue(ready_queue);
-        // To match problem specs print output, current process should print as running
-        // However, the pseudo_timer_isr changes it's state to interrupted before it gets printed here
-        // If we print PCB: ... etc in pseudo_timer_isr, the scheduler adding the new processes
-        // will print and break up the continuity of the context switch prints
-        if (verbose) {
-          fprintf(outfile, "PCB: %s\n", PCB_toString(current_process, pcbString));
-          fprintf(outfile, "Switching to: %s\n", PCB_toString(newproc, pcbString));
-        }
-      }
-      if (current_process != NULL) {
-        // Context Switch
-        proc_to_enqueue = current_process;
-        PCB_set_state(proc_to_enqueue, ready);
-        FIFOq_enqueue(ready_queue, proc_to_enqueue); //return to ready queue
-        // enqueue_ready(proc_to_enqueue);//return to ready queue
+      if(current_process != NULL) {
+        if(!FIFOq_is_empty(ready_queue)) {
+          newproc = FIFOq_dequeue(ready_queue);
+          // To match problem specs print output, current process should print as running
+          // However, the pseudo_timer_isr changes it's state to interrupted before it gets printed here
+          // If we print PCB: ... etc in pseudo_timer_isr, the scheduler adding the new processes
+          // will print and break up the continuity of the context switch prints
+          if (verbose) {
+            fprintf(outfile, "PCB: %s\n", PCB_toString(current_process, pcbString));
+            fprintf(outfile, "Switching to: %s\n", PCB_toString(newproc, pcbString));
+          }
+          // Context Switch
+          proc_to_enqueue = current_process;
+          PCB_set_state(proc_to_enqueue, ready);
+          FIFOq_enqueue(ready_queue, proc_to_enqueue); //return to ready queue
+          // enqueue_ready(proc_to_enqueue);//return to ready queue
 
-        current_process = newproc; // set current process to next process in ready queue
-        PCB_set_state(current_process, running);
+          current_process = newproc; // set current process to next process in ready queue
+          PCB_set_state(current_process, running);
+        } else {
+          fprintf(outfile, "Current process is not NULL but Ready Queue is empty\n");
+          printf("Current process is not NULL but Ready Queue is empty\n");
+          current_process->state = running;
+        }
       }
       break;
     case(IO_1):
@@ -167,10 +171,13 @@ void dispatcher(enum interrupt_type inter_type) {
         // re-init the IO device
         init_IO_1_device();
       }
-      PCB_set_state(proc_to_enqueue, ready);
-      FIFOq_enqueue(ready_queue, proc_to_enqueue); //return to ready queue
-      if (current_process == NULL) {
-          current_process = proc_to_enqueue;
+      if (current_process != NULL) {
+        PCB_set_state(proc_to_enqueue, ready);
+        FIFOq_enqueue(ready_queue, proc_to_enqueue); //return to ready queue
+      } else {
+        PCB_set_state(proc_to_enqueue, running);
+        current_process = proc_to_enqueue;
+        proc_to_enqueue = NULL;
       }
       break;
     case(IO_2):
@@ -181,49 +188,92 @@ void dispatcher(enum interrupt_type inter_type) {
         // re-init the IO device
         init_IO_2_device();
       }
-      PCB_set_state(proc_to_enqueue, ready);
-      FIFOq_enqueue(ready_queue, proc_to_enqueue); //return to ready queue
-      if (current_process == NULL) {
-          current_process = proc_to_enqueue;
+      if (current_process != NULL) {
+        PCB_set_state(proc_to_enqueue, ready);
+        FIFOq_enqueue(ready_queue, proc_to_enqueue); //return to ready queue
+      } else {
+        PCB_set_state(proc_to_enqueue, running);
+        current_process = proc_to_enqueue;
       }
       break;
     case(NEW_PROC_NEEDED):
       if(FIFOq_is_empty(ready_queue)){
         current_process = NULL;
-        printf("Current_process is NULL\n");
+        fprintf(outfile, "Current_process is NULL, setting current_process to NULL\n");
+        printf("Current_process is NULL, setting current_process to NULL\n");
       } else {
         newproc = FIFOq_dequeue(ready_queue);
         current_process = newproc; // set current process to next process in ready queue
         PCB_set_state(current_process, running);
 
         fprintf(outfile, "Now running: %s\n", PCB_toString(current_process, pcbString));
-        int string_size = 32 + (10 * FIFOq_size(ready_queue)) + 1 + 10000;    // 32 for header, 4 for each node, 1 for \0
-        char* rq_string = (char*) malloc((size_t) string_size);
-        FIFOq_toString(ready_queue, rq_string, string_size);
 
-        fprintf(outfile, "Ready Queue: %s\n", rq_string); // Print the ready queue
-        free(rq_string);
+        if(!FIFOq_is_empty(ready_queue)) {
+          int string_size = 32 + (10 * FIFOq_size(ready_queue)) + 1 + 10000;    // 32 for header, 4 for each node, 1 for \0
+          char* rq_string = (char*) malloc((size_t) string_size);
+          FIFOq_toString(ready_queue, rq_string, string_size);
+
+          fprintf(outfile, "Ready Queue: %s\n", rq_string); // Print the ready queue
+          free(rq_string);
+        } else {
+          fprintf(outfile, "Ready Queue: empty\n");
+        }
       }
       break;
     default:
       break;
   }
 
-  if (verbose && inter_type < NEW_PROC_NEEDED) {
-    fprintf(outfile, "Now running: %s\n", PCB_toString(current_process, pcbString));
-    fprintf(outfile, "Returned to Ready Queue: %s\n", PCB_toString(proc_to_enqueue, pcbString));
+  if (verbose && inter_type < NEW_PROC_NEEDED) {// && current_process != NULL) {
+    if (current_process == NULL) {
+      printf("Now idling\n");
+      fprintf(outfile, "Now idling\n");
+      int string_size = 32 + (10 * FIFOq_size(wait_queue_1)) + 1 + 10000;    // 32 for header, 4 for each node, 1 for \0
+      char* rq_string = (char*) malloc((size_t) string_size);
+      if (!FIFOq_is_empty(wait_queue_1)) {
+        FIFOq_toString(wait_queue_1, rq_string, string_size);
+        fprintf(outfile, "wait_queue_1: %s\n", rq_string); // Print the ready queue
+        free(rq_string);
+      }
 
-    int string_size = 32 + (10 * FIFOq_size(ready_queue)) + 1 + 10000;    // 32 for header, 4 for each node, 1 for \0
-    char* rq_string = (char*) malloc((size_t) string_size);
-    FIFOq_toString(ready_queue, rq_string, string_size);
 
-    fprintf(outfile, "Ready Queue: %s\n", rq_string); // Print the ready queue
-    free(rq_string);
+      string_size = 32 + (10 * FIFOq_size(wait_queue_2)) + 1 + 10000;    // 32 for header, 4 for each node, 1 for \0
+      rq_string = (char*) malloc((size_t) string_size);
+      if (!FIFOq_is_empty(wait_queue_2)) {
+        FIFOq_toString(wait_queue_2, rq_string, string_size);
+        fprintf(outfile, "wait_queue_2: %s\n", rq_string); // Print the ready queue
+        free(rq_string);
+      }
+
+      string_size = 32 + (10 * FIFOq_size(terminated_list)) + 1 + 10000;    // 32 for header, 4 for each node, 1 for \0
+      rq_string = (char*) malloc((size_t) string_size);
+      if (!FIFOq_is_empty(terminated_list)) {
+        FIFOq_toString(terminated_list, rq_string, string_size);
+        fprintf(outfile, "terminated_list: %s\n", rq_string); // Print the ready queue
+        free(rq_string);
+      }
+
+    } else {
+      fprintf(outfile, "Now running: %s\n", PCB_toString(current_process, pcbString));
+      if (proc_to_enqueue != NULL) {
+        fprintf(outfile, "Returned to Ready Queue: %s\n", PCB_toString(proc_to_enqueue, pcbString));
+      }
+      if(!FIFOq_is_empty(ready_queue)) {
+        int string_size = 32 + (10 * FIFOq_size(ready_queue)) + 1 + 10000;    // 32 for header, 4 for each node, 1 for \0
+        char* rq_string = (char*) malloc((size_t) string_size);
+        FIFOq_toString(ready_queue, rq_string, string_size);
+
+        fprintf(outfile, "Ready Queue: %s\n", rq_string); // Print the ready queue
+        free(rq_string);
+      } else {
+        fprintf(outfile, "Ready Queue is empty\n");
+      }
+    }
   }
 }
 
 void scheduler(enum interrupt_type inter_type) {
-  fprintf(outfile, "Scheduler call w/ int type: %d\n", inter_type);
+  //fprintf(outfile, "Scheduler call w/ int type: %d\n", inter_type);
   // Transfer any new process to the ready list
   while(FIFOq_size(new_process_list) > 0) {
     PCB_p newproc = FIFOq_dequeue(new_process_list);
@@ -239,9 +289,10 @@ void pseudo_timer_isr(void) {
   // if (iteration % 4 == 0) {
   //   fprintf(outfile, "PCB: %s\n", PCB_toString(current_process, pcbString));
   // }
-  current_process->state = interrupted; //Change state to interrupted
-  current_process->pc = cpu_pc; // save cpu state to pcb
-
+  if (current_process != NULL) {
+    current_process->state = interrupted; //Change state to interrupted
+    current_process->pc = cpu_pc; // save cpu state to pcb
+  }
   scheduler(TIMER); //timer interrupt
 }
 
@@ -358,6 +409,7 @@ int main(void) {
 
     if (timer_device()) {
       fprintf(outfile, "\nTimer expired\n");
+      printf("Timer expired\n");
       pseudo_timer_isr();
     } else if(current_process != NULL) {
       // increment the current process's pc and check for termination
@@ -368,12 +420,24 @@ int main(void) {
         cpu_pc = 0;
         current_process->pc = 0;
         current_process->term_count++;
-        current_process->state = halted;
         if (current_process->term_count == current_process->terminate) {
+          int string_size;
+          char* rq_string;
+
+          printf("\nTerminating PID %ld\n", current_process->pid);
+          fprintf(outfile, "\nTerminating PID %ld\n", current_process->pid);
           current_process->termination = sys_stack;
+          current_process->state = halted;
+          FIFOq_enqueue(terminated_list, current_process);
+
+          string_size = 32 + (10 * FIFOq_size(terminated_list)) + 1 + 10000;    // 32 for header, 4 for each node, 1 for \0
+          rq_string = (char*) malloc((size_t) string_size);
+          FIFOq_toString(terminated_list, rq_string, string_size);
+          fprintf(outfile, "Terminated_list: %s\n", rq_string); // Print the ready queue
+          free(rq_string);
+
+          dispatcher(NEW_PROC_NEEDED);
         }
-        FIFOq_enqueue(terminated_list, current_process);
-        dispatcher(NEW_PROC_NEEDED);
       } 
 
       // loop through PCB I/O arrays
@@ -381,26 +445,29 @@ int main(void) {
         // compare PC value with each value in PCB I/O arrays
         // call I/O trap handler
         if (current_process->IO_1_trap[i] == cpu_pc) {
-            fprintf(outfile, "\nIO1 trap\n");
-            io_trap_handler(1);
-            break;
+          printf("IO2 trap\n");
+          fprintf(outfile, "\nIO1 trap\n");
+          io_trap_handler(1);
+          break;
         } else if (current_process->IO_2_trap[i] == cpu_pc) {
-            printf("IO2 trap\n");
-            fprintf(outfile, "\nIO2 trap\n");
-            io_trap_handler(2);
-            break;
+          printf("IO2 trap\n");
+          fprintf(outfile, "\nIO2 trap\n");
+          io_trap_handler(2);
+          break;
         }
       }
     }
 
     if(IO_1_device()){
-      //printf("IO1 device completion\n");
+      printf("IO1 device completion\n");
       fprintf(outfile, "\nIO1 device completion\n");
+      //printf("\nIO1 device completion\n");
       pseudo_IO_1_isr();
     }
 
     if(IO_2_device()){
       fprintf(outfile, "\nIO2 device completion\n");
+      printf("IO2 device completion\n");
       pseudo_IO_2_isr();
     }
 

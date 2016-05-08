@@ -1,0 +1,1727 @@
+Team 4 Luis Solis-Bruno, Mat Sharff, Tempest Parr, Sara Vandandaigue
+
+creating 3 processes
+Process Enqueued: PID: 0x1, State: ready, Priority: 0x1, PC: 0x0000
+Process Enqueued: PID: 0x2, State: ready, Priority: 0xD, PC: 0x0000
+Process Enqueued: PID: 0x3, State: ready, Priority: 0x1, PC: 0x0000
+creating 3 processes
+Process Enqueued: PID: 0x4, State: ready, Priority: 0xD, PC: 0x0000
+Process Enqueued: PID: 0x5, State: ready, Priority: 0x0, PC: 0x0000
+Process Enqueued: PID: 0x6, State: ready, Priority: 0x7, PC: 0x0000
+creating 0 processes
+creating 0 processes
+creating 0 processes
+
+IO1 trap
+IO1 device initialized
+PID 0 put into wait_queue_1
+wait_queue_1: Head: PID:0x0 PC:0x116 State: waiting -> P0-*
+Now running: PID: 0x1, State: running, Priority: 0x1, PC: 0x0000
+Ready Queue: Head: PID:0x2 PC:0x0 State: ready -> P2->P3->P4->P5->P6-*
+
+Timer expired
+PCB: PID: 0x1, State: interrupted, Priority: 0x1, PC: 0x0016
+Switching to: PID: 0x2, State: ready, Priority: 0xD, PC: 0x0000
+Now running: PID: 0x2, State: running, Priority: 0xD, PC: 0x0000
+Returned to Ready Queue: PID: 0x1, State: ready, Priority: 0x1, PC: 0x0016
+Ready Queue: Head: PID:0x3 PC:0x0 State: ready -> P3->P4->P5->P6->P1-*
+
+IO1 trap
+PID 2 put into wait_queue_1
+wait_queue_1: Head: PID:0x0 PC:0x116 State: waiting -> P0->P2-*
+Now running: PID: 0x3, State: running, Priority: 0x1, PC: 0x0000
+Ready Queue: Head: PID:0x4 PC:0x0 State: ready -> P4->P5->P6->P1-*
+
+Timer expired
+PCB: PID: 0x3, State: interrupted, Priority: 0x1, PC: 0x00C3
+Switching to: PID: 0x4, State: ready, Priority: 0xD, PC: 0x0000
+Now running: PID: 0x4, State: running, Priority: 0xD, PC: 0x0000
+Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x1, PC: 0x00C3
+Ready Queue: Head: PID:0x5 PC:0x0 State: ready -> P5->P6->P1->P3-*
+
+Timer expired
+PCB: PID: 0x4, State: interrupted, Priority: 0xD, PC: 0x012C
+Switching to: PID: 0x5, State: ready, Priority: 0x0, PC: 0x0000
+Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x0000
+Returned to Ready Queue: PID: 0x4, State: ready, Priority: 0xD, PC: 0x012C
+Ready Queue: Head: PID:0x6 PC:0x0 State: ready -> P6->P1->P3->P4-*
+
+Timer expired
+PCB: PID: 0x5, State: interrupted, Priority: 0x0, PC: 0x012C
+Switching to: PID: 0x6, State: ready, Priority: 0x7, PC: 0x0000
+Now running: PID: 0x6, State: running, Priority: 0x7, PC: 0x0000
+Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x012C
+Ready Queue: Head: PID:0x1 PC:0x16 State: ready -> P1->P3->P4->P5-*
+
+IO1 device completion
+IO1 device initialized
+Now running: PID: 0x6, State: running, Priority: 0x7, PC: 0x008C
+Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0xA, PC: 0x0116
+Ready Queue: Head: PID:0x1 PC:0x16 State: ready -> P1->P3->P4->P5->P0-*
+
+Timer expired
+PCB: PID: 0x6, State: interrupted, Priority: 0x7, PC: 0x012C
+Switching to: PID: 0x1, State: ready, Priority: 0x1, PC: 0x0016
+Now running: PID: 0x1, State: running, Priority: 0x1, PC: 0x0016
+Returned to Ready Queue: PID: 0x6, State: ready, Priority: 0x7, PC: 0x012C
+Ready Queue: Head: PID:0x3 PC:0xC3 State: ready -> P3->P4->P5->P0->P6-*
+
+IO1 trap
+PID 1 put into wait_queue_1
+wait_queue_1: Head: PID:0x2 PC:0x69 State: waiting -> P2->P1-*
+Now running: PID: 0x3, State: running, Priority: 0x1, PC: 0x00C3
+Ready Queue: Head: PID:0x4 PC:0x12C State: ready -> P4->P5->P0->P6-*
+
+IO1 trap
+PID 3 put into wait_queue_1
+wait_queue_1: Head: PID:0x2 PC:0x69 State: waiting -> P2->P1->P3-*
+Now running: PID: 0x4, State: running, Priority: 0xD, PC: 0x012C
+Ready Queue: Head: PID:0x5 PC:0x12C State: ready -> P5->P0->P6-*
+
+Timer expired
+PCB: PID: 0x4, State: interrupted, Priority: 0xD, PC: 0x01DC
+Switching to: PID: 0x5, State: ready, Priority: 0x0, PC: 0x012C
+Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x012C
+Returned to Ready Queue: PID: 0x4, State: ready, Priority: 0xD, PC: 0x01DC
+Ready Queue: Head: PID:0x0 PC:0x116 State: ready -> P0->P6->P4-*
+
+IO1 trap
+PID 5 put into wait_queue_1
+wait_queue_1: Head: PID:0x2 PC:0x69 State: waiting -> P2->P1->P3->P5-*
+Now running: PID: 0x0, State: running, Priority: 0xA, PC: 0x0116
+Ready Queue: Head: PID:0x6 PC:0x12C State: ready -> P6->P4-*
+
+Timer expired
+PCB: PID: 0x0, State: interrupted, Priority: 0xA, PC: 0x0196
+Switching to: PID: 0x6, State: ready, Priority: 0x7, PC: 0x012C
+Now running: PID: 0x6, State: running, Priority: 0x7, PC: 0x012C
+Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0xA, PC: 0x0196
+Ready Queue: Head: PID:0x4 PC:0x1DC State: ready -> P4->P0-*
+
+IO1 trap
+PID 6 put into wait_queue_1
+wait_queue_1: Head: PID:0x2 PC:0x69 State: waiting -> P2->P1->P3->P5->P6-*
+Now running: PID: 0x4, State: running, Priority: 0xD, PC: 0x01DC
+Ready Queue: Head: PID:0x0 PC:0x196 State: ready -> P0-*
+
+IO1 trap
+PID 4 put into wait_queue_1
+wait_queue_1: Head: PID:0x2 PC:0x69 State: waiting -> P2->P1->P3->P5->P6->P4-*
+Now running: PID: 0x0, State: running, Priority: 0xA, PC: 0x0196
+Ready Queue: empty
+
+Timer expired
+Current process is NULL and Ready Queue is empty
+Now running: PID: 0x0, State: interrupted, Priority: 0xA, PC: 0x024B
+Ready Queue is empty
+
+IO2 trap
+IO2 device initialized
+PID 0 put into wait_queue_2
+wait_queue_2: Head: PID:0x0 PC:0x290 State: waiting -> P0-*
+Current_process is NULL
+
+IO1 device completion
+IO1 device initialized
+Now running: PID: 0x2, State: running, Priority: 0xD, PC: 0x0069
+Ready Queue is empty
+
+Timer expired
+Current process is NULL and Ready Queue is empty
+Now running: PID: 0x2, State: interrupted, Priority: 0xD, PC: 0x008C
+Ready Queue is empty
+
+Timer expired
+Current process is NULL and Ready Queue is empty
+Now running: PID: 0x2, State: interrupted, Priority: 0xD, PC: 0x01B8
+Ready Queue is empty
+
+IO2 trap
+PID 2 put into wait_queue_2
+wait_queue_2: Head: PID:0x0 PC:0x290 State: waiting -> P0->P2-*
+Current_process is NULL
+
+Timer expired
+Now idling
+
+Timer expired
+Now idling
+
+IO2 device completion
+IO2 device initialized
+Now running: PID: 0x0, State: running, Priority: 0xA, PC: 0x0290
+Returned to Ready Queue: PID: 0x0, State: running, Priority: 0xA, PC: 0x0290
+Ready Queue is empty
+
+Timer expired
+Current process is NULL and Ready Queue is empty
+Now running: PID: 0x0, State: interrupted, Priority: 0xA, PC: 0x038D
+Ready Queue is empty
+
+IO1 device completion
+IO1 device initialized
+Now running: PID: 0x0, State: interrupted, Priority: 0xA, PC: 0x045A
+Returned to Ready Queue: PID: 0x1, State: ready, Priority: 0x1, PC: 0x0037
+Ready Queue: Head: PID:0x1 PC:0x37 State: ready -> P1-*
+
+Timer expired
+PCB: PID: 0x0, State: interrupted, Priority: 0xA, PC: 0x04B9
+Switching to: PID: 0x1, State: ready, Priority: 0x1, PC: 0x0037
+Now running: PID: 0x1, State: running, Priority: 0x1, PC: 0x0037
+Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0xA, PC: 0x04B9
+Ready Queue: Head: PID:0x0 PC:0x4B9 State: ready -> P0-*
+
+Timer expired
+PCB: PID: 0x1, State: interrupted, Priority: 0x1, PC: 0x0163
+Switching to: PID: 0x0, State: ready, Priority: 0xA, PC: 0x04B9
+Now running: PID: 0x0, State: running, Priority: 0xA, PC: 0x04B9
+Returned to Ready Queue: PID: 0x1, State: ready, Priority: 0x1, PC: 0x0163
+Ready Queue: Head: PID:0x1 PC:0x163 State: ready -> P1-*
+
+Timer expired
+PCB: PID: 0x0, State: interrupted, Priority: 0xA, PC: 0x05E5
+Switching to: PID: 0x1, State: ready, Priority: 0x1, PC: 0x0163
+Now running: PID: 0x1, State: running, Priority: 0x1, PC: 0x0163
+Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0xA, PC: 0x05E5
+Ready Queue: Head: PID:0x0 PC:0x5E5 State: ready -> P0-*
+IO2 device initialized
+
+IO2 device completion
+Now running: PID: 0x1, State: running, Priority: 0x1, PC: 0x01DC
+Returned to Ready Queue: PID: 0x2, State: ready, Priority: 0xD, PC: 0x0212
+Ready Queue: Head: PID:0x0 PC:0x5E5 State: ready -> P0->P2-*
+
+Timer expired
+PCB: PID: 0x1, State: interrupted, Priority: 0x1, PC: 0x028F
+Switching to: PID: 0x0, State: ready, Priority: 0xA, PC: 0x05E5
+Now running: PID: 0x0, State: running, Priority: 0xA, PC: 0x05E5
+Returned to Ready Queue: PID: 0x1, State: ready, Priority: 0x1, PC: 0x028F
+Ready Queue: Head: PID:0x2 PC:0x212 State: ready -> P2->P1-*
+
+IO1 trap
+PID 0 put into wait_queue_1
+wait_queue_1: Head: PID:0x3 PC:0x11E State: waiting -> P3->P5->P6->P4->P0-*
+Now running: PID: 0x2, State: running, Priority: 0xD, PC: 0x0212
+Ready Queue: Head: PID:0x1 PC:0x28F State: ready -> P1-*
+
+IO1 device completion
+IO1 device initialized
+Now running: PID: 0x2, State: running, Priority: 0xD, PC: 0x0266
+Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x1, PC: 0x011E
+Ready Queue: Head: PID:0x1 PC:0x28F State: ready -> P1->P3-*
+
+Timer expired
+PCB: PID: 0x2, State: interrupted, Priority: 0xD, PC: 0x0287
+Switching to: PID: 0x1, State: ready, Priority: 0x1, PC: 0x028F
+Now running: PID: 0x1, State: running, Priority: 0x1, PC: 0x028F
+Returned to Ready Queue: PID: 0x2, State: ready, Priority: 0xD, PC: 0x0287
+Ready Queue: Head: PID:0x3 PC:0x11E State: ready -> P3->P2-*
+
+Timer expired
+PCB: PID: 0x1, State: interrupted, Priority: 0x1, PC: 0x03BB
+Switching to: PID: 0x3, State: ready, Priority: 0x1, PC: 0x011E
+Now running: PID: 0x3, State: running, Priority: 0x1, PC: 0x011E
+Returned to Ready Queue: PID: 0x1, State: ready, Priority: 0x1, PC: 0x03BB
+Ready Queue: Head: PID:0x2 PC:0x287 State: ready -> P2->P1-*
+
+Timer expired
+PCB: PID: 0x3, State: interrupted, Priority: 0x1, PC: 0x024A
+Switching to: PID: 0x2, State: ready, Priority: 0xD, PC: 0x0287
+Now running: PID: 0x2, State: running, Priority: 0xD, PC: 0x0287
+Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x1, PC: 0x024A
+Ready Queue: Head: PID:0x1 PC:0x3BB State: ready -> P1->P3-*
+
+Timer expired
+PCB: PID: 0x2, State: interrupted, Priority: 0xD, PC: 0x03B3
+Switching to: PID: 0x1, State: ready, Priority: 0x1, PC: 0x03BB
+Now running: PID: 0x1, State: running, Priority: 0x1, PC: 0x03BB
+Returned to Ready Queue: PID: 0x2, State: ready, Priority: 0xD, PC: 0x03B3
+Ready Queue: Head: PID:0x3 PC:0x24A State: ready -> P3->P2-*
+
+IO1 device completion
+IO1 device initialized
+Now running: PID: 0x1, State: running, Priority: 0x1, PC: 0x0406
+Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x01D8
+Ready Queue: Head: PID:0x3 PC:0x24A State: ready -> P3->P2->P5-*
+
+Timer expired
+PCB: PID: 0x1, State: interrupted, Priority: 0x1, PC: 0x04E7
+Switching to: PID: 0x3, State: ready, Priority: 0x1, PC: 0x024A
+Now running: PID: 0x3, State: running, Priority: 0x1, PC: 0x024A
+Returned to Ready Queue: PID: 0x1, State: ready, Priority: 0x1, PC: 0x04E7
+Ready Queue: Head: PID:0x2 PC:0x3B3 State: ready -> P2->P5->P1-*
+
+Timer expired
+PCB: PID: 0x3, State: interrupted, Priority: 0x1, PC: 0x0376
+Switching to: PID: 0x2, State: ready, Priority: 0xD, PC: 0x03B3
+Now running: PID: 0x2, State: running, Priority: 0xD, PC: 0x03B3
+Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x1, PC: 0x0376
+Ready Queue: Head: PID:0x5 PC:0x1D8 State: ready -> P5->P1->P3-*
+
+IO1 trap
+PID 2 put into wait_queue_1
+wait_queue_1: Head: PID:0x6 PC:0x193 State: waiting -> P6->P4->P0->P2-*
+Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x01D8
+Ready Queue: Head: PID:0x1 PC:0x4E7 State: ready -> P1->P3-*
+
+Timer expired
+PCB: PID: 0x5, State: interrupted, Priority: 0x0, PC: 0x02B5
+Switching to: PID: 0x1, State: ready, Priority: 0x1, PC: 0x04E7
+Now running: PID: 0x1, State: running, Priority: 0x1, PC: 0x04E7
+Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x02B5
+Ready Queue: Head: PID:0x3 PC:0x376 State: ready -> P3->P5-*
+
+IO2 trap
+IO2 device initialized
+PID 1 put into wait_queue_2
+wait_queue_2: Head: PID:0x1 PC:0x4ED State: waiting -> P1-*
+Now running: PID: 0x3, State: running, Priority: 0x1, PC: 0x0376
+Ready Queue: Head: PID:0x5 PC:0x2B5 State: ready -> P5-*
+
+IO1 device completion
+IO1 device initialized
+Now running: PID: 0x3, State: running, Priority: 0x1, PC: 0x049B
+Returned to Ready Queue: PID: 0x6, State: ready, Priority: 0x7, PC: 0x0193
+Ready Queue: Head: PID:0x5 PC:0x2B5 State: ready -> P5->P6-*
+
+Timer expired
+PCB: PID: 0x3, State: interrupted, Priority: 0x1, PC: 0x049C
+Switching to: PID: 0x5, State: ready, Priority: 0x0, PC: 0x02B5
+Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x02B5
+Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x1, PC: 0x049C
+Ready Queue: Head: PID:0x6 PC:0x193 State: ready -> P6->P3-*
+
+IO2 trap
+PID 5 put into wait_queue_2
+wait_queue_2: Head: PID:0x1 PC:0x4ED State: waiting -> P1->P5-*
+Now running: PID: 0x6, State: running, Priority: 0x7, PC: 0x0193
+Ready Queue: Head: PID:0x3 PC:0x49C State: ready -> P3-*
+
+Timer expired
+PCB: PID: 0x6, State: interrupted, Priority: 0x7, PC: 0x019D
+Switching to: PID: 0x3, State: ready, Priority: 0x1, PC: 0x049C
+Now running: PID: 0x3, State: running, Priority: 0x1, PC: 0x049C
+Returned to Ready Queue: PID: 0x6, State: ready, Priority: 0x7, PC: 0x019D
+Ready Queue: Head: PID:0x6 PC:0x19D State: ready -> P6-*
+
+IO2 trap
+PID 3 put into wait_queue_2
+wait_queue_2: Head: PID:0x1 PC:0x4ED State: waiting -> P1->P5->P3-*
+Now running: PID: 0x6, State: running, Priority: 0x7, PC: 0x019D
+Ready Queue: empty
+
+Timer expired
+Current process is NULL and Ready Queue is empty
+Now running: PID: 0x6, State: interrupted, Priority: 0x7, PC: 0x02A5
+Ready Queue is empty
+
+IO2 device completion
+IO2 device initialized
+Now running: PID: 0x6, State: interrupted, Priority: 0x7, PC: 0x03A2
+Returned to Ready Queue: PID: 0x1, State: ready, Priority: 0x1, PC: 0x04ED
+Ready Queue: Head: PID:0x1 PC:0x4ED State: ready -> P1-*
+
+Timer expired
+PCB: PID: 0x6, State: interrupted, Priority: 0x7, PC: 0x03D1
+Switching to: PID: 0x1, State: ready, Priority: 0x1, PC: 0x04ED
+Now running: PID: 0x1, State: running, Priority: 0x1, PC: 0x04ED
+Returned to Ready Queue: PID: 0x6, State: ready, Priority: 0x7, PC: 0x03D1
+Ready Queue: Head: PID:0x6 PC:0x3D1 State: ready -> P6-*
+
+IO1 device completion
+IO1 device initialized
+Now running: PID: 0x1, State: running, Priority: 0x1, PC: 0x05D8
+Returned to Ready Queue: PID: 0x4, State: ready, Priority: 0xD, PC: 0x01EC
+Ready Queue: Head: PID:0x6 PC:0x3D1 State: ready -> P6->P4-*
+
+Timer expired
+PCB: PID: 0x1, State: interrupted, Priority: 0x1, PC: 0x0619
+Switching to: PID: 0x6, State: ready, Priority: 0x7, PC: 0x03D1
+Now running: PID: 0x6, State: running, Priority: 0x7, PC: 0x03D1
+Returned to Ready Queue: PID: 0x1, State: ready, Priority: 0x1, PC: 0x0619
+Ready Queue: Head: PID:0x4 PC:0x1EC State: ready -> P4->P1-*
+
+IO2 trap
+PID 6 put into wait_queue_2
+wait_queue_2: Head: PID:0x5 PC:0x3D7 State: waiting -> P5->P3->P6-*
+Now running: PID: 0x4, State: running, Priority: 0xD, PC: 0x01EC
+Ready Queue: Head: PID:0x1 PC:0x619 State: ready -> P1-*
+
+Timer expired
+PCB: PID: 0x4, State: interrupted, Priority: 0xD, PC: 0x0223
+Switching to: PID: 0x1, State: ready, Priority: 0x1, PC: 0x0619
+Now running: PID: 0x1, State: running, Priority: 0x1, PC: 0x0619
+Returned to Ready Queue: PID: 0x4, State: ready, Priority: 0xD, PC: 0x0223
+Ready Queue: Head: PID:0x4 PC:0x223 State: ready -> P4-*
+
+Timer expired
+PCB: PID: 0x1, State: interrupted, Priority: 0x1, PC: 0x0745
+Switching to: PID: 0x4, State: ready, Priority: 0xD, PC: 0x0223
+Now running: PID: 0x4, State: running, Priority: 0xD, PC: 0x0223
+Returned to Ready Queue: PID: 0x1, State: ready, Priority: 0x1, PC: 0x0745
+Ready Queue: Head: PID:0x1 PC:0x745 State: ready -> P1-*
+
+IO2 trap
+PID 4 put into wait_queue_2
+wait_queue_2: Head: PID:0x5 PC:0x3D7 State: waiting -> P5->P3->P6->P4-*
+Now running: PID: 0x1, State: running, Priority: 0x1, PC: 0x0745
+Ready Queue: empty
+
+IO2 device completion
+IO2 device initialized
+Now running: PID: 0x1, State: running, Priority: 0x1, PC: 0x075C
+Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x03D7
+Ready Queue: Head: PID:0x5 PC:0x3D7 State: ready -> P5-*
+
+Timer expired
+PCB: PID: 0x1, State: interrupted, Priority: 0x1, PC: 0x0761
+Switching to: PID: 0x5, State: ready, Priority: 0x0, PC: 0x03D7
+Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x03D7
+Returned to Ready Queue: PID: 0x1, State: ready, Priority: 0x1, PC: 0x0761
+Ready Queue: Head: PID:0x1 PC:0x761 State: ready -> P1-*
+
+Timer expired
+PCB: PID: 0x5, State: interrupted, Priority: 0x0, PC: 0x0503
+Switching to: PID: 0x1, State: ready, Priority: 0x1, PC: 0x0761
+Now running: PID: 0x1, State: running, Priority: 0x1, PC: 0x0761
+Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x0503
+Ready Queue: Head: PID:0x5 PC:0x503 State: ready -> P5-*
+
+IO1 device completion
+IO1 device initialized
+Now running: PID: 0x1, State: running, Priority: 0x1, PC: 0x0841
+Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0xA, PC: 0x069C
+Ready Queue: Head: PID:0x5 PC:0x503 State: ready -> P5->P0-*
+
+Timer expired
+PCB: PID: 0x1, State: interrupted, Priority: 0x1, PC: 0x088D
+Switching to: PID: 0x5, State: ready, Priority: 0x0, PC: 0x0503
+Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x0503
+Returned to Ready Queue: PID: 0x1, State: ready, Priority: 0x1, PC: 0x088D
+Ready Queue: Head: PID:0x0 PC:0x69C State: ready -> P0->P1-*
+
+Timer expired
+PCB: PID: 0x5, State: interrupted, Priority: 0x0, PC: 0x062F
+Switching to: PID: 0x0, State: ready, Priority: 0xA, PC: 0x069C
+Now running: PID: 0x0, State: running, Priority: 0xA, PC: 0x069C
+Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x062F
+Ready Queue: Head: PID:0x1 PC:0x88D State: ready -> P1->P5-*
+
+IO2 device completion
+IO2 device initialized
+Now running: PID: 0x0, State: running, Priority: 0xA, PC: 0x077B
+Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x1, PC: 0x04C0
+Ready Queue: Head: PID:0x1 PC:0x88D State: ready -> P1->P5->P3-*
+
+IO2 trap
+PID 0 put into wait_queue_2
+wait_queue_2: Head: PID:0x6 PC:0x4C6 State: waiting -> P6->P4->P0-*
+Now running: PID: 0x1, State: running, Priority: 0x1, PC: 0x088D
+Ready Queue: Head: PID:0x5 PC:0x62F State: ready -> P5->P3-*
+
+Timer expired
+PCB: PID: 0x1, State: interrupted, Priority: 0x1, PC: 0x08A4
+Switching to: PID: 0x5, State: ready, Priority: 0x0, PC: 0x062F
+Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x062F
+Returned to Ready Queue: PID: 0x1, State: ready, Priority: 0x1, PC: 0x08A4
+Ready Queue: Head: PID:0x3 PC:0x4C0 State: ready -> P3->P1-*
+
+Timer expired
+PCB: PID: 0x5, State: interrupted, Priority: 0x0, PC: 0x075B
+Switching to: PID: 0x3, State: ready, Priority: 0x1, PC: 0x04C0
+Now running: PID: 0x3, State: running, Priority: 0x1, PC: 0x04C0
+Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x075B
+Ready Queue: Head: PID:0x1 PC:0x8A4 State: ready -> P1->P5-*
+
+Timer expired
+PCB: PID: 0x3, State: interrupted, Priority: 0x1, PC: 0x05EC
+Switching to: PID: 0x1, State: ready, Priority: 0x1, PC: 0x08A4
+Now running: PID: 0x1, State: running, Priority: 0x1, PC: 0x08A4
+Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x1, PC: 0x05EC
+Ready Queue: Head: PID:0x5 PC:0x75B State: ready -> P5->P3-*
+IO1 device initialized
+
+IO1 device completion
+Now running: PID: 0x1, State: running, Priority: 0x1, PC: 0x08F2
+Returned to Ready Queue: PID: 0x2, State: ready, Priority: 0xD, PC: 0x0402
+Ready Queue: Head: PID:0x5 PC:0x75B State: ready -> P5->P3->P2-*
+
+IO1 trap
+IO1 device initialized
+PID 1 put into wait_queue_1
+wait_queue_1: Head: PID:0x1 PC:0x959 State: waiting -> P1-*
+Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x075B
+Ready Queue: Head: PID:0x3 PC:0x5EC State: ready -> P3->P2-*
+
+Timer expired
+PCB: PID: 0x5, State: interrupted, Priority: 0x0, PC: 0x07D2
+Switching to: PID: 0x3, State: ready, Priority: 0x1, PC: 0x05EC
+Now running: PID: 0x3, State: running, Priority: 0x1, PC: 0x05EC
+Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x07D2
+Ready Queue: Head: PID:0x2 PC:0x402 State: ready -> P2->P5-*
+
+IO2 device completion
+IO2 device initialized
+Now running: PID: 0x3, State: running, Priority: 0x1, PC: 0x0645
+Returned to Ready Queue: PID: 0x6, State: ready, Priority: 0x7, PC: 0x04C6
+Ready Queue: Head: PID:0x2 PC:0x402 State: ready -> P2->P5->P6-*
+
+Timer expired
+PCB: PID: 0x3, State: interrupted, Priority: 0x1, PC: 0x0718
+Switching to: PID: 0x2, State: ready, Priority: 0xD, PC: 0x0402
+Now running: PID: 0x2, State: running, Priority: 0xD, PC: 0x0402
+Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x1, PC: 0x0718
+Ready Queue: Head: PID:0x5 PC:0x7D2 State: ready -> P5->P6->P3-*
+
+Timer expired
+PCB: PID: 0x2, State: interrupted, Priority: 0xD, PC: 0x052E
+Switching to: PID: 0x5, State: ready, Priority: 0x0, PC: 0x07D2
+Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x07D2
+Returned to Ready Queue: PID: 0x2, State: ready, Priority: 0xD, PC: 0x052E
+Ready Queue: Head: PID:0x6 PC:0x4C6 State: ready -> P6->P3->P2-*
+
+IO1 trap
+PID 5 put into wait_queue_1
+wait_queue_1: Head: PID:0x1 PC:0x959 State: waiting -> P1->P5-*
+Now running: PID: 0x6, State: running, Priority: 0x7, PC: 0x04C6
+Ready Queue: Head: PID:0x3 PC:0x718 State: ready -> P3->P2-*
+
+Timer expired
+PCB: PID: 0x6, State: interrupted, Priority: 0x7, PC: 0x05CC
+Switching to: PID: 0x3, State: ready, Priority: 0x1, PC: 0x0718
+Now running: PID: 0x3, State: running, Priority: 0x1, PC: 0x0718
+Returned to Ready Queue: PID: 0x6, State: ready, Priority: 0x7, PC: 0x05CC
+Ready Queue: Head: PID:0x2 PC:0x52E State: ready -> P2->P6-*
+
+IO1 device completion
+IO1 device initialized
+Now running: PID: 0x3, State: running, Priority: 0x1, PC: 0x07A5
+Returned to Ready Queue: PID: 0x1, State: ready, Priority: 0x1, PC: 0x0959
+Ready Queue: Head: PID:0x2 PC:0x52E State: ready -> P2->P6->P1-*
+
+Timer expired
+PCB: PID: 0x3, State: interrupted, Priority: 0x1, PC: 0x0844
+Switching to: PID: 0x2, State: ready, Priority: 0xD, PC: 0x052E
+Now running: PID: 0x2, State: running, Priority: 0xD, PC: 0x052E
+Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x1, PC: 0x0844
+Ready Queue: Head: PID:0x6 PC:0x5CC State: ready -> P6->P1->P3-*
+
+IO2 device completion
+IO2 device initialized
+Now running: PID: 0x2, State: running, Priority: 0xD, PC: 0x053A
+Returned to Ready Queue: PID: 0x4, State: ready, Priority: 0xD, PC: 0x0333
+Ready Queue: Head: PID:0x6 PC:0x5CC State: ready -> P6->P1->P3->P4-*
+
+Timer expired
+PCB: PID: 0x2, State: interrupted, Priority: 0xD, PC: 0x065A
+Switching to: PID: 0x6, State: ready, Priority: 0x7, PC: 0x05CC
+Now running: PID: 0x6, State: running, Priority: 0x7, PC: 0x05CC
+Returned to Ready Queue: PID: 0x2, State: ready, Priority: 0xD, PC: 0x065A
+Ready Queue: Head: PID:0x1 PC:0x959 State: ready -> P1->P3->P4->P2-*
+
+Timer expired
+PCB: PID: 0x6, State: interrupted, Priority: 0x7, PC: 0x06F8
+Switching to: PID: 0x1, State: ready, Priority: 0x1, PC: 0x0959
+Now running: PID: 0x1, State: running, Priority: 0x1, PC: 0x0959
+Returned to Ready Queue: PID: 0x6, State: ready, Priority: 0x7, PC: 0x06F8
+Ready Queue: Head: PID:0x3 PC:0x844 State: ready -> P3->P4->P2->P6-*
+
+Timer expired
+PCB: PID: 0x1, State: interrupted, Priority: 0x1, PC: 0x0A85
+Switching to: PID: 0x3, State: ready, Priority: 0x1, PC: 0x0844
+Now running: PID: 0x3, State: running, Priority: 0x1, PC: 0x0844
+Returned to Ready Queue: PID: 0x1, State: ready, Priority: 0x1, PC: 0x0A85
+Ready Queue: Head: PID:0x4 PC:0x333 State: ready -> P4->P2->P6->P1-*
+IO2 device initialized
+
+IO2 device completion
+Now running: PID: 0x3, State: running, Priority: 0x1, PC: 0x0864
+Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0xA, PC: 0x07B1
+Ready Queue: Head: PID:0x4 PC:0x333 State: ready -> P4->P2->P6->P1->P0-*
+
+IO1 trap
+PID 3 put into wait_queue_1
+wait_queue_1: Head: PID:0x5 PC:0x7F8 State: waiting -> P5->P3-*
+Now running: PID: 0x4, State: running, Priority: 0xD, PC: 0x0333
+Ready Queue: Head: PID:0x2 PC:0x65A State: ready -> P2->P6->P1->P0-*
+
+Timer expired
+PCB: PID: 0x4, State: interrupted, Priority: 0xD, PC: 0x0429
+Switching to: PID: 0x2, State: ready, Priority: 0xD, PC: 0x065A
+Now running: PID: 0x2, State: running, Priority: 0xD, PC: 0x065A
+Returned to Ready Queue: PID: 0x4, State: ready, Priority: 0xD, PC: 0x0429
+Ready Queue: Head: PID:0x6 PC:0x6F8 State: ready -> P6->P1->P0->P4-*
+
+IO2 trap
+IO2 device initialized
+PID 2 put into wait_queue_2
+wait_queue_2: Head: PID:0x2 PC:0x694 State: waiting -> P2-*
+Now running: PID: 0x6, State: running, Priority: 0x7, PC: 0x06F8
+Ready Queue: Head: PID:0x1 PC:0xA85 State: ready -> P1->P0->P4-*
+
+IO1 device completion
+IO1 device initialized
+Now running: PID: 0x6, State: running, Priority: 0x7, PC: 0x070E
+Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x07F8
+Ready Queue: Head: PID:0x1 PC:0xA85 State: ready -> P1->P0->P4->P5-*
+
+Timer expired
+PCB: PID: 0x6, State: interrupted, Priority: 0x7, PC: 0x07EA
+Switching to: PID: 0x1, State: ready, Priority: 0x1, PC: 0x0A85
+Now running: PID: 0x1, State: running, Priority: 0x1, PC: 0x0A85
+Returned to Ready Queue: PID: 0x6, State: ready, Priority: 0x7, PC: 0x07EA
+Ready Queue: Head: PID:0x0 PC:0x7B1 State: ready -> P0->P4->P5->P6-*
+
+IO2 trap
+PID 1 put into wait_queue_2
+wait_queue_2: Head: PID:0x2 PC:0x694 State: waiting -> P2->P1-*
+Now running: PID: 0x0, State: running, Priority: 0xA, PC: 0x07B1
+Ready Queue: Head: PID:0x4 PC:0x429 State: ready -> P4->P5->P6-*
+
+Timer expired
+PCB: PID: 0x0, State: interrupted, Priority: 0xA, PC: 0x07EE
+Switching to: PID: 0x4, State: ready, Priority: 0xD, PC: 0x0429
+Now running: PID: 0x4, State: running, Priority: 0xD, PC: 0x0429
+Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0xA, PC: 0x07EE
+Ready Queue: Head: PID:0x5 PC:0x7F8 State: ready -> P5->P6->P0-*
+
+Timer expired
+PCB: PID: 0x4, State: interrupted, Priority: 0xD, PC: 0x0555
+Switching to: PID: 0x5, State: ready, Priority: 0x0, PC: 0x07F8
+Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x07F8
+Returned to Ready Queue: PID: 0x4, State: ready, Priority: 0xD, PC: 0x0555
+Ready Queue: Head: PID:0x6 PC:0x7EA State: ready -> P6->P0->P4-*
+
+Timer expired
+PCB: PID: 0x5, State: interrupted, Priority: 0x0, PC: 0x0924
+Switching to: PID: 0x6, State: ready, Priority: 0x7, PC: 0x07EA
+Now running: PID: 0x6, State: running, Priority: 0x7, PC: 0x07EA
+Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x0924
+Ready Queue: Head: PID:0x0 PC:0x7EE State: ready -> P0->P4->P5-*
+
+IO2 device completion
+IO2 device initialized
+Now running: PID: 0x6, State: running, Priority: 0x7, PC: 0x08B5
+Returned to Ready Queue: PID: 0x2, State: ready, Priority: 0xD, PC: 0x0694
+Ready Queue: Head: PID:0x0 PC:0x7EE State: ready -> P0->P4->P5->P2-*
+
+IO1 trap
+PID 6 put into wait_queue_1
+wait_queue_1: Head: PID:0x3 PC:0x87A State: waiting -> P3->P6-*
+Now running: PID: 0x0, State: running, Priority: 0xA, PC: 0x07EE
+Ready Queue: Head: PID:0x4 PC:0x555 State: ready -> P4->P5->P2-*
+
+IO1 device completion
+IO1 device initialized
+Now running: PID: 0x0, State: running, Priority: 0xA, PC: 0x07F8
+Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x1, PC: 0x087A
+Ready Queue: Head: PID:0x4 PC:0x555 State: ready -> P4->P5->P2->P3-*
+
+Timer expired
+PCB: PID: 0x0, State: interrupted, Priority: 0xA, PC: 0x0846
+Switching to: PID: 0x4, State: ready, Priority: 0xD, PC: 0x0555
+Now running: PID: 0x4, State: running, Priority: 0xD, PC: 0x0555
+Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0xA, PC: 0x0846
+Ready Queue: Head: PID:0x5 PC:0x924 State: ready -> P5->P2->P3->P0-*
+
+IO1 trap
+PID 4 put into wait_queue_1
+wait_queue_1: Head: PID:0x6 PC:0x8BE State: waiting -> P6->P4-*
+Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x0924
+Ready Queue: Head: PID:0x2 PC:0x694 State: ready -> P2->P3->P0-*
+
+Timer expired
+PCB: PID: 0x5, State: interrupted, Priority: 0x0, PC: 0x09E5
+Switching to: PID: 0x2, State: ready, Priority: 0xD, PC: 0x0694
+Now running: PID: 0x2, State: running, Priority: 0xD, PC: 0x0694
+Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x09E5
+Ready Queue: Head: PID:0x3 PC:0x87A State: ready -> P3->P0->P5-*
+
+Timer expired
+PCB: PID: 0x2, State: interrupted, Priority: 0xD, PC: 0x07C0
+Switching to: PID: 0x3, State: ready, Priority: 0x1, PC: 0x087A
+Now running: PID: 0x3, State: running, Priority: 0x1, PC: 0x087A
+Returned to Ready Queue: PID: 0x2, State: ready, Priority: 0xD, PC: 0x07C0
+Ready Queue: Head: PID:0x0 PC:0x846 State: ready -> P0->P5->P2-*
+
+IO1 device completion
+IO1 device initialized
+Now running: PID: 0x3, State: running, Priority: 0x1, PC: 0x0964
+Returned to Ready Queue: PID: 0x6, State: ready, Priority: 0x7, PC: 0x08BE
+Ready Queue: Head: PID:0x0 PC:0x846 State: ready -> P0->P5->P2->P6-*
+
+Timer expired
+PCB: PID: 0x3, State: interrupted, Priority: 0x1, PC: 0x09A6
+Switching to: PID: 0x0, State: ready, Priority: 0xA, PC: 0x0846
+Now running: PID: 0x0, State: running, Priority: 0xA, PC: 0x0846
+Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x1, PC: 0x09A6
+Ready Queue: Head: PID:0x5 PC:0x9E5 State: ready -> P5->P2->P6->P3-*
+IO2 device initialized
+
+IO2 device completion
+Now running: PID: 0x0, State: running, Priority: 0xA, PC: 0x08BC
+Returned to Ready Queue: PID: 0x1, State: ready, Priority: 0x1, PC: 0x0B74
+Ready Queue: Head: PID:0x5 PC:0x9E5 State: ready -> P5->P2->P6->P3->P1-*
+
+Timer expired
+PCB: PID: 0x0, State: interrupted, Priority: 0xA, PC: 0x0972
+Switching to: PID: 0x5, State: ready, Priority: 0x0, PC: 0x09E5
+Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x09E5
+Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0xA, PC: 0x0972
+Ready Queue: Head: PID:0x2 PC:0x7C0 State: ready -> P2->P6->P3->P1->P0-*
+
+Timer expired
+PCB: PID: 0x5, State: interrupted, Priority: 0x0, PC: 0x0B11
+Switching to: PID: 0x2, State: ready, Priority: 0xD, PC: 0x07C0
+Now running: PID: 0x2, State: running, Priority: 0xD, PC: 0x07C0
+Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x0B11
+Ready Queue: Head: PID:0x6 PC:0x8BE State: ready -> P6->P3->P1->P0->P5-*
+
+IO1 trap
+PID 2 put into wait_queue_1
+wait_queue_1: Head: PID:0x4 PC:0x5C0 State: waiting -> P4->P2-*
+Now running: PID: 0x6, State: running, Priority: 0x7, PC: 0x08BE
+Ready Queue: Head: PID:0x3 PC:0x9A6 State: ready -> P3->P1->P0->P5-*
+
+Timer expired
+PCB: PID: 0x6, State: interrupted, Priority: 0x7, PC: 0x0904
+Switching to: PID: 0x3, State: ready, Priority: 0x1, PC: 0x09A6
+Now running: PID: 0x3, State: running, Priority: 0x1, PC: 0x09A6
+Returned to Ready Queue: PID: 0x6, State: ready, Priority: 0x7, PC: 0x0904
+Ready Queue: Head: PID:0x1 PC:0xB74 State: ready -> P1->P0->P5->P6-*
+
+IO1 device completion
+IO1 device initialized
+Now running: PID: 0x3, State: running, Priority: 0x1, PC: 0x0A03
+Returned to Ready Queue: PID: 0x4, State: ready, Priority: 0xD, PC: 0x05C0
+Ready Queue: Head: PID:0x1 PC:0xB74 State: ready -> P1->P0->P5->P6->P4-*
+
+IO2 trap
+IO2 device initialized
+PID 3 put into wait_queue_2
+wait_queue_2: Head: PID:0x3 PC:0xABC State: waiting -> P3-*
+Now running: PID: 0x1, State: running, Priority: 0x1, PC: 0x0B74
+Ready Queue: Head: PID:0x0 PC:0x972 State: ready -> P0->P5->P6->P4-*
+
+Timer expired
+PCB: PID: 0x1, State: interrupted, Priority: 0x1, PC: 0x0B8A
+Switching to: PID: 0x0, State: ready, Priority: 0xA, PC: 0x0972
+Now running: PID: 0x0, State: running, Priority: 0xA, PC: 0x0972
+Returned to Ready Queue: PID: 0x1, State: ready, Priority: 0x1, PC: 0x0B8A
+Ready Queue: Head: PID:0x5 PC:0xB11 State: ready -> P5->P6->P4->P1-*
+
+IO1 trap
+PID 0 put into wait_queue_1
+wait_queue_1: Head: PID:0x2 PC:0x8A6 State: waiting -> P2->P0-*
+Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x0B11
+Ready Queue: Head: PID:0x6 PC:0x904 State: ready -> P6->P4->P1-*
+
+Timer expired
+PCB: PID: 0x5, State: interrupted, Priority: 0x0, PC: 0x0BE6
+Switching to: PID: 0x6, State: ready, Priority: 0x7, PC: 0x0904
+Now running: PID: 0x6, State: running, Priority: 0x7, PC: 0x0904
+Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x0BE6
+Ready Queue: Head: PID:0x4 PC:0x5C0 State: ready -> P4->P1->P5-*
+
+Timer expired
+PCB: PID: 0x6, State: interrupted, Priority: 0x7, PC: 0x0A30
+Switching to: PID: 0x4, State: ready, Priority: 0xD, PC: 0x05C0
+Now running: PID: 0x4, State: running, Priority: 0xD, PC: 0x05C0
+Returned to Ready Queue: PID: 0x6, State: ready, Priority: 0x7, PC: 0x0A30
+Ready Queue: Head: PID:0x1 PC:0xB8A State: ready -> P1->P5->P6-*
+
+Timer expired
+PCB: PID: 0x4, State: interrupted, Priority: 0xD, PC: 0x06EC
+Switching to: PID: 0x1, State: ready, Priority: 0x1, PC: 0x0B8A
+Now running: PID: 0x1, State: running, Priority: 0x1, PC: 0x0B8A
+Returned to Ready Queue: PID: 0x4, State: ready, Priority: 0xD, PC: 0x06EC
+Ready Queue: Head: PID:0x5 PC:0xBE6 State: ready -> P5->P6->P4-*
+
+IO1 device completion
+IO1 device initialized
+Now running: PID: 0x1, State: running, Priority: 0x1, PC: 0x0C3C
+Returned to Ready Queue: PID: 0x2, State: ready, Priority: 0xD, PC: 0x08A6
+Ready Queue: Head: PID:0x5 PC:0xBE6 State: ready -> P5->P6->P4->P2-*
+
+Timer expired
+PCB: PID: 0x1, State: interrupted, Priority: 0x1, PC: 0x0CB6
+Switching to: PID: 0x5, State: ready, Priority: 0x0, PC: 0x0BE6
+Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x0BE6
+Returned to Ready Queue: PID: 0x1, State: ready, Priority: 0x1, PC: 0x0CB6
+Ready Queue: Head: PID:0x6 PC:0xA30 State: ready -> P6->P4->P2->P1-*
+IO2 device initialized
+
+IO2 device completion
+Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x0C65
+Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x1, PC: 0x0ABC
+Ready Queue: Head: PID:0x6 PC:0xA30 State: ready -> P6->P4->P2->P1->P3-*
+
+IO2 trap
+IO2 device initialized
+PID 5 put into wait_queue_2
+wait_queue_2: Head: PID:0x5 PC:0xC91 State: waiting -> P5-*
+Now running: PID: 0x6, State: running, Priority: 0x7, PC: 0x0A30
+Ready Queue: Head: PID:0x4 PC:0x6EC State: ready -> P4->P2->P1->P3-*
+
+Timer expired
+PCB: PID: 0x6, State: interrupted, Priority: 0x7, PC: 0x0AB1
+Switching to: PID: 0x4, State: ready, Priority: 0xD, PC: 0x06EC
+Now running: PID: 0x4, State: running, Priority: 0xD, PC: 0x06EC
+Returned to Ready Queue: PID: 0x6, State: ready, Priority: 0x7, PC: 0x0AB1
+Ready Queue: Head: PID:0x2 PC:0x8A6 State: ready -> P2->P1->P3->P6-*
+
+IO2 trap
+PID 4 put into wait_queue_2
+wait_queue_2: Head: PID:0x5 PC:0xC91 State: waiting -> P5->P4-*
+Now running: PID: 0x2, State: running, Priority: 0xD, PC: 0x08A6
+Ready Queue: Head: PID:0x1 PC:0xCB6 State: ready -> P1->P3->P6-*
+
+Timer expired
+PCB: PID: 0x2, State: interrupted, Priority: 0xD, PC: 0x0927
+Switching to: PID: 0x1, State: ready, Priority: 0x1, PC: 0x0CB6
+Now running: PID: 0x1, State: running, Priority: 0x1, PC: 0x0CB6
+Returned to Ready Queue: PID: 0x2, State: ready, Priority: 0xD, PC: 0x0927
+Ready Queue: Head: PID:0x3 PC:0xABC State: ready -> P3->P6->P2-*
+IO1 device initialized
+
+IO1 device completion
+Now running: PID: 0x1, State: running, Priority: 0x1, PC: 0x0DB9
+Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0xA, PC: 0x09C9
+Ready Queue: Head: PID:0x3 PC:0xABC State: ready -> P3->P6->P2->P0-*
+
+Timer expired
+PCB: PID: 0x1, State: interrupted, Priority: 0x1, PC: 0x0DE2
+Switching to: PID: 0x3, State: ready, Priority: 0x1, PC: 0x0ABC
+Now running: PID: 0x3, State: running, Priority: 0x1, PC: 0x0ABC
+Returned to Ready Queue: PID: 0x1, State: ready, Priority: 0x1, PC: 0x0DE2
+Ready Queue: Head: PID:0x6 PC:0xAB1 State: ready -> P6->P2->P0->P1-*
+
+IO2 device completion
+IO2 device initialized
+Now running: PID: 0x3, State: running, Priority: 0x1, PC: 0x0BCA
+Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x0C91
+Ready Queue: Head: PID:0x6 PC:0xAB1 State: ready -> P6->P2->P0->P1->P5-*
+
+Timer expired
+PCB: PID: 0x3, State: interrupted, Priority: 0x1, PC: 0x0BE8
+Switching to: PID: 0x6, State: ready, Priority: 0x7, PC: 0x0AB1
+Now running: PID: 0x6, State: running, Priority: 0x7, PC: 0x0AB1
+Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x1, PC: 0x0BE8
+Ready Queue: Head: PID:0x2 PC:0x927 State: ready -> P2->P0->P1->P5->P3-*
+
+Timer expired
+PCB: PID: 0x6, State: interrupted, Priority: 0x7, PC: 0x0BDD
+Switching to: PID: 0x2, State: ready, Priority: 0xD, PC: 0x0927
+Now running: PID: 0x2, State: running, Priority: 0xD, PC: 0x0927
+Returned to Ready Queue: PID: 0x6, State: ready, Priority: 0x7, PC: 0x0BDD
+Ready Queue: Head: PID:0x0 PC:0x9C9 State: ready -> P0->P1->P5->P3->P6-*
+
+IO2 trap
+PID 2 put into wait_queue_2
+wait_queue_2: Head: PID:0x4 PC:0x797 State: waiting -> P4->P2-*
+Now running: PID: 0x0, State: running, Priority: 0xA, PC: 0x09C9
+Ready Queue: Head: PID:0x1 PC:0xDE2 State: ready -> P1->P5->P3->P6-*
+
+Timer expired
+PCB: PID: 0x0, State: interrupted, Priority: 0xA, PC: 0x0A59
+Switching to: PID: 0x1, State: ready, Priority: 0x1, PC: 0x0DE2
+Now running: PID: 0x1, State: running, Priority: 0x1, PC: 0x0DE2
+Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0xA, PC: 0x0A59
+Ready Queue: Head: PID:0x5 PC:0xC91 State: ready -> P5->P3->P6->P0-*
+
+IO1 trap
+IO1 device initialized
+PID 1 put into wait_queue_1
+wait_queue_1: Head: PID:0x1 PC:0xE0A State: waiting -> P1-*
+Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x0C91
+Ready Queue: Head: PID:0x3 PC:0xBE8 State: ready -> P3->P6->P0-*
+
+Timer expired
+PCB: PID: 0x5, State: interrupted, Priority: 0x0, PC: 0x0D95
+Switching to: PID: 0x3, State: ready, Priority: 0x1, PC: 0x0BE8
+Now running: PID: 0x3, State: running, Priority: 0x1, PC: 0x0BE8
+Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x0D95
+Ready Queue: Head: PID:0x6 PC:0xBDD State: ready -> P6->P0->P5-*
+
+IO2 device completion
+IO2 device initialized
+Now running: PID: 0x3, State: running, Priority: 0x1, PC: 0x0BEA
+Returned to Ready Queue: PID: 0x4, State: ready, Priority: 0xD, PC: 0x0797
+Ready Queue: Head: PID:0x6 PC:0xBDD State: ready -> P6->P0->P5->P4-*
+
+Timer expired
+PCB: PID: 0x3, State: interrupted, Priority: 0x1, PC: 0x0D14
+Switching to: PID: 0x6, State: ready, Priority: 0x7, PC: 0x0BDD
+Now running: PID: 0x6, State: running, Priority: 0x7, PC: 0x0BDD
+Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x1, PC: 0x0D14
+Ready Queue: Head: PID:0x0 PC:0xA59 State: ready -> P0->P5->P4->P3-*
+
+IO2 trap
+PID 6 put into wait_queue_2
+wait_queue_2: Head: PID:0x2 PC:0x9C3 State: waiting -> P2->P6-*
+Now running: PID: 0x0, State: running, Priority: 0xA, PC: 0x0A59
+Ready Queue: Head: PID:0x5 PC:0xD95 State: ready -> P5->P4->P3-*
+
+Timer expired
+PCB: PID: 0x0, State: interrupted, Priority: 0xA, PC: 0x0AA5
+Switching to: PID: 0x5, State: ready, Priority: 0x0, PC: 0x0D95
+Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x0D95
+Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0xA, PC: 0x0AA5
+Ready Queue: Head: PID:0x4 PC:0x797 State: ready -> P4->P3->P0-*
+
+IO1 trap
+PID 5 put into wait_queue_1
+wait_queue_1: Head: PID:0x1 PC:0xE0A State: waiting -> P1->P5-*
+Now running: PID: 0x4, State: running, Priority: 0xD, PC: 0x0797
+Ready Queue: Head: PID:0x3 PC:0xD14 State: ready -> P3->P0-*
+
+Timer expired
+PCB: PID: 0x4, State: interrupted, Priority: 0xD, PC: 0x07DB
+Switching to: PID: 0x3, State: ready, Priority: 0x1, PC: 0x0D14
+Now running: PID: 0x3, State: running, Priority: 0x1, PC: 0x0D14
+Returned to Ready Queue: PID: 0x4, State: ready, Priority: 0xD, PC: 0x07DB
+Ready Queue: Head: PID:0x0 PC:0xAA5 State: ready -> P0->P4-*
+
+IO1 device completion
+IO1 device initialized
+Now running: PID: 0x3, State: running, Priority: 0x1, PC: 0x0D1C
+Returned to Ready Queue: PID: 0x1, State: ready, Priority: 0x1, PC: 0x0E0A
+Ready Queue: Head: PID:0x0 PC:0xAA5 State: ready -> P0->P4->P1-*
+
+IO1 trap
+PID 3 put into wait_queue_1
+wait_queue_1: Head: PID:0x5 PC:0xE7D State: waiting -> P5->P3-*
+Now running: PID: 0x0, State: running, Priority: 0xA, PC: 0x0AA5
+Ready Queue: Head: PID:0x4 PC:0x7DB State: ready -> P4->P1-*
+
+Timer expired
+PCB: PID: 0x0, State: interrupted, Priority: 0xA, PC: 0x0B44
+Switching to: PID: 0x4, State: ready, Priority: 0xD, PC: 0x07DB
+Now running: PID: 0x4, State: running, Priority: 0xD, PC: 0x07DB
+Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0xA, PC: 0x0B44
+Ready Queue: Head: PID:0x1 PC:0xE0A State: ready -> P1->P0-*
+
+IO2 device completion
+IO2 device initialized
+Now running: PID: 0x4, State: running, Priority: 0xD, PC: 0x086F
+Returned to Ready Queue: PID: 0x2, State: ready, Priority: 0xD, PC: 0x09C3
+Ready Queue: Head: PID:0x1 PC:0xE0A State: ready -> P1->P0->P2-*
+
+Timer expired
+PCB: PID: 0x4, State: interrupted, Priority: 0xD, PC: 0x0907
+Switching to: PID: 0x1, State: ready, Priority: 0x1, PC: 0x0E0A
+Now running: PID: 0x1, State: running, Priority: 0x1, PC: 0x0E0A
+Returned to Ready Queue: PID: 0x4, State: ready, Priority: 0xD, PC: 0x0907
+Ready Queue: Head: PID:0x0 PC:0xB44 State: ready -> P0->P2->P4-*
+
+Timer expired
+PCB: PID: 0x1, State: interrupted, Priority: 0x1, PC: 0x0F36
+Switching to: PID: 0x0, State: ready, Priority: 0xA, PC: 0x0B44
+Now running: PID: 0x0, State: running, Priority: 0xA, PC: 0x0B44
+Returned to Ready Queue: PID: 0x1, State: ready, Priority: 0x1, PC: 0x0F36
+Ready Queue: Head: PID:0x2 PC:0x9C3 State: ready -> P2->P4->P1-*
+
+IO2 trap
+PID 0 put into wait_queue_2
+wait_queue_2: Head: PID:0x6 PC:0xCBD State: waiting -> P6->P0-*
+Now running: PID: 0x2, State: running, Priority: 0xD, PC: 0x09C3
+Ready Queue: Head: PID:0x4 PC:0x907 State: ready -> P4->P1-*
+
+Timer expired
+PCB: PID: 0x2, State: interrupted, Priority: 0xD, PC: 0x0A31
+Switching to: PID: 0x4, State: ready, Priority: 0xD, PC: 0x0907
+Now running: PID: 0x4, State: running, Priority: 0xD, PC: 0x0907
+Returned to Ready Queue: PID: 0x2, State: ready, Priority: 0xD, PC: 0x0A31
+Ready Queue: Head: PID:0x1 PC:0xF36 State: ready -> P1->P2-*
+
+IO1 device completion
+IO1 device initialized
+Now running: PID: 0x4, State: running, Priority: 0xD, PC: 0x09C1
+Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x0E7D
+Ready Queue: Head: PID:0x1 PC:0xF36 State: ready -> P1->P2->P5-*
+
+Timer expired
+PCB: PID: 0x4, State: interrupted, Priority: 0xD, PC: 0x0A33
+Switching to: PID: 0x1, State: ready, Priority: 0x1, PC: 0x0F36
+Now running: PID: 0x1, State: running, Priority: 0x1, PC: 0x0F36
+Returned to Ready Queue: PID: 0x4, State: ready, Priority: 0xD, PC: 0x0A33
+Ready Queue: Head: PID:0x2 PC:0xA31 State: ready -> P2->P5->P4-*
+
+Timer expired
+PCB: PID: 0x1, State: interrupted, Priority: 0x1, PC: 0x1062
+Switching to: PID: 0x2, State: ready, Priority: 0xD, PC: 0x0A31
+Now running: PID: 0x2, State: running, Priority: 0xD, PC: 0x0A31
+Returned to Ready Queue: PID: 0x1, State: ready, Priority: 0x1, PC: 0x1062
+Ready Queue: Head: PID:0x5 PC:0xE7D State: ready -> P5->P4->P1-*
+
+IO2 device completion
+IO2 device initialized
+Now running: PID: 0x2, State: running, Priority: 0xD, PC: 0x0A59
+Returned to Ready Queue: PID: 0x6, State: ready, Priority: 0x7, PC: 0x0CBD
+Ready Queue: Head: PID:0x5 PC:0xE7D State: ready -> P5->P4->P1->P6-*
+
+Timer expired
+PCB: PID: 0x2, State: interrupted, Priority: 0xD, PC: 0x0B5D
+Switching to: PID: 0x5, State: ready, Priority: 0x0, PC: 0x0E7D
+Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x0E7D
+Returned to Ready Queue: PID: 0x2, State: ready, Priority: 0xD, PC: 0x0B5D
+Ready Queue: Head: PID:0x4 PC:0xA33 State: ready -> P4->P1->P6->P2-*
+
+Timer expired
+PCB: PID: 0x5, State: interrupted, Priority: 0x0, PC: 0x0FA9
+Switching to: PID: 0x4, State: ready, Priority: 0xD, PC: 0x0A33
+Now running: PID: 0x4, State: running, Priority: 0xD, PC: 0x0A33
+Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x0FA9
+Ready Queue: Head: PID:0x1 PC:0x1062 State: ready -> P1->P6->P2->P5-*
+IO1 device initialized
+
+IO1 device completion
+Now running: PID: 0x4, State: running, Priority: 0xD, PC: 0x0A41
+Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x1, PC: 0x0DA1
+Ready Queue: Head: PID:0x1 PC:0x1062 State: ready -> P1->P6->P2->P5->P3-*
+
+IO1 trap
+IO1 device initialized
+PID 4 put into wait_queue_1
+wait_queue_1: Head: PID:0x4 PC:0xB23 State: waiting -> P4-*
+Now running: PID: 0x1, State: running, Priority: 0x1, PC: 0x1062
+Ready Queue: Head: PID:0x6 PC:0xCBD State: ready -> P6->P2->P5->P3-*
+
+Timer expired
+PCB: PID: 0x1, State: interrupted, Priority: 0x1, PC: 0x109E
+Switching to: PID: 0x6, State: ready, Priority: 0x7, PC: 0x0CBD
+Now running: PID: 0x6, State: running, Priority: 0x7, PC: 0x0CBD
+Returned to Ready Queue: PID: 0x1, State: ready, Priority: 0x1, PC: 0x109E
+Ready Queue: Head: PID:0x2 PC:0xB5D State: ready -> P2->P5->P3->P1-*
+IO2 device initialized
+
+IO2 device completion
+Now running: PID: 0x6, State: running, Priority: 0x7, PC: 0x0D3C
+Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0xA, PC: 0x0C02
+Ready Queue: Head: PID:0x2 PC:0xB5D State: ready -> P2->P5->P3->P1->P0-*
+
+Timer expired
+PCB: PID: 0x6, State: interrupted, Priority: 0x7, PC: 0x0DE9
+Switching to: PID: 0x2, State: ready, Priority: 0xD, PC: 0x0B5D
+Now running: PID: 0x2, State: running, Priority: 0xD, PC: 0x0B5D
+Returned to Ready Queue: PID: 0x6, State: ready, Priority: 0x7, PC: 0x0DE9
+Ready Queue: Head: PID:0x5 PC:0xFA9 State: ready -> P5->P3->P1->P0->P6-*
+
+IO1 trap
+PID 2 put into wait_queue_1
+wait_queue_1: Head: PID:0x4 PC:0xB23 State: waiting -> P4->P2-*
+Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x0FA9
+Ready Queue: Head: PID:0x3 PC:0xDA1 State: ready -> P3->P1->P0->P6-*
+
+Timer expired
+PCB: PID: 0x5, State: interrupted, Priority: 0x0, PC: 0x0FD1
+Switching to: PID: 0x3, State: ready, Priority: 0x1, PC: 0x0DA1
+Now running: PID: 0x3, State: running, Priority: 0x1, PC: 0x0DA1
+Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x0FD1
+Ready Queue: Head: PID:0x1 PC:0x109E State: ready -> P1->P0->P6->P5-*
+
+Timer expired
+PCB: PID: 0x3, State: interrupted, Priority: 0x1, PC: 0x0ECD
+Switching to: PID: 0x1, State: ready, Priority: 0x1, PC: 0x109E
+Now running: PID: 0x1, State: running, Priority: 0x1, PC: 0x109E
+Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x1, PC: 0x0ECD
+Ready Queue: Head: PID:0x0 PC:0xC02 State: ready -> P0->P6->P5->P3-*
+
+IO1 device completion
+IO1 device initialized
+Now running: PID: 0x1, State: running, Priority: 0x1, PC: 0x1112
+Returned to Ready Queue: PID: 0x4, State: ready, Priority: 0xD, PC: 0x0B23
+Ready Queue: Head: PID:0x0 PC:0xC02 State: ready -> P0->P6->P5->P3->P4-*
+
+IO2 trap
+IO2 device initialized
+PID 1 put into wait_queue_2
+wait_queue_2: Head: PID:0x1 PC:0x1191 State: waiting -> P1-*
+Now running: PID: 0x0, State: running, Priority: 0xA, PC: 0x0C02
+Ready Queue: Head: PID:0x6 PC:0xDE9 State: ready -> P6->P5->P3->P4-*
+
+Timer expired
+PCB: PID: 0x0, State: interrupted, Priority: 0xA, PC: 0x0C3B
+Switching to: PID: 0x6, State: ready, Priority: 0x7, PC: 0x0DE9
+Now running: PID: 0x6, State: running, Priority: 0x7, PC: 0x0DE9
+Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0xA, PC: 0x0C3B
+Ready Queue: Head: PID:0x5 PC:0xFD1 State: ready -> P5->P3->P4->P0-*
+
+IO1 trap
+PID 6 put into wait_queue_1
+wait_queue_1: Head: PID:0x2 PC:0xC61 State: waiting -> P2->P6-*
+Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x0FD1
+Ready Queue: Head: PID:0x3 PC:0xECD State: ready -> P3->P4->P0-*
+
+Timer expired
+PCB: PID: 0x5, State: interrupted, Priority: 0x0, PC: 0x1041
+Switching to: PID: 0x3, State: ready, Priority: 0x1, PC: 0x0ECD
+Now running: PID: 0x3, State: running, Priority: 0x1, PC: 0x0ECD
+Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x1041
+Ready Queue: Head: PID:0x4 PC:0xB23 State: ready -> P4->P0->P5-*
+
+Timer expired
+PCB: PID: 0x3, State: interrupted, Priority: 0x1, PC: 0x0FF9
+Switching to: PID: 0x4, State: ready, Priority: 0xD, PC: 0x0B23
+Now running: PID: 0x4, State: running, Priority: 0xD, PC: 0x0B23
+Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x1, PC: 0x0FF9
+Ready Queue: Head: PID:0x0 PC:0xC3B State: ready -> P0->P5->P3-*
+
+IO2 trap
+PID 4 put into wait_queue_2
+wait_queue_2: Head: PID:0x1 PC:0x1191 State: waiting -> P1->P4-*
+Now running: PID: 0x0, State: running, Priority: 0xA, PC: 0x0C3B
+Ready Queue: Head: PID:0x5 PC:0x1041 State: ready -> P5->P3-*
+
+Timer expired
+PCB: PID: 0x0, State: interrupted, Priority: 0xA, PC: 0x0D10
+Switching to: PID: 0x5, State: ready, Priority: 0x0, PC: 0x1041
+Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x1041
+Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0xA, PC: 0x0D10
+Ready Queue: Head: PID:0x3 PC:0xFF9 State: ready -> P3->P0-*
+
+IO1 device completion
+IO1 device initialized
+Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x110B
+Returned to Ready Queue: PID: 0x2, State: ready, Priority: 0xD, PC: 0x0C61
+Ready Queue: Head: PID:0x3 PC:0xFF9 State: ready -> P3->P0->P2-*
+
+IO2 device completion
+IO2 device initialized
+Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x1149
+Returned to Ready Queue: PID: 0x1, State: ready, Priority: 0x1, PC: 0x1191
+Ready Queue: Head: PID:0x3 PC:0xFF9 State: ready -> P3->P0->P2->P1-*
+
+Timer expired
+PCB: PID: 0x5, State: interrupted, Priority: 0x0, PC: 0x116D
+Switching to: PID: 0x3, State: ready, Priority: 0x1, PC: 0x0FF9
+Now running: PID: 0x3, State: running, Priority: 0x1, PC: 0x0FF9
+Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x116D
+Ready Queue: Head: PID:0x0 PC:0xD10 State: ready -> P0->P2->P1->P5-*
+
+Timer expired
+PCB: PID: 0x3, State: interrupted, Priority: 0x1, PC: 0x1125
+Switching to: PID: 0x0, State: ready, Priority: 0xA, PC: 0x0D10
+Now running: PID: 0x0, State: running, Priority: 0xA, PC: 0x0D10
+Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x1, PC: 0x1125
+Ready Queue: Head: PID:0x2 PC:0xC61 State: ready -> P2->P1->P5->P3-*
+
+IO1 trap
+PID 0 put into wait_queue_1
+wait_queue_1: Head: PID:0x6 PC:0xEA5 State: waiting -> P6->P0-*
+Now running: PID: 0x2, State: running, Priority: 0xD, PC: 0x0C61
+Ready Queue: Head: PID:0x1 PC:0x1191 State: ready -> P1->P5->P3-*
+
+Timer expired
+PCB: PID: 0x2, State: interrupted, Priority: 0xD, PC: 0x0CAE
+Switching to: PID: 0x1, State: ready, Priority: 0x1, PC: 0x1191
+Now running: PID: 0x1, State: running, Priority: 0x1, PC: 0x1191
+Returned to Ready Queue: PID: 0x2, State: ready, Priority: 0xD, PC: 0x0CAE
+Ready Queue: Head: PID:0x5 PC:0x116D State: ready -> P5->P3->P2-*
+
+Timer expired
+PCB: PID: 0x1, State: interrupted, Priority: 0x1, PC: 0x12BD
+Switching to: PID: 0x5, State: ready, Priority: 0x0, PC: 0x116D
+Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x116D
+Returned to Ready Queue: PID: 0x1, State: ready, Priority: 0x1, PC: 0x12BD
+Ready Queue: Head: PID:0x3 PC:0x1125 State: ready -> P3->P2->P1-*
+
+IO1 device completion
+IO1 device initialized
+Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x1260
+Returned to Ready Queue: PID: 0x6, State: ready, Priority: 0x7, PC: 0x0EA5
+Ready Queue: Head: PID:0x3 PC:0x1125 State: ready -> P3->P2->P1->P6-*
+
+Timer expired
+PCB: PID: 0x5, State: interrupted, Priority: 0x0, PC: 0x1299
+Switching to: PID: 0x3, State: ready, Priority: 0x1, PC: 0x1125
+Now running: PID: 0x3, State: running, Priority: 0x1, PC: 0x1125
+Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x1299
+Ready Queue: Head: PID:0x2 PC:0xCAE State: ready -> P2->P1->P6->P5-*
+IO2 device initialized
+
+IO2 device completion
+Now running: PID: 0x3, State: running, Priority: 0x1, PC: 0x119B
+Returned to Ready Queue: PID: 0x4, State: ready, Priority: 0xD, PC: 0x0B7A
+Ready Queue: Head: PID:0x2 PC:0xCAE State: ready -> P2->P1->P6->P5->P4-*
+
+Timer expired
+PCB: PID: 0x3, State: interrupted, Priority: 0x1, PC: 0x1251
+Switching to: PID: 0x2, State: ready, Priority: 0xD, PC: 0x0CAE
+Now running: PID: 0x2, State: running, Priority: 0xD, PC: 0x0CAE
+Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x1, PC: 0x1251
+Ready Queue: Head: PID:0x1 PC:0x12BD State: ready -> P1->P6->P5->P4->P3-*
+
+IO2 trap
+IO2 device initialized
+PID 2 put into wait_queue_2
+wait_queue_2: Head: PID:0x2 PC:0xD56 State: waiting -> P2-*
+Now running: PID: 0x1, State: running, Priority: 0x1, PC: 0x12BD
+Ready Queue: Head: PID:0x6 PC:0xEA5 State: ready -> P6->P5->P4->P3-*
+
+Timer expired
+PCB: PID: 0x1, State: interrupted, Priority: 0x1, PC: 0x1341
+Switching to: PID: 0x6, State: ready, Priority: 0x7, PC: 0x0EA5
+Now running: PID: 0x6, State: running, Priority: 0x7, PC: 0x0EA5
+Returned to Ready Queue: PID: 0x1, State: ready, Priority: 0x1, PC: 0x1341
+Ready Queue: Head: PID:0x5 PC:0x1299 State: ready -> P5->P4->P3->P1-*
+IO1 device initialized
+
+IO1 device completion
+Now running: PID: 0x6, State: running, Priority: 0x7, PC: 0x0FBB
+Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0xA, PC: 0x0DEF
+Ready Queue: Head: PID:0x5 PC:0x1299 State: ready -> P5->P4->P3->P1->P0-*
+
+Timer expired
+PCB: PID: 0x6, State: interrupted, Priority: 0x7, PC: 0x0FD1
+Switching to: PID: 0x5, State: ready, Priority: 0x0, PC: 0x1299
+Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x1299
+Returned to Ready Queue: PID: 0x6, State: ready, Priority: 0x7, PC: 0x0FD1
+Ready Queue: Head: PID:0x4 PC:0xB7A State: ready -> P4->P3->P1->P0->P6-*
+
+Timer expired
+PCB: PID: 0x5, State: interrupted, Priority: 0x0, PC: 0x13C5
+Switching to: PID: 0x4, State: ready, Priority: 0xD, PC: 0x0B7A
+Now running: PID: 0x4, State: running, Priority: 0xD, PC: 0x0B7A
+Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x13C5
+Ready Queue: Head: PID:0x3 PC:0x1251 State: ready -> P3->P1->P0->P6->P5-*
+
+Timer expired
+PCB: PID: 0x4, State: interrupted, Priority: 0xD, PC: 0x0CA6
+Switching to: PID: 0x3, State: ready, Priority: 0x1, PC: 0x1251
+Now running: PID: 0x3, State: running, Priority: 0x1, PC: 0x1251
+Returned to Ready Queue: PID: 0x4, State: ready, Priority: 0xD, PC: 0x0CA6
+Ready Queue: Head: PID:0x1 PC:0x1341 State: ready -> P1->P0->P6->P5->P4-*
+
+IO2 trap
+PID 3 put into wait_queue_2
+wait_queue_2: Head: PID:0x2 PC:0xD56 State: waiting -> P2->P3-*
+Now running: PID: 0x1, State: running, Priority: 0x1, PC: 0x1341
+Ready Queue: Head: PID:0x0 PC:0xDEF State: ready -> P0->P6->P5->P4-*
+
+IO2 device completion
+IO2 device initialized
+Now running: PID: 0x1, State: running, Priority: 0x1, PC: 0x142D
+Returned to Ready Queue: PID: 0x2, State: ready, Priority: 0xD, PC: 0x0D56
+Ready Queue: Head: PID:0x0 PC:0xDEF State: ready -> P0->P6->P5->P4->P2-*
+
+Timer expired
+PCB: PID: 0x1, State: interrupted, Priority: 0x1, PC: 0x1468
+Switching to: PID: 0x0, State: ready, Priority: 0xA, PC: 0x0DEF
+Now running: PID: 0x0, State: running, Priority: 0xA, PC: 0x0DEF
+Returned to Ready Queue: PID: 0x1, State: ready, Priority: 0x1, PC: 0x1468
+Ready Queue: Head: PID:0x6 PC:0xFD1 State: ready -> P6->P5->P4->P2->P1-*
+
+Timer expired
+PCB: PID: 0x0, State: interrupted, Priority: 0xA, PC: 0x0F1B
+Switching to: PID: 0x6, State: ready, Priority: 0x7, PC: 0x0FD1
+Now running: PID: 0x6, State: running, Priority: 0x7, PC: 0x0FD1
+Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0xA, PC: 0x0F1B
+Ready Queue: Head: PID:0x5 PC:0x13C5 State: ready -> P5->P4->P2->P1->P0-*
+
+Timer expired
+PCB: PID: 0x6, State: interrupted, Priority: 0x7, PC: 0x10FD
+Switching to: PID: 0x5, State: ready, Priority: 0x0, PC: 0x13C5
+Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x13C5
+Returned to Ready Queue: PID: 0x6, State: ready, Priority: 0x7, PC: 0x10FD
+Ready Queue: Head: PID:0x4 PC:0xCA6 State: ready -> P4->P2->P1->P0->P6-*
+
+IO2 trap
+PID 5 put into wait_queue_2
+wait_queue_2: Head: PID:0x3 PC:0x1256 State: waiting -> P3->P5-*
+Now running: PID: 0x4, State: running, Priority: 0xD, PC: 0x0CA6
+Ready Queue: Head: PID:0x2 PC:0xD56 State: ready -> P2->P1->P0->P6-*
+
+Timer expired
+PCB: PID: 0x4, State: interrupted, Priority: 0xD, PC: 0x0D5E
+Switching to: PID: 0x2, State: ready, Priority: 0xD, PC: 0x0D56
+Now running: PID: 0x2, State: running, Priority: 0xD, PC: 0x0D56
+Returned to Ready Queue: PID: 0x4, State: ready, Priority: 0xD, PC: 0x0D5E
+Ready Queue: Head: PID:0x1 PC:0x1468 State: ready -> P1->P0->P6->P4-*
+
+Timer expired
+PCB: PID: 0x2, State: interrupted, Priority: 0xD, PC: 0x0E82
+Switching to: PID: 0x1, State: ready, Priority: 0x1, PC: 0x1468
+Now running: PID: 0x1, State: running, Priority: 0x1, PC: 0x1468
+Returned to Ready Queue: PID: 0x2, State: ready, Priority: 0xD, PC: 0x0E82
+Ready Queue: Head: PID:0x0 PC:0xF1B State: ready -> P0->P6->P4->P2-*
+
+IO2 device completion
+IO2 device initialized
+Now running: PID: 0x1, State: running, Priority: 0x1, PC: 0x1528
+Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x1, PC: 0x1256
+Ready Queue: Head: PID:0x0 PC:0xF1B State: ready -> P0->P6->P4->P2->P3-*
+
+IO1 trap
+IO1 device initialized
+PID 1 put into wait_queue_1
+wait_queue_1: Head: PID:0x1 PC:0x1544 State: waiting -> P1-*
+Now running: PID: 0x0, State: running, Priority: 0xA, PC: 0x0F1B
+Ready Queue: Head: PID:0x6 PC:0x10FD State: ready -> P6->P4->P2->P3-*
+
+Timer expired
+PCB: PID: 0x0, State: interrupted, Priority: 0xA, PC: 0x0F6B
+Switching to: PID: 0x6, State: ready, Priority: 0x7, PC: 0x10FD
+Now running: PID: 0x6, State: running, Priority: 0x7, PC: 0x10FD
+Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0xA, PC: 0x0F6B
+Ready Queue: Head: PID:0x4 PC:0xD5E State: ready -> P4->P2->P3->P0-*
+
+Timer expired
+PCB: PID: 0x6, State: interrupted, Priority: 0x7, PC: 0x1229
+Switching to: PID: 0x4, State: ready, Priority: 0xD, PC: 0x0D5E
+Now running: PID: 0x4, State: running, Priority: 0xD, PC: 0x0D5E
+Returned to Ready Queue: PID: 0x6, State: ready, Priority: 0x7, PC: 0x1229
+Ready Queue: Head: PID:0x2 PC:0xE82 State: ready -> P2->P3->P0->P6-*
+
+Timer expired
+PCB: PID: 0x4, State: interrupted, Priority: 0xD, PC: 0x0E8A
+Switching to: PID: 0x2, State: ready, Priority: 0xD, PC: 0x0E82
+Now running: PID: 0x2, State: running, Priority: 0xD, PC: 0x0E82
+Returned to Ready Queue: PID: 0x4, State: ready, Priority: 0xD, PC: 0x0E8A
+Ready Queue: Head: PID:0x3 PC:0x1256 State: ready -> P3->P0->P6->P4-*
+Now running: PID: 0x3, State: running, Priority: 0x1, PC: 0x1256
+Ready Queue: Head: PID:0x0 PC:0xF6B State: ready -> P0->P6->P4-*
+
+Timer expired
+PCB: PID: 0x3, State: interrupted, Priority: 0x1, PC: 0x133C
+Switching to: PID: 0x0, State: ready, Priority: 0xA, PC: 0x0F6B
+Now running: PID: 0x0, State: running, Priority: 0xA, PC: 0x0F6B
+Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x1, PC: 0x133C
+Ready Queue: Head: PID:0x6 PC:0x1229 State: ready -> P6->P4->P3-*
+IO1 device initialized
+
+IO1 device completion
+Now running: PID: 0x0, State: running, Priority: 0xA, PC: 0x100B
+Returned to Ready Queue: PID: 0x1, State: ready, Priority: 0x1, PC: 0x1544
+Ready Queue: Head: PID:0x6 PC:0x1229 State: ready -> P6->P4->P3->P1-*
+
+Timer expired
+PCB: PID: 0x0, State: interrupted, Priority: 0xA, PC: 0x1097
+Switching to: PID: 0x6, State: ready, Priority: 0x7, PC: 0x1229
+Now running: PID: 0x6, State: running, Priority: 0x7, PC: 0x1229
+Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0xA, PC: 0x1097
+Ready Queue: Head: PID:0x4 PC:0xE8A State: ready -> P4->P3->P1->P0-*
+IO2 device initialized
+
+IO2 device completion
+Now running: PID: 0x6, State: running, Priority: 0x7, PC: 0x129D
+Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x1439
+Ready Queue: Head: PID:0x4 PC:0xE8A State: ready -> P4->P3->P1->P0->P5-*
+
+IO2 trap
+IO2 device initialized
+PID 6 put into wait_queue_2
+wait_queue_2: Head: PID:0x6 PC:0x12DD State: waiting -> P6-*
+Now running: PID: 0x4, State: running, Priority: 0xD, PC: 0x0E8A
+Ready Queue: Head: PID:0x3 PC:0x133C State: ready -> P3->P1->P0->P5-*
+
+Timer expired
+PCB: PID: 0x4, State: interrupted, Priority: 0xD, PC: 0x0F02
+Switching to: PID: 0x3, State: ready, Priority: 0x1, PC: 0x133C
+Now running: PID: 0x3, State: running, Priority: 0x1, PC: 0x133C
+Returned to Ready Queue: PID: 0x4, State: ready, Priority: 0xD, PC: 0x0F02
+Ready Queue: Head: PID:0x1 PC:0x1544 State: ready -> P1->P0->P5->P4-*
+
+Timer expired
+PCB: PID: 0x3, State: interrupted, Priority: 0x1, PC: 0x1468
+Switching to: PID: 0x1, State: ready, Priority: 0x1, PC: 0x1544
+Now running: PID: 0x1, State: running, Priority: 0x1, PC: 0x1544
+Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x1, PC: 0x1468
+Ready Queue: Head: PID:0x0 PC:0x1097 State: ready -> P0->P5->P4->P3-*
+
+Timer expired
+PCB: PID: 0x1, State: interrupted, Priority: 0x1, PC: 0x1670
+Switching to: PID: 0x0, State: ready, Priority: 0xA, PC: 0x1097
+Now running: PID: 0x0, State: running, Priority: 0xA, PC: 0x1097
+Returned to Ready Queue: PID: 0x1, State: ready, Priority: 0x1, PC: 0x1670
+Ready Queue: Head: PID:0x5 PC:0x1439 State: ready -> P5->P4->P3->P1-*
+IO2 device initialized
+
+IO2 device completion
+Now running: PID: 0x0, State: running, Priority: 0xA, PC: 0x11AD
+Returned to Ready Queue: PID: 0x6, State: ready, Priority: 0x7, PC: 0x12DD
+Ready Queue: Head: PID:0x5 PC:0x1439 State: ready -> P5->P4->P3->P1->P6-*
+
+Timer expired
+PCB: PID: 0x0, State: interrupted, Priority: 0xA, PC: 0x11C3
+Switching to: PID: 0x5, State: ready, Priority: 0x0, PC: 0x1439
+Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x1439
+Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0xA, PC: 0x11C3
+Ready Queue: Head: PID:0x4 PC:0xF02 State: ready -> P4->P3->P1->P6->P0-*
+
+Timer expired
+PCB: PID: 0x5, State: interrupted, Priority: 0x0, PC: 0x1565
+Switching to: PID: 0x4, State: ready, Priority: 0xD, PC: 0x0F02
+Now running: PID: 0x4, State: running, Priority: 0xD, PC: 0x0F02
+Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x1565
+Ready Queue: Head: PID:0x3 PC:0x1468 State: ready -> P3->P1->P6->P0->P5-*
+
+IO1 trap
+IO1 device initialized
+PID 4 put into wait_queue_1
+wait_queue_1: Head: PID:0x4 PC:0xFCA State: waiting -> P4-*
+Now running: PID: 0x3, State: running, Priority: 0x1, PC: 0x1468
+Ready Queue: Head: PID:0x1 PC:0x1670 State: ready -> P1->P6->P0->P5-*
+
+Timer expired
+PCB: PID: 0x3, State: interrupted, Priority: 0x1, PC: 0x14CC
+Switching to: PID: 0x1, State: ready, Priority: 0x1, PC: 0x1670
+Now running: PID: 0x1, State: running, Priority: 0x1, PC: 0x1670
+Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x1, PC: 0x14CC
+Ready Queue: Head: PID:0x6 PC:0x12DD State: ready -> P6->P0->P5->P3-*
+
+IO2 trap
+IO2 device initialized
+PID 1 put into wait_queue_2
+wait_queue_2: Head: PID:0x1 PC:0x1795 State: waiting -> P1-*
+Now running: PID: 0x6, State: running, Priority: 0x7, PC: 0x12DD
+Ready Queue: Head: PID:0x0 PC:0x11C3 State: ready -> P0->P5->P3-*
+
+Timer expired
+PCB: PID: 0x6, State: interrupted, Priority: 0x7, PC: 0x12E4
+Switching to: PID: 0x0, State: ready, Priority: 0xA, PC: 0x11C3
+Now running: PID: 0x0, State: running, Priority: 0xA, PC: 0x11C3
+Returned to Ready Queue: PID: 0x6, State: ready, Priority: 0x7, PC: 0x12E4
+Ready Queue: Head: PID:0x5 PC:0x1565 State: ready -> P5->P3->P6-*
+
+IO2 trap
+PID 0 put into wait_queue_2
+wait_queue_2: Head: PID:0x1 PC:0x1795 State: waiting -> P1->P0-*
+Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x1565
+Ready Queue: Head: PID:0x3 PC:0x14CC State: ready -> P3->P6-*
+
+IO1 trap
+PID 5 put into wait_queue_1
+wait_queue_1: Head: PID:0x4 PC:0xFCA State: waiting -> P4->P5-*
+Now running: PID: 0x3, State: running, Priority: 0x1, PC: 0x14CC
+Ready Queue: Head: PID:0x6 PC:0x12E4 State: ready -> P6-*
+
+Timer expired
+PCB: PID: 0x3, State: interrupted, Priority: 0x1, PC: 0x1596
+Switching to: PID: 0x6, State: ready, Priority: 0x7, PC: 0x12E4
+Now running: PID: 0x6, State: running, Priority: 0x7, PC: 0x12E4
+Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x1, PC: 0x1596
+Ready Queue: Head: PID:0x3 PC:0x1596 State: ready -> P3-*
+
+IO1 device completion
+IO1 device initialized
+Now running: PID: 0x6, State: running, Priority: 0x7, PC: 0x140B
+Returned to Ready Queue: PID: 0x4, State: ready, Priority: 0xD, PC: 0x0FCA
+Ready Queue: Head: PID:0x3 PC:0x1596 State: ready -> P3->P4-*
+
+Timer expired
+PCB: PID: 0x6, State: interrupted, Priority: 0x7, PC: 0x1410
+Switching to: PID: 0x3, State: ready, Priority: 0x1, PC: 0x1596
+Now running: PID: 0x3, State: running, Priority: 0x1, PC: 0x1596
+Returned to Ready Queue: PID: 0x6, State: ready, Priority: 0x7, PC: 0x1410
+Ready Queue: Head: PID:0x4 PC:0xFCA State: ready -> P4->P6-*
+
+IO1 trap
+PID 3 put into wait_queue_1
+wait_queue_1: Head: PID:0x5 PC:0x1594 State: waiting -> P5->P3-*
+Now running: PID: 0x4, State: running, Priority: 0xD, PC: 0x0FCA
+Ready Queue: Head: PID:0x6 PC:0x1410 State: ready -> P6-*
+
+Timer expired
+PCB: PID: 0x4, State: interrupted, Priority: 0xD, PC: 0x10AC
+Switching to: PID: 0x6, State: ready, Priority: 0x7, PC: 0x1410
+Now running: PID: 0x6, State: running, Priority: 0x7, PC: 0x1410
+Returned to Ready Queue: PID: 0x4, State: ready, Priority: 0xD, PC: 0x10AC
+Ready Queue: Head: PID:0x4 PC:0x10AC State: ready -> P4-*
+
+IO2 device completion
+IO2 device initialized
+Now running: PID: 0x6, State: running, Priority: 0x7, PC: 0x152E
+Returned to Ready Queue: PID: 0x1, State: ready, Priority: 0x1, PC: 0x1795
+Ready Queue: Head: PID:0x4 PC:0x10AC State: ready -> P4->P1-*
+
+Timer expired
+PCB: PID: 0x6, State: interrupted, Priority: 0x7, PC: 0x153C
+Switching to: PID: 0x4, State: ready, Priority: 0xD, PC: 0x10AC
+Now running: PID: 0x4, State: running, Priority: 0xD, PC: 0x10AC
+Returned to Ready Queue: PID: 0x6, State: ready, Priority: 0x7, PC: 0x153C
+Ready Queue: Head: PID:0x1 PC:0x1795 State: ready -> P1->P6-*
+
+Timer expired
+PCB: PID: 0x4, State: interrupted, Priority: 0xD, PC: 0x11D8
+Switching to: PID: 0x1, State: ready, Priority: 0x1, PC: 0x1795
+Now running: PID: 0x1, State: running, Priority: 0x1, PC: 0x1795
+Returned to Ready Queue: PID: 0x4, State: ready, Priority: 0xD, PC: 0x11D8
+Ready Queue: Head: PID:0x6 PC:0x153C State: ready -> P6->P4-*
+
+IO1 device completion
+IO1 device initialized
+Now running: PID: 0x1, State: running, Priority: 0x1, PC: 0x1898
+Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x1594
+Ready Queue: Head: PID:0x6 PC:0x153C State: ready -> P6->P4->P5-*
+
+Timer expired
+PCB: PID: 0x1, State: interrupted, Priority: 0x1, PC: 0x18C1
+Switching to: PID: 0x6, State: ready, Priority: 0x7, PC: 0x153C
+Now running: PID: 0x6, State: running, Priority: 0x7, PC: 0x153C
+Returned to Ready Queue: PID: 0x1, State: ready, Priority: 0x1, PC: 0x18C1
+Ready Queue: Head: PID:0x4 PC:0x11D8 State: ready -> P4->P5->P1-*
+
+IO1 trap
+PID 6 put into wait_queue_1
+wait_queue_1: Head: PID:0x3 PC:0x15E0 State: waiting -> P3->P6-*
+Now running: PID: 0x4, State: running, Priority: 0xD, PC: 0x11D8
+Ready Queue: Head: PID:0x5 PC:0x1594 State: ready -> P5->P1-*
+
+IO2 trap
+PID 4 put into wait_queue_2
+wait_queue_2: Head: PID:0x0 PC:0x11F6 State: waiting -> P0->P4-*
+Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x1594
+Ready Queue: Head: PID:0x1 PC:0x18C1 State: ready -> P1-*
+
+Timer expired
+PCB: PID: 0x5, State: interrupted, Priority: 0x0, PC: 0x15D3
+Switching to: PID: 0x1, State: ready, Priority: 0x1, PC: 0x18C1
+Now running: PID: 0x1, State: running, Priority: 0x1, PC: 0x18C1
+Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x15D3
+Ready Queue: Head: PID:0x5 PC:0x15D3 State: ready -> P5-*
+
+Timer expired
+PCB: PID: 0x1, State: interrupted, Priority: 0x1, PC: 0x19ED
+Switching to: PID: 0x5, State: ready, Priority: 0x0, PC: 0x15D3
+Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x15D3
+Returned to Ready Queue: PID: 0x1, State: ready, Priority: 0x1, PC: 0x19ED
+Ready Queue: Head: PID:0x1 PC:0x19ED State: ready -> P1-*
+
+IO2 device completion
+IO2 device initialized
+Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x167D
+Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0xA, PC: 0x11F6
+Ready Queue: Head: PID:0x1 PC:0x19ED State: ready -> P1->P0-*
+
+Timer expired
+PCB: PID: 0x5, State: interrupted, Priority: 0x0, PC: 0x16FF
+Switching to: PID: 0x1, State: ready, Priority: 0x1, PC: 0x19ED
+Now running: PID: 0x1, State: running, Priority: 0x1, PC: 0x19ED
+Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x16FF
+Ready Queue: Head: PID:0x0 PC:0x11F6 State: ready -> P0->P5-*
+Now running: PID: 0x0, State: running, Priority: 0xA, PC: 0x11F6
+Ready Queue: Head: PID:0x5 PC:0x16FF State: ready -> P5-*
+
+Timer expired
+PCB: PID: 0x0, State: interrupted, Priority: 0xA, PC: 0x1248
+Switching to: PID: 0x5, State: ready, Priority: 0x0, PC: 0x16FF
+Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x16FF
+Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0xA, PC: 0x1248
+Ready Queue: Head: PID:0x0 PC:0x1248 State: ready -> P0-*
+
+IO1 device completion
+IO1 device initialized
+Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x1750
+Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x1, PC: 0x15E0
+Ready Queue: Head: PID:0x0 PC:0x1248 State: ready -> P0->P3-*
+
+Timer expired
+PCB: PID: 0x5, State: interrupted, Priority: 0x0, PC: 0x182B
+Switching to: PID: 0x0, State: ready, Priority: 0xA, PC: 0x1248
+Now running: PID: 0x0, State: running, Priority: 0xA, PC: 0x1248
+Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x182B
+Ready Queue: Head: PID:0x3 PC:0x15E0 State: ready -> P3->P5-*
+
+Timer expired
+PCB: PID: 0x0, State: interrupted, Priority: 0xA, PC: 0x1374
+Switching to: PID: 0x3, State: ready, Priority: 0x1, PC: 0x15E0
+Now running: PID: 0x3, State: running, Priority: 0x1, PC: 0x15E0
+Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0xA, PC: 0x1374
+Ready Queue: Head: PID:0x5 PC:0x182B State: ready -> P5->P0-*
+IO2 device initialized
+
+IO2 device completion
+Now running: PID: 0x3, State: running, Priority: 0x1, PC: 0x16DD
+Returned to Ready Queue: PID: 0x4, State: ready, Priority: 0xD, PC: 0x11DD
+Ready Queue: Head: PID:0x5 PC:0x182B State: ready -> P5->P0->P4-*
+
+Timer expired
+PCB: PID: 0x3, State: interrupted, Priority: 0x1, PC: 0x170C
+Switching to: PID: 0x5, State: ready, Priority: 0x0, PC: 0x182B
+Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x182B
+Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x1, PC: 0x170C
+Ready Queue: Head: PID:0x0 PC:0x1374 State: ready -> P0->P4->P3-*
+IO1 device initialized
+
+IO1 device completion
+Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x1898
+Returned to Ready Queue: PID: 0x6, State: ready, Priority: 0x7, PC: 0x1624
+Ready Queue: Head: PID:0x0 PC:0x1374 State: ready -> P0->P4->P3->P6-*
+
+Timer expired
+PCB: PID: 0x5, State: interrupted, Priority: 0x0, PC: 0x1957
+Switching to: PID: 0x0, State: ready, Priority: 0xA, PC: 0x1374
+Now running: PID: 0x0, State: running, Priority: 0xA, PC: 0x1374
+Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x1957
+Ready Queue: Head: PID:0x4 PC:0x11DD State: ready -> P4->P3->P6->P5-*
+
+Timer expired
+PCB: PID: 0x0, State: interrupted, Priority: 0xA, PC: 0x14A0
+Switching to: PID: 0x4, State: ready, Priority: 0xD, PC: 0x11DD
+Now running: PID: 0x4, State: running, Priority: 0xD, PC: 0x11DD
+Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0xA, PC: 0x14A0
+Ready Queue: Head: PID:0x3 PC:0x170C State: ready -> P3->P6->P5->P0-*
+Now running: PID: 0x3, State: running, Priority: 0x1, PC: 0x170C
+Ready Queue: Head: PID:0x6 PC:0x1624 State: ready -> P6->P5->P0-*
+
+Timer expired
+PCB: PID: 0x3, State: interrupted, Priority: 0x1, PC: 0x17BE
+Switching to: PID: 0x6, State: ready, Priority: 0x7, PC: 0x1624
+Now running: PID: 0x6, State: running, Priority: 0x7, PC: 0x1624
+Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x1, PC: 0x17BE
+Ready Queue: Head: PID:0x5 PC:0x1957 State: ready -> P5->P0->P3-*
+
+Timer expired
+PCB: PID: 0x6, State: interrupted, Priority: 0x7, PC: 0x1750
+Switching to: PID: 0x5, State: ready, Priority: 0x0, PC: 0x1957
+Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x1957
+Returned to Ready Queue: PID: 0x6, State: ready, Priority: 0x7, PC: 0x1750
+Ready Queue: Head: PID:0x0 PC:0x14A0 State: ready -> P0->P3->P6-*
+
+Timer expired
+PCB: PID: 0x5, State: interrupted, Priority: 0x0, PC: 0x1A83
+Switching to: PID: 0x0, State: ready, Priority: 0xA, PC: 0x14A0
+Now running: PID: 0x0, State: running, Priority: 0xA, PC: 0x14A0
+Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x1A83
+Ready Queue: Head: PID:0x3 PC:0x17BE State: ready -> P3->P6->P5-*
+
+Timer expired
+PCB: PID: 0x0, State: interrupted, Priority: 0xA, PC: 0x15CC
+Switching to: PID: 0x3, State: ready, Priority: 0x1, PC: 0x17BE
+Now running: PID: 0x3, State: running, Priority: 0x1, PC: 0x17BE
+Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0xA, PC: 0x15CC
+Ready Queue: Head: PID:0x6 PC:0x1750 State: ready -> P6->P5->P0-*
+
+IO2 trap
+IO2 device initialized
+PID 3 put into wait_queue_2
+wait_queue_2: Head: PID:0x3 PC:0x18CC State: waiting -> P3-*
+Now running: PID: 0x6, State: running, Priority: 0x7, PC: 0x1750
+Ready Queue: Head: PID:0x5 PC:0x1A83 State: ready -> P5->P0-*
+
+Timer expired
+PCB: PID: 0x6, State: interrupted, Priority: 0x7, PC: 0x176E
+Switching to: PID: 0x5, State: ready, Priority: 0x0, PC: 0x1A83
+Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x1A83
+Returned to Ready Queue: PID: 0x6, State: ready, Priority: 0x7, PC: 0x176E
+Ready Queue: Head: PID:0x0 PC:0x15CC State: ready -> P0->P6-*
+
+IO2 trap
+PID 5 put into wait_queue_2
+wait_queue_2: Head: PID:0x3 PC:0x18CC State: waiting -> P3->P5-*
+Now running: PID: 0x0, State: running, Priority: 0xA, PC: 0x15CC
+Ready Queue: Head: PID:0x6 PC:0x176E State: ready -> P6-*
+
+Timer expired
+PCB: PID: 0x0, State: interrupted, Priority: 0xA, PC: 0x166A
+Switching to: PID: 0x6, State: ready, Priority: 0x7, PC: 0x176E
+Now running: PID: 0x6, State: running, Priority: 0x7, PC: 0x176E
+Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0xA, PC: 0x166A
+Ready Queue: Head: PID:0x0 PC:0x166A State: ready -> P0-*
+
+Timer expired
+PCB: PID: 0x6, State: interrupted, Priority: 0x7, PC: 0x189A
+Switching to: PID: 0x0, State: ready, Priority: 0xA, PC: 0x166A
+Now running: PID: 0x0, State: running, Priority: 0xA, PC: 0x166A
+Returned to Ready Queue: PID: 0x6, State: ready, Priority: 0x7, PC: 0x189A
+Ready Queue: Head: PID:0x6 PC:0x189A State: ready -> P6-*
+
+IO2 device completion
+IO2 device initialized
+Now running: PID: 0x0, State: running, Priority: 0xA, PC: 0x177C
+Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x1, PC: 0x18CC
+Ready Queue: Head: PID:0x6 PC:0x189A State: ready -> P6->P3-*
+
+Timer expired
+PCB: PID: 0x0, State: interrupted, Priority: 0xA, PC: 0x1796
+Switching to: PID: 0x6, State: ready, Priority: 0x7, PC: 0x189A
+Now running: PID: 0x6, State: running, Priority: 0x7, PC: 0x189A
+Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0xA, PC: 0x1796
+Ready Queue: Head: PID:0x3 PC:0x18CC State: ready -> P3->P0-*
+
+IO2 trap
+PID 6 put into wait_queue_2
+wait_queue_2: Head: PID:0x5 PC:0x1B11 State: waiting -> P5->P6-*
+Now running: PID: 0x3, State: running, Priority: 0x1, PC: 0x18CC
+Ready Queue: Head: PID:0x0 PC:0x1796 State: ready -> P0-*
+
+Timer expired
+PCB: PID: 0x3, State: interrupted, Priority: 0x1, PC: 0x197D
+Switching to: PID: 0x0, State: ready, Priority: 0xA, PC: 0x1796
+Now running: PID: 0x0, State: running, Priority: 0xA, PC: 0x1796
+Returned to Ready Queue: PID: 0x3, State: ready, Priority: 0x1, PC: 0x197D
+Ready Queue: Head: PID:0x3 PC:0x197D State: ready -> P3-*
+
+Timer expired
+PCB: PID: 0x0, State: interrupted, Priority: 0xA, PC: 0x18C2
+Switching to: PID: 0x3, State: ready, Priority: 0x1, PC: 0x197D
+Now running: PID: 0x3, State: running, Priority: 0x1, PC: 0x197D
+Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0xA, PC: 0x18C2
+Ready Queue: Head: PID:0x0 PC:0x18C2 State: ready -> P0-*
+Now running: PID: 0x0, State: running, Priority: 0xA, PC: 0x18C2
+Ready Queue: empty
+
+Timer expired
+Current process is NULL and Ready Queue is empty
+Now running: PID: 0x0, State: interrupted, Priority: 0xA, PC: 0x197C
+Ready Queue is empty
+
+IO2 device completion
+IO2 device initialized
+Now running: PID: 0x0, State: interrupted, Priority: 0xA, PC: 0x19ED
+Returned to Ready Queue: PID: 0x5, State: ready, Priority: 0x0, PC: 0x1B11
+Ready Queue: Head: PID:0x5 PC:0x1B11 State: ready -> P5-*
+
+Timer expired
+PCB: PID: 0x0, State: interrupted, Priority: 0xA, PC: 0x1AA8
+Switching to: PID: 0x5, State: ready, Priority: 0x0, PC: 0x1B11
+Now running: PID: 0x5, State: running, Priority: 0x0, PC: 0x1B11
+Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0xA, PC: 0x1AA8
+Ready Queue: Head: PID:0x0 PC:0x1AA8 State: ready -> P0-*
+Now running: PID: 0x0, State: running, Priority: 0xA, PC: 0x1AA8
+Ready Queue: empty
+
+Timer expired
+Current process is NULL and Ready Queue is empty
+Now running: PID: 0x0, State: interrupted, Priority: 0xA, PC: 0x1B8D
+Ready Queue is empty
+
+Timer expired
+Current process is NULL and Ready Queue is empty
+Now running: PID: 0x0, State: interrupted, Priority: 0xA, PC: 0x1CB9
+Ready Queue is empty
+
+Timer expired
+Current process is NULL and Ready Queue is empty
+Now running: PID: 0x0, State: interrupted, Priority: 0xA, PC: 0x1DE5
+Ready Queue is empty
+IO2 device initialized
+
+IO2 device completion
+Now running: PID: 0x0, State: interrupted, Priority: 0xA, PC: 0x1DF6
+Returned to Ready Queue: PID: 0x6, State: ready, Priority: 0x7, PC: 0x1915
+Ready Queue: Head: PID:0x6 PC:0x1915 State: ready -> P6-*
+
+Timer expired
+PCB: PID: 0x0, State: interrupted, Priority: 0xA, PC: 0x1F11
+Switching to: PID: 0x6, State: ready, Priority: 0x7, PC: 0x1915
+Now running: PID: 0x6, State: running, Priority: 0x7, PC: 0x1915
+Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0xA, PC: 0x1F11
+Ready Queue: Head: PID:0x0 PC:0x1F11 State: ready -> P0-*
+
+Timer expired
+PCB: PID: 0x6, State: interrupted, Priority: 0x7, PC: 0x1A41
+Switching to: PID: 0x0, State: ready, Priority: 0xA, PC: 0x1F11
+Now running: PID: 0x0, State: running, Priority: 0xA, PC: 0x1F11
+Returned to Ready Queue: PID: 0x6, State: ready, Priority: 0x7, PC: 0x1A41
+Ready Queue: Head: PID:0x6 PC:0x1A41 State: ready -> P6-*
+
+Timer expired
+PCB: PID: 0x0, State: interrupted, Priority: 0xA, PC: 0x203D
+Switching to: PID: 0x6, State: ready, Priority: 0x7, PC: 0x1A41
+Now running: PID: 0x6, State: running, Priority: 0x7, PC: 0x1A41
+Returned to Ready Queue: PID: 0x0, State: ready, Priority: 0xA, PC: 0x203D
+Ready Queue: Head: PID:0x0 PC:0x203D State: ready -> P0-*
+Now running: PID: 0x0, State: running, Priority: 0xA, PC: 0x203D
+Ready Queue: empty
