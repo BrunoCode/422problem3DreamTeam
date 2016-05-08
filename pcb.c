@@ -1,3 +1,9 @@
+/*
+ *  TCSS 422 Spring 2016
+ *  Team 4 Luis Solis-Bruno, Mat Sharff, Tempest Parr, Sara Vandandaigue
+ *  Problem 3 Discontinuities
+ */
+
 #include <stdlib.h>
 #include "pcb.h"
 

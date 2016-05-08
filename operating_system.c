@@ -1,3 +1,9 @@
+/*
+ *  TCSS 422 Spring 2016
+ *  Team 4 Luis Solis-Bruno, Mat Sharff, Tempest Parr, Sara Vandandaigue
+ *  Problem 3 Discontinuities
+ */
+
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
@@ -5,7 +11,7 @@
 
 FILE *outfile;
 
-char * fileHeader = "Team 6: Derek Moore, Son Vu, Mat Sharff";
+char * fileHeader = "Team 4 Luis Solis-Bruno, Mat Sharff, Tempest Parr, Sara Vandandaigue";
 
 
 //Printing Buffer

@@ -1,3 +1,8 @@
+/*
+ *  TCSS 422 Spring 2016
+ *  Team 4 Luis Solis-Bruno, Mat Sharff, Tempest Parr, Sara Vandandaigue
+ *  Problem 3 Discontinuities
+ */
 
 #ifndef PCB_H
 #define PCB_H
@@ -30,8 +35,8 @@ typedef struct pcb {
   unsigned long pc;
   unsigned long sw;
   unsigned long max_pc;
-  time_t creation;
-  time_t termination;
+  unsigned long creation;
+  unsigned long termination;
   unsigned long terminate;
   unsigned long term_count;
   unsigned long IO_1_trap[4];
