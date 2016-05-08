@@ -2,7 +2,7 @@
 #include "fifo_queue.c"
 
 enum interrupt_type {
-  io, timer,
+  IO_1, IO_2, TIMER, NEW_PROC_NEEDED, INVALID_INT_TYPE
 };
 
 #define INTERRUPTED 1

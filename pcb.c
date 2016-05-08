@@ -12,6 +12,10 @@ void PCB_destruct(PCB_p pcb) {
 }
 
 int PCB_init(PCB_p pcb) {
+    int i = 0;
+    long unsigned int current;
+    srand(time(NULL));
+
     if (pcb == NULL) {
         return NULL_OBJECT;
     }
@@ -20,11 +24,23 @@ int PCB_init(PCB_p pcb) {
     pcb->priority = DEFAULT_PRIORITY;
     pcb->pc = DEFAULT_PC;
     pcb->sw = DEFAULT_SW;
-    pcb->max_pc = srand(time(NULL));
+    pcb->max_pc = rand() % 6000 + 2000;
     pcb->creation = time(NULL);
-    pcb->termination = DEFAULT_TERMINATION;
+    pcb->termination = (long) DEFAULT_TERMINATION;
     pcb->terminate = rand() % 16;
     pcb->term_count = DEFAULT_TERM_COUNT;
+
+    current = rand() % (pcb->max_pc - 7);
+    pcb->IO_1_trap[0] = current;
+    for(i = 1; i < 8; i++ ){
+        if (i % 2 == 0) {
+            pcb->IO_1_trap[i % 2] = current + (rand() % (pcb->max_pc - current - 7 + i)); 
+            current = pcb->IO_1_trap[i % 2];
+        } else {
+            pcb->IO_2_trap[i % 2] = current + (rand() % (pcb->max_pc - current - 7 + i));
+            current = pcb->IO_2_trap[i % 2];
+        }
+    }
     return SUCCESS;
 }
 
