@@ -31,7 +31,11 @@ int PCB_init(PCB_p pcb) {
     pcb->max_pc = rand() % 6000 + 2000;
     pcb->creation = time(NULL);
     pcb->termination = (long) DEFAULT_TERMINATION;
+#if (ALLOW_ENDLESS_PROCESSES == 1)
     pcb->terminate = rand() % 16;
+#else 
+    pcb->terminate = 1 + (rand() % 15);
+#endif
     pcb->term_count = DEFAULT_TERM_COUNT;
     //printf("pid %d has maxpc %ld\n", pcb->pid, pcb->max_pc);
     for(i = 0; i < 8; i++ ){

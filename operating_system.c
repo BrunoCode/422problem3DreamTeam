@@ -411,7 +411,7 @@ int main(void) {
       // increment the current process's pc and check for termination
       current_process->pc = cpu_pc;
 
-      if(cpu_pc == current_process->max_pc) {
+      if(cpu_pc >= current_process->max_pc) {
         //printf("PID %ld hit max_pc\n", current_process->pid);
         cpu_pc = 0;
         current_process->pc = 0;

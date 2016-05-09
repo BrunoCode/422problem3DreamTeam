@@ -18,6 +18,8 @@
 #define DEFAULT_TERMINATION NULL
 #define DEFAULT_TERMINATE 0
 #define DEFAULT_TERM_COUNT 0
+
+#define ALLOW_ENDLESS_PROCESSES 0
  
 /* Error Handling Values */
 #define SUCCESS 0
