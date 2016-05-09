@@ -9,6 +9,8 @@
 #include <stdio.h>
 #include <string.h>
 
+const char * STATE_NAMES_FIFOQ[] = {"new", "ready", "running", "interrupted", "waiting", "halted"};
+
 FIFOq_p FIFOq_construct() {
     FIFOq_p fq = (FIFOq_p) malloc(sizeof(FIFOq));
 
@@ -114,7 +116,7 @@ char* FIFOq_toString(FIFOq_p queue, char* string, int size) {
     Node_p front = queue->front;
       if (front != NULL) {
       int offset = 0;
-      int consumption = snprintf(string, size, "Head: PID:0x%0lX PC:0x%0lX State: %s -> ",  front->pcb->pid, front->pcb->pc, STATE_NAMES[front->pcb->state]);
+      int consumption = snprintf(string, size, "Head: PID:0x%0lX PC:0x%0lX State: %s -> ",  front->pcb->pid, front->pcb->pc, STATE_NAMES_FIFOQ[front->pcb->state]);
       offset += consumption;
       size -= consumption;
 
