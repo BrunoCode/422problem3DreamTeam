@@ -15,7 +15,7 @@ char * fileHeader = "Team 4 Luis Solis-Bruno, Mat Sharff, Tempest Parr, Sara Van
 
 
 //Printing Buffer
-char pcbString[128];
+char pcbString[300];
 
 
 // PCB_p idl;
@@ -90,7 +90,7 @@ void create_processes(void){
   int random_num = rand() % 6;
   PCB_p temp;
 
-  if (call_counter >= 5) {
+  if (call_counter >= CREATE_PROCESSES_CALL_COUNT) {
     return;
   } else {
     call_counter++;
@@ -129,11 +129,7 @@ void init_IO_2_device() {
 void dispatcher(enum interrupt_type inter_type) {
   int verbose = 1;
   PCB_p newproc = NULL;
-  PCB_p proc_to_enqueue = NULL;
-
-  if (iteration % 4 == 0) {
-    verbose = 1;
-  }
+  PCB_p proc_to_enqueue = NULL; 
 
   switch(inter_type) {
     case TIMER:

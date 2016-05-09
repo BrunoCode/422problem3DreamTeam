@@ -14,6 +14,11 @@ enum interrupt_type {
 #define INTERRUPTED 1
 #define NEW_PROCESSES 2
 
+//
+// Defines how many times the create_processses function is called
+//
+#define CREATE_PROCESSES_CALL_COUNT 5
+
 void createProcesses(void);
 void schedulePCBs(int);
 void dispatch(void);

@@ -86,7 +86,7 @@ unsigned short PCB_get_priority(PCB_p pcb) {
 
 
 char * PCB_toString(PCB_p pcb, char * string) {
-    sprintf(string, "PID: 0x%0lX, State: %s, Priority: 0x%0X, PC: 0x%04lX",
-            pcb->pid, STATE_NAMES[pcb->state], pcb->priority, pcb->pc);
+    sprintf(string, "PID: 0x%0lX, State: %s, Priority: 0x%0X, PC: 0x%04lX, SW: 0x%04lX, max_pc: 0x%04lX, creation: 0x%lX, termination: 0x%lX, terminate: 0x%lX, term_count: %ld",
+            pcb->pid, STATE_NAMES[pcb->state], pcb->priority, pcb->pc, pcb->sw, pcb->max_pc, pcb->creation, pcb->termination, pcb->terminate, pcb->term_count);
     return string;
 }
